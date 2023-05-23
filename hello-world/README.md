@@ -71,7 +71,9 @@ Name the project and select a location to save it in and press the **Create** bu
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+You should get a stubbed in project that prints "Hello World" to console.  First lets look at the elements.  We include the `<iostream>` libraries.  This includes the global object `std::cout` that controls the output stream buffer.  This allows us to access the stream that eventually gets sent to the console. <br><br>`std` is the namespace that represents the word \'standard\' which are built in **C++** libraries available on all platforms including **Windows** which we are working on now.<br><br>`"Hello World\n"` is a string with a new line (`\n`) which gets stored as a single character.<br><br>All lines that begin with `//` are comments and are not compiled into the final project.  These are here for you to read and explain to yourself and other developers the intent of what you are trying to do.
+
+![A screenshot of the default www.onlinegdb.com webpage with C++14 selected](images/SelectCPPLanguage.jpg)
 
 ![](../images/line2.png)
 
