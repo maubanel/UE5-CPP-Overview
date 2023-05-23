@@ -47,15 +47,17 @@ Unreal Engine is built to be massively portable to many C++ compilers, so we are
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-pen up [Visual Studio 19 Community](https://visualstudio.microsoft.com/downloads/) and you should be able to login with your LSU credentials. You should see a screen like this.  Click on the **Create a New Project** button:
+Open up [Visual Studio 19 Community](https://visualstudio.microsoft.com/downloads/) and you should be able to login with your LSU credentials. You should see a screen like this.  Click on the **Create a New Project** button:
 
-![alt_text](images/CreateNewProjectVS19.jpg)
+![Screenshot of Microsoft's Visual Studio Community website page](images/CreateNewProjectVS19.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Select a **Console App** as we will only be working withing the console.
+
+![Screenshot of Microsoft's Visual Studio Community website page demonstrating community version that is needed download](images/SelectConsoleApp.jpg)
 
 ![](../images/line2.png)
 
