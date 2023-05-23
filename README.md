@@ -9,7 +9,7 @@ This is a very quick overview of the foundation of the C++ language. It will cov
 <br>
 
 <!-- TOC -->
-## GMS2 Top Down Shooter - Table of Contents
+## CPP Overview - Table of Contents
 
 <kbd></kbd> &nbsp;&nbsp; [Hello World](hello-world/README.md#user-content-hello-world) <br>
 
