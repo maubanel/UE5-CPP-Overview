@@ -63,7 +63,9 @@ Select a **Console App** as we will only be working withing the console.
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Name the project and select a location to save it in and press the **Create** button.
+
+![Screenshot of Microsoft's Visual Studio Community website page demonstrating community version that is needed download](images/NameTheFile.jpg)
 
 ![](../images/line2.png)
 
