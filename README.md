@@ -1,4 +1,4 @@
-# CPP Overview
+# UE5 CPP Overview
 
 
 <!-- OVERVIEW -->
@@ -9,7 +9,7 @@ This is a very quick overview of the foundation of the C++ language. It will cov
 <br>
 
 <!-- TOC -->
-## UE5 CPP Overview - Table of Contents
+## Table of Contents
 
 <kbd></kbd> &nbsp;&nbsp; [Hello World](hello-world/README.md#user-content-hello-world) <br>
 
