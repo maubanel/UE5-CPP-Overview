@@ -79,79 +79,107 @@ You should get a stubbed in project that prints "Hello World" to console.  First
 
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now clean up the comments (everything with a `//` before it).  Now run the game by selecting the run button with `Local Windows Debugger` selected or just press the `F5` button.
+
+![Running the default www.onlinegdb.com webpage with C++14 selected](images/HelloWorld.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+So the end result is in the console should look something like:
+
+![Highlighting a commented block of code in C++1](images/Comments.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+C is completely compatible inside of C++.  So we can also print using the older C style format which is used extensively in Unreal.
+
+There are always more than one way to skin a cat, so we can also call a function called `printf` and pass it the "Hello World" string as a parameter. Run it by pressing the green run button or `F5` and notice that it should have the same end result. Notice that this is in global name space and we did not need to include `std::`.
+
+![Highlights the included file <stdio.h> in c++14](images/IncludeStdioh.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Go to a web browser and click on the [link](http://www.cplusplus.com/reference/cstdio/printf/). Notice that it includes a **function** called `printf` (we will explain functions in a future lesson). Without libraries and built in functions, the language is fairly limited.  Anytime we need to do anything specialized for a specific OS and system, we probably need to load a set of libraries.
+
+![Screenshot of cplusplus.com's definition of the printf function](images/printfDescription.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`CPPOVR`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Every C++ program starts by calling a function called **main**.  We know if is a function as it is a name followed by **()** parenthesis.  It then runs everything between the following curly braces `{....}`. It executes them in order line by line, 13 through 15 in my case.
+
+![Highlights the main(){...} function in a C++14 program](images/RunMain.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+So the first thing the program does in **main()** is to run the function `printf` and passes a string parameter of **"Hello World"**. We will get into this more shortly when we dive into strings.
+
+![Highlights the printf function in a C++14 program](images/printfFunction.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+What this line does is print the string passed to it to the console.  In this case it prints **Hello World**.
+
+![Shows console output of Hello World in C++14 console output](images/HelloWorldConsole.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+It is customary to add `return 0` to the end but should work without it on most platforms.  This function returns to its caller (we don't call it) a 0.  So if the program runs and doesn't crash it should finish with an exit code of 0. Look at the second line of the **Debug Console** window and you will see `exited with code 0`.  This means the program completed without crashing.
+
+![Highlights return 0 in C++14 program](images/Return0.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+When you press run the program is compiled.  What does this mean?  This is the process of going from a human readable form script and creates object code that forms an executable (an .exe on a PC).  So the compiler turns it from words into zeros and ones (machine code).
+
+![Illustration of a program that goes from a source file to machine code](https://www.thecrazyprogrammer.com/wp-content/uploads/2018/05/Difference-between-Source-Code-and-Object-Code.png")
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+In Unreal we will be using c style printing like we do here.  But lets go back to printing with `std::cout`. Lets look at the iostream libraries that includes 4 other libraries and gets us access to an **Object** called **std::cout** (standard output). We will be getting into objects later on. But we can call the **Object** `cout` and pipe it into an output stream.
+
+![Screenshot of cppreference.com's difinition of standard library header \<iostream\>](images/iostreamdefinition.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+We do this by adding the line `cout << "My name is Marc!";` replacing the call to the **printf()** function.  Press the **Run** button.  One of the thing the compiler does is sends an error intead of running the program. This means it did not compile and create a new executable.  In this case, it shows an error that cout is not in scope and is **undefined**.
+
+![ighlight the line cout <<  &quot;My Name is Marc &quot; in a C++14 program"](images/FirstCout.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now lets add `std::` before the `cout` so that it will be in scope.  We will go into more detail later on describing this.  Press run and you should see it print the new message we typed. cout is an abbreviation for **character output stream**. Notice that we end the line with a `;` semicolon. Every line is a **statement** and has to be terminated by a semicolon. The compiler needs to know where one statement ends and the next begins.<br><br>Now the `<<` operator inserts the data that follows it into an [output stream](http://www.cplusplus.com/doc/tutorial/basic_io/) (which in our case will be the console displayed on the monitor).
+
+![Create new sprite with button](images/stdcoutfix.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+If we remove the semi-colon and try and run the program the compiler will give us an error when we press run (when we run it, the program is compiled and it tries to run it).  Try this and read the error.  Sometimes the error messages are clear and sometimes they are hard to read and understand. This is a compiler error.  In a script any spelling mistake or typing error will result in a program error of some sort.
+
+![alt_text](images/NoSemicolonError.jpg)
 
 ![](../images/line2.png)
 
