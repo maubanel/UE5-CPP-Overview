@@ -22,7 +22,7 @@ Out of all the modern programming languages why do we still use C++ for games?
 
 * *Performance*. C++ is a high-performance lower level programing languag.  Games are very performance oriented and c++ allows user to use computer hardware efficiently.  Often higher level scripting languages are used for game play scripting. [Unity](https://answers.unity.com/questions/9675/is-unity-engine-written-in-monoc-or-c.html) game engine is written in c++ but you write all the game scripts in c#.
 
-* *Compiled*. C++ is a compiled programming language.
+* *Compiles*. C++ is a compiled programming language.
 
 * *Low Level*. C++ gives developers low-level access to the computer hardware, allowing them greater control and optimize harware usage. It is used extensively in lower level systems like rendering, audio and physics
 
