@@ -72,7 +72,7 @@ Select a C++ **Console App** as we will only be working within the console. Meks
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-Name the project and select a location to save it in and press the **Create** button.
+Name the project and select a location to save it in and press the <kbd>Create</kbd> button.
 
 ![Screenshot of Microsoft's Visual Studio Community website page demonstrating community version that is needed download](images/NameTheFile.png)
 
