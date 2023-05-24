@@ -108,29 +108,30 @@ Now clean up the comments inside the `main` brackets ({}) (everything with a `//
 
 So the end result is in the console should look something like:
 
-![Highlighting a commented block of code in C++1](images/Comments.jpg)
-
-C is completely compatible inside of C++.  So we can also print using the older C style format which is used extensively in Unreal.
-
-There are always more than one way to skin a cat, so we can also call a function called `printf` and pass it the "Hello World" string as a parameter. Run it by pressing the green run button or `F5` and notice that it should have the same end result. Notice that this is in global name space and we did not need to include `std::`.
-
-![Highlights the included file <stdio.h> in c++14](images/IncludeStdioh.jpg)
-
-Go to a web browser and click on the [link](http://www.cplusplus.com/reference/cstdio/printf/). Notice that it includes a **function** called `printf` (we will explain functions in a future lesson). Without libraries and built in functions, the language is fairly limited.  Anytime we need to do anything specialized for a specific OS and system, we probably need to load a set of libraries.
-
-![Screenshot of cplusplus.com's definition of the printf function](images/printfDescription.jpg)
+![remove comments and run](images/Comments.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`CPPOVR`| :large_blue_diamond:
 
-Every C++ program starts by calling a function called **main**.  We know if is a function as it is a name followed by **()** parenthesis.  It then runs everything between the following curly braces `{....}`. It executes them in order line by line, 13 through 15 in my case.
+C is completely compatible inside of C++.  So we can also print using the older C style format which is used extensively in Unreal.
 
-![Highlights the main(){...} function in a C++14 program](images/RunMain.jpg)
+There are always more than one way to skin a cat, so we can also call a function called `printf` and pass it the "Hello World" string as a parameter. Run it by pressing the green run button or `F5` and notice that it should have the same end result. Notice that this is in global name space and we did not need to include `std::`.
+
+![Highlights the included file <stdio.h> in c++14](images/IncludeStdioh.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: 
+
+Go to a web browser and click on the [link](http://www.cplusplus.com/reference/cstdio/printf/). Notice that it includes a **function** called `printf` (we will explain functions in a future lesson). Without libraries and built in functions, the language is fairly limited.  Anytime we need to do anything specialized for a specific OS and system, we probably need to load a set of libraries.
+
+![Screenshot of cplusplus.com's definition of the printf function](images/printfDescription.jpg)
+
+Every C++ program starts by calling a function called **main**.  We know if is a function as it is a name followed by **()** parenthesis.  It then runs everything between the following curly braces `{....}`. It executes them in order line by line, 13 through 15 in my case.
+
+![Highlights the main(){...} function in a C++14 program](images/RunMain.jpg)
+
 
 So the first thing the program does in **main()** is to run the function `printf` and passes a string parameter of **"Hello World"**. We will get into this more shortly when we dive into strings.
 
