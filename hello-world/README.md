@@ -150,7 +150,12 @@ So the first thing the program does in **main()** is to run the function `printf
 
 What this line does is print the string passed to it to the console.  In this case it prints **Hello World**.
 
-![Shows console output of Hello World in C++14 console output](images/HelloWorldConsole.jpg)
+![Shows console output of Hello World in C++14 console output](images/hw2.png)
+
+![](../images/line2.png)
+
+##### `Step 15.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: 
+
 It is customary to add `return 0` to the end but should work without it on most platforms.  This function returns to its caller (we don't call it) a 0.  So if the program runs and doesn't crash it should finish with an exit code of 0. Look at the second line of the **Debug Console** window and you will see `exited with code 0`.  This means the program completed without crashing.
 
 ![Highlights return 0 in C++14 program](images/Return0.jpg)
@@ -158,10 +163,6 @@ It is customary to add `return 0` to the end but should work without it on most 
 When you press run the program is compiled.  What does this mean?  This is the process of going from a human readable form script and creates object code that forms an executable (an .exe on a PC).  So the compiler turns it from words into zeros and ones (machine code).
 
 ![Illustration of a program that goes from a source file to machine code](https://www.thecrazyprogrammer.com/wp-content/uploads/2018/05/Difference-between-Source-Code-and-Object-Code.png")
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: 
 
 In Unreal we will be using c style printing like we do here.  But lets go back to printing with `std::cout`. Lets look at the iostream libraries that includes 4 other libraries and gets us access to an **Object** called **std::cout** (standard output). We will be getting into objects later on. But we can call the **Object** `cout` and pipe it into an output stream.
 
