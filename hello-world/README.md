@@ -4,7 +4,7 @@
 
 Print hello world to the console of visual studio.
 
-[home](../README.md#user-content-ue5-cpp-overview) • [next](../hello-world/README.md#user-content-errors)</sub>
+[home](../README.md#user-content-ue5-cpp-overview) • [next](../errors/README.md#user-content-errors)</sub>
 
 ![](../images/line3.png)
 
@@ -176,5 +176,5 @@ It is customary to add `return 0` to the end but should work without it on most 
 
 ![](../images/line.png)
 
-| [home](../README.md#user-content-ue5-cpp-overview) | [next](../hello-world/README.md#user-content-errors)|
+| [home](../README.md#user-content-ue5-cpp-overview) | [next](../errorsREADME.md#user-content-errors)|
 |---|---|
