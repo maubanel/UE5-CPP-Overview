@@ -128,6 +128,8 @@ Go to a web browser and click on the [link](http://www.cplusplus.com/reference/c
 
 ![Screenshot of cplusplus.com's definition of the printf function](images/printfDescription.jpg)
 
+##### `Step 12.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
 Every C++ program starts by calling a function called **main**.  We know if is a function as it is a name followed by **()** parenthesis.  It then runs everything between the following curly braces `{....}`. It executes them in order line by line, 13 through 15 in my case.
 
 ![Highlights the main(){...} function in a C++14 program](images/RunMain.jpg)
@@ -138,8 +140,6 @@ So the first thing the program does in **main()** is to run the function `printf
 ![Highlights the printf function in a C++14 program](images/printfFunction.jpg)
 
 ![](../images/line2.png)
-
-##### `Step 12.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 What this line does is print the string passed to it to the console.  In this case it prints **Hello World**.
 
