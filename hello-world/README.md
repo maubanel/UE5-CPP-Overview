@@ -74,7 +74,7 @@ Select a C++ **Console App** as we will only be working within the console. Meks
 
 Name the project and select a location to save it in and press the **Create** button.
 
-![Screenshot of Microsoft's Visual Studio Community website page demonstrating community version that is needed download](images/NameTheFile.jpg)
+![Screenshot of Microsoft's Visual Studio Community website page demonstrating community version that is needed download](images/NameTheFile.png)
 
 
 ![](../images/line2.png)
