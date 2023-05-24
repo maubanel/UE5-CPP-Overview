@@ -132,7 +132,7 @@ Click on the [cplusplus.com printf reference](http://www.cplusplus.com/reference
 
 ##### `Step 12.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Every C++ program starts by calling a function called **main**.  We know if is a function as it is a name followed by **()** parenthesis.  It then runs everything between the following curly braces `{....}`. It executes them in order line by line, 13 through 15 in my case.
+Every C++ program starts by calling a function called **main**.  We know if is a function as it is a name followed by **()** parenthesis.  It then runs everything between the following curly braces `{....}`. It executes them in order line by line, in my case it only runs line 8.
 
 ![Highlights the main(){...} function in a C++14 program](images/RunMain.png)
 
