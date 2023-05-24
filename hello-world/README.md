@@ -66,7 +66,7 @@ Open up the newly configured **Visual Studio 2022**. You should see a window to 
 
 Select a C++ **Console App** as we will only be working within the console. Meks sure it is a C++ console app as there are many programming languages that Visual Studio supports out of the box.  Press the <kbd>Next</kbd> button.
 
-![Screenshot of Microsoft's Visual Studio Community website page demonstrating community version that is needed download](images/SelectConsoleApp.png)
+![select c++ console app](images/SelectConsoleApp.png)
 
 ![](../images/line2.png)
 
@@ -74,24 +74,30 @@ Select a C++ **Console App** as we will only be working within the console. Meks
 
 Name the project and select a location to save it in and press the <kbd>Create</kbd> button.
 
-![Screenshot of Microsoft's Visual Studio Community website page demonstrating community version that is needed download](images/NameTheFile.png)
+![name cpp project and set directory](images/NameTheFile.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-You should get a stubbed in project that prints "Hello World" to console.  First lets look at the elements.  We include the `<iostream>` libraries.  This includes the global object `std::cout` that controls the output stream buffer.  This allows us to access the stream that eventually gets sent to the console. <br><br>`std` is the namespace that represents the word \'standard\' which are built in **C++** libraries available on all platforms including **Windows** which we are working on now.<br><br>`"Hello World\n"` is a string with a new line (`\n`) which gets stored as a single character.<br><br>All lines that begin with `//` are comments and are not compiled into the final project.  These are here for you to read and explain to yourself and other developers the intent of what you are trying to do.
+Now Visual Studio defaults to C++ 14 so lets change it to C++ 17.  Go to **Project | CPPOverview Properties** and open up **C/C++** and select **Language**.  Double click the language until you get to **ISO C++17 Standard**.  Press the <kbd>Apply</kbd> then <kbd>OK</kbd> buttons.
 
-![A screenshot of the default www.onlinegdb.com webpage with C++14 selected](images/SelectCPPLanguage.jpg)
+![change to cpp 17](images/setCPP17.png)
 
-Now clean up the comments (everything with a `//` before it).  Now run the game by selecting the run button with `Local Windows Debugger` selected or just press the `F5` button.
-
-![Running the default www.onlinegdb.com webpage with C++14 selected](images/HelloWorld.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+You should get a stubbed in project that prints "Hello World" to console.  First lets look at the elements.  We include the `<iostream>` libraries.  This includes the global object `std::cout` that controls the output stream buffer.  This allows us to access the stream that eventually gets sent to the console. <br><br>`std` is the namespace that represents the word \'standard\' which are built in **C++** libraries available on all platforms including **Windows** which we are working on now.<br><br>`"Hello World\n"` is a string with a new line (`\n`) which gets stored as a single character.<br><br>All lines that begin with `//` are comments and are not compiled into the final project.  These are here for you to read and explain to yourself and other developers the intent of what you are trying to do.
+
+![A screenshot of the default www.onlinegdb.com webpage with C++14 selected](images/SelectCPPLanguage.jpg)
+
+Now clean up the comments inside the `main` brackets ({}) (everything with a `//` before it).  Now run the game by selecting the run button with `Local Windows Debugger` selected or just press the `F5` button.
+
+![Running the default www.onlinegdb.com webpage with C++14 selected](images/HelloWorld.jpg)
+
 
 So the end result is in the console should look something like:
 
