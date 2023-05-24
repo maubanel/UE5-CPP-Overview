@@ -132,7 +132,7 @@ Click on the [cplusplus.com printf reference](http://www.cplusplus.com/reference
 
 Every C++ program starts by calling a function called **main**.  We know if is a function as it is a name followed by **()** parenthesis.  It then runs everything between the following curly braces `{....}`. It executes them in order line by line, 13 through 15 in my case.
 
-![Highlights the main(){...} function in a C++14 program](images/RunMain.jpg)
+![Highlights the main(){...} function in a C++14 program](images/RunMain.png)
 
 
 So the first thing the program does in **main()** is to run the function `printf` and passes a string parameter of **"Hello World"**. We will get into this more shortly when we dive into strings.
