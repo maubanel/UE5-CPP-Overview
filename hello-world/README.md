@@ -56,17 +56,21 @@ Install [Visual Studio 22 (Community will work)](https://visualstudio.microsoft.
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up [Visual Studio 22 (Community will work) ](https://visualstudio.microsoft.com/downloads/) and you should be able to login with your LSU credentials. You should see a screen like this.  Click on the **Create a New Project** button:
+Open up the newly configured **Visual Studio 2022**. You should see a window to create a new project.  Click on the **Create a New Project** button:
 
-![Screenshot of Microsoft's Visual Studio Community website page](images/CreateNewProjectVS22.png)
-
-Select a **Console App** as we will only be working withing the console.
-
-![Screenshot of Microsoft's Visual Studio Community website page demonstrating community version that is needed download](images/SelectConsoleApp.jpg)
+![Screenshot of Microsoft's Visual Studio Community create project page](images/CreateNewProjectVS22.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Select a C++ **Console App** as we will only be working within the console.
+
+![Screenshot of Microsoft's Visual Studio Community website page demonstrating community version that is needed download](images/SelectConsoleApp.png)
+
+![](../images/line2.png)
+
+##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
 Name the project and select a location to save it in and press the **Create** button.
 
@@ -74,15 +78,11 @@ Name the project and select a location to save it in and press the **Create** bu
 
 ![](../images/line2.png)
 
-##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
+##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
 You should get a stubbed in project that prints "Hello World" to console.  First lets look at the elements.  We include the `<iostream>` libraries.  This includes the global object `std::cout` that controls the output stream buffer.  This allows us to access the stream that eventually gets sent to the console. <br><br>`std` is the namespace that represents the word \'standard\' which are built in **C++** libraries available on all platforms including **Windows** which we are working on now.<br><br>`"Hello World\n"` is a string with a new line (`\n`) which gets stored as a single character.<br><br>All lines that begin with `//` are comments and are not compiled into the final project.  These are here for you to read and explain to yourself and other developers the intent of what you are trying to do.
 
 ![A screenshot of the default www.onlinegdb.com webpage with C++14 selected](images/SelectCPPLanguage.jpg)
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
 Now clean up the comments (everything with a `//` before it).  Now run the game by selecting the run button with `Local Windows Debugger` selected or just press the `F5` button.
 
