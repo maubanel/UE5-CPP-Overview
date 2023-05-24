@@ -1,8 +1,8 @@
 ![](../images/line3.png)
 
-### Add Title
+### Errors
 
-<sub>[previous](../) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../)</sub>
+<sub>[previous](../hello-world/README.md#user-content-hello-world) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../)</sub>
 
 ![](../images/line3.png)
 
@@ -158,5 +158,5 @@ If we remove the semi-colon and try and run the program the compiler will give u
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../)|
+| [previous](../hello-world/README.md#user-content-hello-world)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../)|
 |---|---|---|
