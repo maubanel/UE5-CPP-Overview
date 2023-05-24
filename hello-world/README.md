@@ -128,34 +128,32 @@ Click on the [cplusplus.com printf reference](http://www.cplusplus.com/reference
 
 ![Screenshot of cplusplus.com's definition of the printf function](images/printfDescription.png)
 
+![](../images/line2.png)
+
 ##### `Step 12.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Every C++ program starts by calling a function called **main**.  We know if is a function as it is a name followed by **()** parenthesis.  It then runs everything between the following curly braces `{....}`. It executes them in order line by line, 13 through 15 in my case.
 
 ![Highlights the main(){...} function in a C++14 program](images/RunMain.png)
 
-
-So the first thing the program does in **main()** is to run the function `printf` and passes a string parameter of **"Hello World"**. We will get into this more shortly when we dive into strings.
-
-![Highlights the printf function in a C++14 program](images/printfFunction.jpg)
-
-![](../images/line2.png)
-
-What this line does is print the string passed to it to the console.  In this case it prints **Hello World**.
-
-![Shows console output of Hello World in C++14 console output](images/HelloWorldConsole.jpg)
-
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-It is customary to add `return 0` to the end but should work without it on most platforms.  This function returns to its caller (we don't call it) a 0.  So if the program runs and doesn't crash it should finish with an exit code of 0. Look at the second line of the **Debug Console** window and you will see `exited with code 0`.  This means the program completed without crashing.
+So the first thing the program does in **main()** is to run the function `printf` and passes a string parameter of **"Hello World"**. We will get into this more shortly when we dive into strings.
 
-![Highlights return 0 in C++14 program](images/Return0.jpg)
+![Highlights the printf function in a C++14 program](images/printfFunction.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+What this line does is print the string passed to it to the console.  In this case it prints **Hello World**.
+
+![Shows console output of Hello World in C++14 console output](images/HelloWorldConsole.jpg)
+It is customary to add `return 0` to the end but should work without it on most platforms.  This function returns to its caller (we don't call it) a 0.  So if the program runs and doesn't crash it should finish with an exit code of 0. Look at the second line of the **Debug Console** window and you will see `exited with code 0`.  This means the program completed without crashing.
+
+![Highlights return 0 in C++14 program](images/Return0.jpg)
 
 When you press run the program is compiled.  What does this mean?  This is the process of going from a human readable form script and creates object code that forms an executable (an .exe on a PC).  So the compiler turns it from words into zeros and ones (machine code).
 
