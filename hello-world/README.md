@@ -160,6 +160,10 @@ It is customary to add `return 0` to the end but should work without it on most 
 
 ![Highlights return 0 in C++14 program](images/Return0.jpg)
 
+![](../images/line2.png)
+
+##### `Step 16.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
 When you press run the program is compiled.  What does this mean?  This is the process of going from a human readable form script and creates object code that forms an executable (an .exe on a PC).  So the compiler turns it from words into zeros and ones (machine code).
 
 ![Illustration of a program that goes from a source file to machine code](https://www.thecrazyprogrammer.com/wp-content/uploads/2018/05/Difference-between-Source-Code-and-Object-Code.png")
@@ -167,10 +171,6 @@ When you press run the program is compiled.  What does this mean?  This is the p
 In Unreal we will be using c style printing like we do here.  But lets go back to printing with `std::cout`. Lets look at the iostream libraries that includes 4 other libraries and gets us access to an **Object** called **std::cout** (standard output). We will be getting into objects later on. But we can call the **Object** `cout` and pipe it into an output stream.
 
 ![Screenshot of cppreference.com's difinition of standard library header \<iostream\>](images/iostreamdefinition.jpg)
-
-![](../images/line2.png)
-
-##### `Step 16.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 We do this by adding the line `cout << "My name is Marc!";` replacing the call to the **printf()** function.  Press the **Run** button.  One of the thing the compiler does is sends an error intead of running the program. This means it did not compile and create a new executable.  In this case, it shows an error that cout is not in scope and is **undefined**.
 
