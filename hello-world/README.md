@@ -94,28 +94,27 @@ You should get a stubbed in project that prints "Hello World" to console.  First
 
 ![A screenshot of the default www.onlinegdb.com webpage with C++14 selected](images/SelectCPPLanguage.jpg)
 
+![](../images/line2.png)
+
+##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Now clean up the comments inside the `main` brackets ({}) (everything with a `//` before it).  Now run the game by selecting the run button with `Local Windows Debugger` selected or just press the `F5` button.
 
 ![Running the default www.onlinegdb.com webpage with C++14 selected](images/HelloWorld.jpg)
 
+![](../images/line2.png)
+
+##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 So the end result is in the console should look something like:
 
 ![Highlighting a commented block of code in C++1](images/Comments.jpg)
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 C is completely compatible inside of C++.  So we can also print using the older C style format which is used extensively in Unreal.
 
 There are always more than one way to skin a cat, so we can also call a function called `printf` and pass it the "Hello World" string as a parameter. Run it by pressing the green run button or `F5` and notice that it should have the same end result. Notice that this is in global name space and we did not need to include `std::`.
 
 ![Highlights the included file <stdio.h> in c++14](images/IncludeStdioh.jpg)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Go to a web browser and click on the [link](http://www.cplusplus.com/reference/cstdio/printf/). Notice that it includes a **function** called `printf` (we will explain functions in a future lesson). Without libraries and built in functions, the language is fairly limited.  Anytime we need to do anything specialized for a specific OS and system, we probably need to load a set of libraries.
 
