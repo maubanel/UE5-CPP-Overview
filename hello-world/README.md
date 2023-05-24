@@ -64,7 +64,7 @@ Open up the newly configured **Visual Studio 2022**. You should see a window to 
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select a C++ **Console App** as we will only be working within the console.
+Select a C++ **Console App** as we will only be working within the console. Meks sure it is a C++ console app as there are many programming languages that Visual Studio supports out of the box.  Press the <kbd>Next</kbd> button.
 
 ![Screenshot of Microsoft's Visual Studio Community website page demonstrating community version that is needed download](images/SelectConsoleApp.png)
 
@@ -75,6 +75,7 @@ Select a C++ **Console App** as we will only be working within the console.
 Name the project and select a location to save it in and press the **Create** button.
 
 ![Screenshot of Microsoft's Visual Studio Community website page demonstrating community version that is needed download](images/NameTheFile.jpg)
+
 
 ![](../images/line2.png)
 
