@@ -30,7 +30,7 @@ This time lets start the program from scratch, select a **C++ Empty Project**.  
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on the **Source** folder in the new **Errors** project and select **Add | Item...**.  Call the new file `errors.cpp`.  Press the <kbd>Add</kbd> button.
+Right click on the **Source** folder in the new **Errors** project and select **Add | New Item...**.  Call the new file `errors.cpp`.  Press the <kbd>Add</kbd> button.
 
 ![add errors.cpp to source folder](images/addErrorscpp.png)
 
