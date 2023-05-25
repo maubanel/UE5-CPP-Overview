@@ -14,7 +14,7 @@ Lets look at th emost common type of error.  When we mistype anything, it will u
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-A visual studio solution can contain more than one project (a program with a main function). Lets create a new project by right clicking on the solution and select **Add | Project**.
+A visual studio solution can contain more than one project (a program with a main function). Lets create a new project by right clicking on the solution and select **Add | New Project...**.
 
 ![add project to solution](images/newProject.png)
 
