@@ -78,7 +78,7 @@ Now we need to add an include to the top of the CPP (we don't use semi-colons at
 
 `#include <iostream>`
 
-It will now inherit all of the objects that this library extendst o us.
+It will now inherit all of the objects that this library extendst to us. Now try compiling and running and you get more errors.  It says you have an "undeclared identifier".  
 
 ![include iostream](images/IncludeIOStream.png)
 
