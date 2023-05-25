@@ -122,7 +122,7 @@ Remove the error so it compiles and runs again.
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Integer Type"> -->
 
 ![next up - ](images/banner.png)
 
