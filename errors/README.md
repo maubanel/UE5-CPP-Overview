@@ -38,6 +38,24 @@ Right click on the **Source** folder in the new **Errors** project and select **
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+To have a working project we need a `main() { //code here }` function.  We will add a `cout()` to stream text to the buffer.
+
+![alt_text](images/mainFunction.png)
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
+
+![alt_text](images/.png)
+setStartupProject
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
+
 In Unreal we will be using c style printing like we do here.  But lets go back to printing with `std::cout`. Lets look at the iostream libraries that includes 4 other libraries and gets us access to an **Object** called **std::cout** (standard output). We will be getting into objects later on. But we can call the **Object** `cout` and pipe it into an output stream.
 
 ![Screenshot of cppreference.com's difinition of standard library header \<iostream\>](images/iostreamdefinition.jpg)
@@ -46,21 +64,9 @@ We do this by adding the line `cout << "My name is Marc!";` replacing the call t
 
 ![ighlight the line cout <<  &quot;My Name is Marc &quot; in a C++14 program"](images/FirstCout.jpg)
 
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
-
 Now lets add `std::` before the `cout` so that it will be in scope.  We will go into more detail later on describing this.  Press run and you should see it print the new message we typed. cout is an abbreviation for **character output stream**. Notice that we end the line with a `;` semicolon. Every line is a **statement** and has to be terminated by a semicolon. The compiler needs to know where one statement ends and the next begins.<br><br>Now the `<<` operator inserts the data that follows it into an [output stream](http://www.cplusplus.com/doc/tutorial/basic_io/) (which in our case will be the console displayed on the monitor).
 
 ![Create new sprite with button](images/stdcoutfix.jpg)
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
 ![alt_text](images/.png)
 
