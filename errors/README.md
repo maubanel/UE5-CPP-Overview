@@ -38,7 +38,7 @@ Right click on the **Source** folder in the new **Errors** project and select **
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now right click on the *Errors** project and selet **Set Startup Project**.  Otherwise the previous project's main function will continue to run.
+Now right click on the **Errors** project and selet **Set as Startup Project**.  Otherwise the previous project's main function will continue to run.
 
 ![setting start up project](images/setStartupProject.png)
 
