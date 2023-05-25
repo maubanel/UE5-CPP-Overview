@@ -53,7 +53,7 @@ To have a working project we need a `main() { //code here }` function.  We will 
 
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-Now we are getting the most basic type of error a syntax error.  The compiler cannot find the function **cout**.  Now 
+Now we are getting the most basic type of error a syntax error.  The compiler cannot find the function **cout**.  It says "cout" is undefined.  WHy is this?
 
 ![compile failed](images/compileFailure.png)
 
@@ -63,10 +63,17 @@ Now we are getting the most basic type of error a syntax error.  The compiler ca
 
 Lets look at the iostream libraries that includes 4 other libraries and gets us access to an **Object** called **std::cout** (standard output). We will be getting into objects later on. But we can call the **Object** `cout` and pipe it into an output stream.
 
+![Screenshot of cppreference.com's difinition of standard library header \<iostream\>](images/iostreamdefinition.jpg)
+
+
+![](../images/line2.png)
+
+##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 
 In Unreal we will mostly be using c style printing like we did in the last page.  But lets go back to printing with `cout`. Lets look at the iostream libraries that includes 4 other libraries and gets us access to an **Object** called **std::cout** (standard output). We will be getting into objects later on. But we can call the **Object** `cout` and pipe it into an output stream.
 
-![Screenshot of cppreference.com's difinition of standard library header \<iostream\>](images/iostreamdefinition.jpg)
+
 
 We do this by adding the line `cout << "My name is Marc!";` replacing the call to the **printf()** function.  Press the **Run** button.  One of the thing the compiler does is sends an error intead of running the program. This means it did not compile and create a new executable.  In this case, it shows an error that cout is not in scope and is **undefined**.
 
@@ -79,11 +86,6 @@ Now lets add `std::` before the `cout` so that it will be in scope.  We will go 
 If we remove the semi-colon and try and run the program the compiler will give us an error when we press run (when we run it, the program is compiled and it tries to run it).  Try this and read the error.  Sometimes the error messages are clear and sometimes they are hard to read and understand. This is a compiler error.  In a script any spelling mistake or typing error will result in a program error of some sort.
 
 ![alt_text](images/NoSemicolonError.jpg)
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 ![alt_text](images/.png)
 
