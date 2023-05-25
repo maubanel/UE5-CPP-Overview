@@ -45,7 +45,7 @@ Now right click on the **Errors** project and selet **Set as Startup Project**. 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
-To have a working project we need a `main() { //code here }` function.  We will add a `cout()` to stream text to the buffer. In Unreal we will mostly be using c style printing like we did in the last page.  But lets go back to printing with `cout`. 
+To have a working project we need a `main() { //code here }` function.  We will add a `cout` object to stream text to the console. In Unreal we will mostly be using c style printing like we did in the last page.  But lets go back to printing with `cout`. 
 
 ![alt_text](images/mainFunction.png)
 
@@ -61,7 +61,7 @@ Now we are getting the most basic type of error a syntax error.  The compiler ca
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets look at the iostream libraries that includes 4 other libraries and gets us access to an **Object** called **std::cout** (standard output). We will be getting into objects later on. But we can call the **Object** `cout` and pipe it into an output stream.
+Lets look at the [iostream](https://cplusplus.com/reference/iostream/) library that includes 4 other libraries and gets us access to an **Object** called **std::cout** (standard output). We will be getting into objects later on. But we can call the **Object** `cout` and pipe it into an output stream.
 
 ![Screenshot of cppreference.com's difinition of standard library header \<iostream\>](images/iostreamdefinition.jpg)
 
