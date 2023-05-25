@@ -22,7 +22,9 @@ A visual studio solution can contain more than one project (a program with a mai
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+This time lets start the program from scratch, select a **C++ Empty Project**.  Press the <kbd>Next</kbd> button.
+
+![add an empty c++ project](images/AddEmptyProject.png)
 
 ![](../images/line2.png)
 
