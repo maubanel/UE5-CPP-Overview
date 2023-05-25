@@ -2,7 +2,7 @@
 
 ### Errors
 
-<sub>[previous](../hello-world/README.md#user-content-hello-world) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../)</sub>
+<sub>[previous](../hello-world/README.md#user-content-hello-world) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../integers/README.md#user-content-integers)</sub>
 
 ![](../images/line3.png)
 
@@ -128,5 +128,5 @@ Remove the error so it compiles and runs again.
 
 ![](../images/line.png)
 
-| [previous](../hello-world/README.md#user-content-hello-world)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../)|
+| [previous](../hello-world/README.md#user-content-hello-world)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../integers/README.md#user-content-integers)|
 |---|---|---|
