@@ -48,8 +48,10 @@ To have a working project we need a `main() { //code here }` function.  We will 
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-![alt_text](images/.png)
-setStartupProject
+Now right click on the *Errors** project and selet **Set Startup Project**.  Otherwise the previous project's main function will continue to run.
+
+![setting start up project](images/setStartupProject.png)
+
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
