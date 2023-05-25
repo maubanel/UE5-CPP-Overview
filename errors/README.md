@@ -100,7 +100,7 @@ Now we see the message printing correctly to the console.
 
  Notice that we end the line with a `;` semicolon. Every line is a **statement** and has to be terminated by a semicolon. The compiler needs to know where one statement ends and the next begins.<br><br>Now the `<<` operator inserts the data that follows it into an [output stream](http://www.cplusplus.com/doc/tutorial/basic_io/) (which in our case will be the console displayed on the monitor).
 
-![semicolon at end of statement](images/stdcoutfix.jpg)
+![semicolon at end of statement](images/stdcoutfix.png)
 
 ![](../images/line2.png)
 
@@ -108,7 +108,7 @@ Now we see the message printing correctly to the console.
 
 If we remove the semi-colon and try and run the program the compiler will give us an error when we press run (when we run it, the program is compiled and it tries to run it).  Try this and read the error.  Sometimes the error messages are clear and sometimes they are hard to read and understand. This is a compiler error.  In a script any spelling mistake or typing error will result in a program error of some sort. Now it is underlying the `return 0` statement but the problem is above.  The message does not always accurately describe the error - just to the point where the compiler can't interpret the code due to a grammatical error.
 
-![alt_text](images/errorNoSemi.jpg)
+![alt_text](images/errorNoSemi.png)
 
 ![](../images/line2.png)
 
