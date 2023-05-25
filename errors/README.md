@@ -90,6 +90,7 @@ Now when you are including other files it is good practice that their names are 
 
 Most objects written to support the libraries are in the STL (Standard Template Libraries) and use the `std::` namespace.  So put this in front of `cout` and see if it compiles and runs.  In my case it does!
 
+Now we see the message printing correctly to the console. 
 
 ![put std:: in front of cout](images/stdcolon.png)
 
