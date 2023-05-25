@@ -42,22 +42,29 @@ Now right click on the **Errors** project and selet **Set as Startup Project**. 
 
 ![setting start up project](images/setStartupProject.png)
 
-![alt_text](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
-To have a working project we need a `main() { //code here }` function.  We will add a `cout()` to stream text to the buffer.
+To have a working project we need a `main() { //code here }` function.  We will add a `cout()` to stream text to the buffer. In Unreal we will mostly be using c style printing like we did in the last page.  But lets go back to printing with `cout`. 
 
 ![alt_text](images/mainFunction.png)
-
-![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-In Unreal we will be using c style printing like we do here.  But lets go back to printing with `std::cout`. Lets look at the iostream libraries that includes 4 other libraries and gets us access to an **Object** called **std::cout** (standard output). We will be getting into objects later on. But we can call the **Object** `cout` and pipe it into an output stream.
+Now we are getting the most basic type of error a syntax error.  The compiler cannot find the function **cout**.  Now 
+
+![compile failed](images/compileFailure.png)
+
+![](../images/line2.png)
+
+##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Lets look at the iostream libraries that includes 4 other libraries and gets us access to an **Object** called **std::cout** (standard output). We will be getting into objects later on. But we can call the **Object** `cout` and pipe it into an output stream.
+
+
+In Unreal we will mostly be using c style printing like we did in the last page.  But lets go back to printing with `cout`. Lets look at the iostream libraries that includes 4 other libraries and gets us access to an **Object** called **std::cout** (standard output). We will be getting into objects later on. But we can call the **Object** `cout` and pipe it into an output stream.
 
 ![Screenshot of cppreference.com's difinition of standard library header \<iostream\>](images/iostreamdefinition.jpg)
 
@@ -69,11 +76,6 @@ Now lets add `std::` before the `cout` so that it will be in scope.  We will go 
 
 ![Create new sprite with button](images/stdcoutfix.jpg)
 
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 If we remove the semi-colon and try and run the program the compiler will give us an error when we press run (when we run it, the program is compiled and it tries to run it).  Try this and read the error.  Sometimes the error messages are clear and sometimes they are hard to read and understand. This is a compiler error.  In a script any spelling mistake or typing error will result in a program error of some sort.
 
 ![alt_text](images/NoSemicolonError.jpg)
