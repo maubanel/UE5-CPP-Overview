@@ -2,7 +2,7 @@
 
 ### Integers
 
-<sub>[previous](../) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../)</sub>
+<sub>[previous](../errors/README.md#user-content-errors) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../)</sub>
 
 ![](../images/line3.png)
 
@@ -144,5 +144,5 @@ Chapter introduction here.
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../)|
+| [previous](../errors/README.md#user-content-errors)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../)|
 |---|---|---|
