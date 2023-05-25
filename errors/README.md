@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+Lets look at th emost common type of error.  When we mistype anything, it will usually create a syntax error and the program will not compile - thus not run. A syntax error is a grammatical error in the code that prevents the program from running. It mostly occurs when there is a mistake in the syntax such as missing a semicolon, using an incorrect keyword, or adding an extra closing bracket. These errors can be easily detected by the compiler and are shown as error messages that indicate the line of code that has the syntax error.
 
 <br>
 
@@ -14,7 +14,9 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-![alt_text](images/.png)
+A visual studio solution can contain more than one project (a program with a main function). Lets create a new project by right clicking on the solution and select **Add | Project**.
+
+![add project to solution](images/newProject.png)
 
 ![](../images/line2.png)
 
