@@ -86,6 +86,17 @@ It will now inherit all of the objects that this library extendst to us. Now try
 
 ##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now when you are including other files it is good practice that their names are all in a given namespace.  This means that we can still create an object using `cout`, it will be within the context of this project.  
+
+Most objects written to support the libraries are in the STL (Standard Template Libraries) and use the `std::` namespace.  So put this in front of `cout` and see if it compiles and runs.  In my case it does!
+
+
+![put std:: in front of cout](images/stdcolon.png)
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`CPPOVR`| :large_blue_diamond:
+
 We do this by adding the line `cout << "My name is Marc!";` replacing the call to the **printf()** function.  Press the **Run** button.  One of the thing the compiler does is sends an error intead of running the program. This means it did not compile and create a new executable.  In this case, it shows an error that cout is not in scope and is **undefined**.
 
 ![ighlight the line cout <<  &quot;My Name is Marc &quot; in a C++14 program"](images/FirstCout.jpg)
@@ -97,12 +108,6 @@ Now lets add `std::` before the `cout` so that it will be in scope.  We will go 
 If we remove the semi-colon and try and run the program the compiler will give us an error when we press run (when we run it, the program is compiled and it tries to run it).  Try this and read the error.  Sometimes the error messages are clear and sometimes they are hard to read and understand. This is a compiler error.  In a script any spelling mistake or typing error will result in a program error of some sort.
 
 ![alt_text](images/NoSemicolonError.jpg)
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`CPPOVR`| :large_blue_diamond:
 
 ![alt_text](images/.png)
 
