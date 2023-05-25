@@ -32,7 +32,7 @@ This time lets start the program from scratch, select a **C++ Empty Project**.  
 
 Right click on the **Source** folder in the new **Errors** project and select **Add | Item...**.  Call the new file `errors.cpp`.  Press the <kbd>Add</kbd> button.
 
-![alt_text](images/addErrorscpp.png)
+![add errors.cpp to source folder](images/addErrorscpp.png)
 
 ![](../images/line2.png)
 
