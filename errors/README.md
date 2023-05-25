@@ -63,7 +63,7 @@ Now we are getting the most basic type of error a syntax error.  The compiler ca
 
 Lets look at the [iostream](https://cplusplus.com/reference/iostream/) library that includes 4 other libraries and gets us access to an **Object** called **std::cout** (standard output). We will be getting into objects later on. But we can call the **Object** `cout` and pipe it into an output stream.
 
-![Screenshot of cppreference.com's difinition of standard library header \<iostream\>](images/iostreamdefinition.jpg)
+![Screenshot of cppreference.com's difinition of standard library header \<iostream\>](images/iostreamdefinition.png)
 
 
 ![](../images/line2.png)
