@@ -38,19 +38,18 @@ Right click on the **Source** folder in the new **Errors** project and select **
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-To have a working project we need a `main() { //code here }` function.  We will add a `cout()` to stream text to the buffer.
+Now right click on the *Errors** project and selet **Set Startup Project**.  Otherwise the previous project's main function will continue to run.
 
-![alt_text](images/mainFunction.png)
+![setting start up project](images/setStartupProject.png)
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
+To have a working project we need a `main() { //code here }` function.  We will add a `cout()` to stream text to the buffer.
 
-Now right click on the *Errors** project and selet **Set Startup Project**.  Otherwise the previous project's main function will continue to run.
-
-![setting start up project](images/setStartupProject.png)
+![alt_text](images/mainFunction.png)
 
 ![alt_text](images/.png)
 
