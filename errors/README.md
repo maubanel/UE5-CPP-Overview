@@ -30,7 +30,9 @@ This time lets start the program from scratch, select a **C++ Empty Project**.  
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Right click on the **Source** folder in the new **Errors** project and select **Add | Item...**.  Call the new file `errors.cpp`.  Press the <kbd>Add</kbd> button.
+
+![alt_text](images/addErrorscpp.png)
 
 ![](../images/line2.png)
 
