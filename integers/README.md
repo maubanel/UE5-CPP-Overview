@@ -62,15 +62,15 @@ Right click on the **Primitives** project and **Add | New Item...** and call thi
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add comments to the top.  Multiline comments use `/*` to start the comments and `*/` to end them.  This way we can clearly explain what the cpp file is supposed to do.
+Add comments to the top.  Multiline comments use `/*` to start the comments and `*/` to end them.  This way we can clearly explain what the cpp file is supposed to do. Also, we need `std::cout` so lest `#include <iostream>` so we can use this object class.
 
-![add ](images/header.png)
+![add include and comments to .cpp](images/header.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-
+Nonw instead of always typing `std::cout` we can put before our **Main()** function a `using` directive to state that when we are using `cout` we mean `std::cout`.  This eliminates the ability to use this name in our project though.
 
 ![alt_text](images/coutIntBasic2.png)
 
