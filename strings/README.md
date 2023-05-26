@@ -40,8 +40,6 @@ Now you can see that it runs the program and prints the single character as we e
 
 ![1 byte size of char](images/sizeOfChar.png)
 
-![alt_text](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
