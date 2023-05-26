@@ -102,7 +102,7 @@ Memory is alocated based on the size required by the type. So in the case of an 
 
 Now each team uses a coding style so that makes it easier to work as a group.  In Unreal their [coding standards](https://docs.unrealengine.com/en-us/Programming/Development/CodingStandard) say:
 
-> The first letter of each word in a name (such as type name or variable name) is capitalized, and there is usually no underscore between words. For example, Health and UPrimitiveComponent are correct, but not lastMouseCoordinates or delta_coordinates. - [Unreal Manual](https://docs.unrealengine.com/en-us/Programming/Development/CodingStandard#namingconventions)
+> The first letter of each word in a name (such as type name or variable name) is capitalized, and there is usually no underscore between words. For example, `Health` and `UPrimitiveComponent` are correct, but not `lastMouseCoordinates` or `delta_coordinates`. - [Unreal Manual](https://docs.unrealengine.com/en-us/Programming/Development/CodingStandard#namingconventions)
 
 ![variable statement](images/variableStatement.jpg)
 
@@ -142,13 +142,19 @@ Run the program and you will notice that it only stores the *integer* portion of
 
 ##### `Step 11.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+The compiler doesn't let us capitalize the data type.  You will see when we start programming in Unreal that they have declared their own data types.  Their data types start with capital letters.
+
+So change `int` to `Int` and it will no longer compile.
+
+![Int won't compile](images/mispellType.png)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now the size of an integer is OS/Compiler specific so it is not consistent across all devices.  Normally it is 4 bytes. So lets print another line with `cout`.  We will use the escaped newline `"\n"` to perform a carriage return (new line).  Then we will pass the variable to the primitive function `size_of()` which will return us the size of the variable in **bytes** (remember 8 bits per byte). So on my PC, in C++ 17 in Windows 11 -  it is 4 bytes (but this size is not guaranteed).
+
+![size of int](images/sizeOfInt.png)
 
 ![](../images/line2.png)
 
