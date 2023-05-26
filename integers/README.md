@@ -79,7 +79,7 @@ Nonw instead of always typing `std::cout` we can put before our **Main()** funct
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
 
-In C++, a variable is a named storage location in memory that holds a value, which can change during the program's execution. It is a way to store data that can be used or manipulated later in the program.
+In C++, a **variable** is a named storage location in memory that holds a value, which can change during the program's execution. It is a way to store data that can be used or manipulated later in the program.
 
 Variable names are chosen to describe the type of data stored in them and are usually defined by the programmer. Examples of types of data stored in variables include integers, floating point numbers, characters and strings.
 
@@ -95,7 +95,7 @@ You can also just declare a variable without defining it.  But it will need to b
 
 Memory is alocated based on the size required by the type. So in the case of an integer, typtically 4 bytes.
 
-![alt_text](images/setAsStartup.png)
+![variable statement](images/variableStatement.png)
 
 ![](../images/line2.png)
 
