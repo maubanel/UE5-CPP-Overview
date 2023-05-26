@@ -106,7 +106,9 @@ Lets continue to clean it up by adding some more descriptive strings.
 
 ##### `Step 10.`\|`CPPOVR`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Now lets print the size of the string object.  It says it is `40` bytes. So maybe with 4 letters and a terminated character at the end it is 40/5 so maybe 8 bytes per character?
+
+![size of first name](images/sizeOfName.png)
 
 ![](../images/line2.png)
 
