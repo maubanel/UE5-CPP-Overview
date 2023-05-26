@@ -68,9 +68,9 @@ Now lets look at the character data type called [string](https://www.geeksforgee
 
 Now this is not a primitive data type and is a class (we will get into classes later).  Unreal will give us their own string class but for now we will use the one that comes with the standard template libraries (by including the `<string>` class).  
 
-So the *string* class comes with <iostream> so we do not need any other libarries.  We will just move it to our local namespace.
+So the *string* class comes with <iostream> so we do not need any other libarries.  We will just move it to our local namespace by adding `using std::string;` before the `main()` function.
 
-![alt_text](images/usingString.png)
+![using std::string](images/usingString.png)
 
 ![](../images/line2.png)
 
