@@ -22,9 +22,13 @@ We will also look at **strings** which are not a primitive data type but a deriv
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-So 
+So lets use a type `char` and call the variable `MiddleInitial` and use the literal `A`.  So this looks like:
 
-![alt_text](images/charA.png)
+`char MiddleInitial = 'A';`
+
+Then we will output it ot the stream with a newline espace character. Run the program and on the third line you should see an **A**.
+
+![print char A](images/charA.png)
 
 ![](../images/line2.png)
 
