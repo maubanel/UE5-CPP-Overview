@@ -72,7 +72,7 @@ Add comments to the top.  Multiline comments use `/*` to start the comments and 
 
 
 
-![alt_text](images/coutIntBasic.png)
+![alt_text](images/coutIntBasic2.png)
 
 ![](../images/line2.png)
 
