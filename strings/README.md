@@ -114,7 +114,9 @@ Now lets print the size of the string object.  It says it is `40` bytes. So mayb
 
 ##### `Step 11.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+So lets add another string, and I put my last name in it `Aubanel`.  Now this is 7 characters and an 8th to indicate the end of the string.  Notice though when I print the size it is still 
+
+![alt_text](images/sizeOfLastName.png)
 
 ![](../images/line2.png)
 
