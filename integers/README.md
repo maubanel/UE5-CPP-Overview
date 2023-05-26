@@ -54,7 +54,9 @@ Name the project `Primitievs` and put it in your working project folder.  Press 
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Right click on the **Primitives** project and **Add | 
+
+![alt_text](images/addPrimitivesCPP.png)
 
 ![](../images/line2.png)
 
