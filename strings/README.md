@@ -82,8 +82,9 @@ So the *string* class comes with <iostream> so we do not need any other libarrie
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we can 
-![alt_text](images/stringChar.png)
+Now we can set the group of chars `"Marc"` to the *string* `FirstName`. We can then print the first name, a space, then a middle initial.  Each time we add to the stream `<<` it concatonates all of the outputs to the console.
+
+![print first name string and middle name char](images/stringChar.png)
 
 ![](../images/line2.png)
 
