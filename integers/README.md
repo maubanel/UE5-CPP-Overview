@@ -70,7 +70,7 @@ Add comments to the top.  Multiline comments use `/*` to start the comments and 
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-Nonw instead of always typing `std::cout` we can put before our **Main()** function a `using` directive to state that when we are using `cout` we mean `std::cout`.  This eliminates the ability to use this name in our project though.
+Nonw instead of always typing `std::cout` we can put before our **Main()** function a `using` directive to state that when we are using `cout` we mean `std::cout`.  This eliminates the ability to use this name in our project though. Then lets add a `main()` function that will run first and create an integer variable called `Year`.  Inside that we will assign the value `2045`. 
 
 ![alt_text](images/coutIntBasic2.png)
 
