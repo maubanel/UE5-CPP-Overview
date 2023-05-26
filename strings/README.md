@@ -52,7 +52,9 @@ Now you can see that it runs the program and prints the single character as we e
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now `A` is a char literal and "A" is a string literal.  The compiler doesn't allow us to cast from a char to a string.
+
+![charLit cannot be used](images/charLit.png)
 
 ![](../images/line2.png)
 
