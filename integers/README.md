@@ -117,13 +117,17 @@ Now if you compile and run you will get it to print the literal value stored in 
 
 ##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now when we do not use a `.`, the literal is type *integer*.  If we use a decimal points `2045.55` it is literal type *double*.  So what happens if we define our declared integer with a double value what happens?
+
+![assigning double to integer](images/coutIntBasic3.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`CPPOVR`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Run the program and you will notice that it only stores the *integer* portion of the *double* fractional value. So it only stores and prints to the stream the integer portion. So it is automatically casting from type double to type integer.
+
+![prints 45 and ignores the .55](images/twentyFourtyFive.png)
 
 ![](../images/line2.png)
 
