@@ -100,7 +100,7 @@ When you run the program it should be a lot clearer to what we are trying to exp
 
 Lets continue to clean it up by adding some more descriptive strings.
 
-![add more descriptive strings](images/image.png.png)
+![add more descriptive strings](images/descriptiveMore.png)
 
 ![](../images/line2.png)
 
