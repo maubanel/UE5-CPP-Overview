@@ -95,6 +95,15 @@ You can also just declare a variable without defining it.  But it will need to b
 
 Memory is alocated based on the size required by the type. So in the case of an integer, typtically 4 bytes.
 
+* A variable cannot have spaces (but you can use underscore).
+* The name cannot start with a number
+* It can be up to 255 characters long
+* It is caps sensitive, so `a` is different from `A`
+
+Now each team uses a coding style so that makes it easier to work as a group.  In Unreal their [coding standards](https://docs.unrealengine.com/en-us/Programming/Development/CodingStandard) say:
+
+> The first letter of each word in a name (such as type name or variable name) is capitalized, and there is usually no underscore between words. For example, Health and UPrimitiveComponent are correct, but not lastMouseCoordinates or delta_coordinates. - [Unreal Manual](https://docs.unrealengine.com/en-us/Programming/Development/CodingStandard#namingconventions)
+
 ![variable statement](images/variableStatement.jpg)
 
 ![](../images/line2.png)
