@@ -105,13 +105,13 @@ Before we run it we need to click on the project name **Primitives** and select 
 
 ![alt_text](images/setAsStartup.png)
 
-![alt_text](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now if you compile and run you will get it to print the literal value stored in the variable name. 
+
+![run project prints 45](images/twentyFourtyFive.png)
 
 ![](../images/line2.png)
 
