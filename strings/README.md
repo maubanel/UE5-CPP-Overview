@@ -2,7 +2,7 @@
 
 ### Primitive Data Types - Chars & Strings
 
-<sub>[previous](../) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../)</sub>
+<sub>[previous](../integers/README.md#user-content-primitive-data-types---integers) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../)</sub>
 
 ![](../images/line3.png)
 
@@ -144,5 +144,5 @@ Chapter introduction here.
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../)|
+| [previous](../integers/README.md#user-content-primitive-data-types---integers)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../)|
 |---|---|---|
