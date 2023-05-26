@@ -98,7 +98,9 @@ When you run the program it should be a lot clearer to what we are trying to exp
 
 ##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Lets continue to clean it up by adding some more descriptive strings.
+
+![add more descriptive strings](images/image.png.png)
 
 ![](../images/line2.png)
 
