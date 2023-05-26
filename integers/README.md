@@ -95,7 +95,7 @@ You can also just declare a variable without defining it.  But it will need to b
 
 Memory is alocated based on the size required by the type. So in the case of an integer, typtically 4 bytes.
 
-![variable statement](images/variableStatement.png)
+![variable statement](images/variableStatement.jpg)
 
 ![](../images/line2.png)
 
