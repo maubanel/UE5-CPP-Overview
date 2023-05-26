@@ -26,7 +26,9 @@ So lets use a type `char` and call the variable `MiddleInitial` and use the lite
 
 `char MiddleInitial = 'A';`
 
-Then we will output it ot the stream with a newline espace character. Run the program and on the third line you should see an **A**.
+Then we will output it ot the stream with a newline espace character. 
+
+Run the program and on the third line you should see an **A**.
 
 ![print char A](images/charA.png)
 
