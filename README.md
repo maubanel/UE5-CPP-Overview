@@ -13,7 +13,7 @@ This is a very quick overview of the foundation of the C++ language. It will cov
 
 <kbd></kbd> &nbsp;&nbsp; [Hello World](hello-world/README.md#user-content-hello-world) <br>
 <kbd></kbd> &nbsp;&nbsp; [Errors](errors/README.md#user-content-errors) <br>
-<kbd></kbd> &nbsp;&nbsp; [Integers](integers/README.md#user-content-integers) <br>
+<kbd></kbd> &nbsp;&nbsp; [Primitive Data Types - Integers](integers/README.md#user-content-primitive-data-types--integers) <br>
 
 <!-- LICENSE -->
 ## License
