@@ -38,7 +38,7 @@ An integer *typically* requires 4 bytes (32 bits) of memory enough space to hold
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-Right click on the solution and select **Add | New Project...** and select 
+Right click on the solution and select **Add | New Project...** and select an **Empty Project** that is in **C++**.  Press the <kbd>Next</kbd> button.
 
 ![create new empty c++ project](images/newProject.png)
 
