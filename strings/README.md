@@ -36,13 +36,17 @@ Run the program and on the third line you should see an **A**.
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
+What happens if we try and set a char with a string literal such as `"A"`. Try it?  Now this is a case where the error message may seem foreign to you.  A string is a set of char pointers but we will get into that at another point in time. For now, if you want a single char you use single quotation marks.
+
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now you can see that it runs the program and prints the single character as we expected.  So it takes a single byte (proven when we print sizeof). It stores an `ascii` value which hods [128 characters](https://en.cppreference.com/w/cpp/language/ascii). So **A** would be ASCII value `97` in decimals. 
+
+![1 byte size of char](images/sizeOfChar.png)
 
 ![](../images/line2.png)
 
