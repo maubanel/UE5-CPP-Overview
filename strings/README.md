@@ -90,7 +90,9 @@ Now that we can concatonate, we should clean up and explain what our program is 
 
 ##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+When you run the program it should be a lot clearer to what we are trying to express.
+
+![run program](images/stringPrintClarified.png)
 
 ![](../images/line2.png)
 
