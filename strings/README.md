@@ -82,7 +82,9 @@ Now we can set the group of chars `"Marc"` to the *string* `FirstName`. We can t
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now that we can concatonate, we should clean up and explain what our program is doing. Lets add a title then explain what each line is doing.
+
+![add strings to program](images/addStrings.png)
 
 ![](../images/line2.png)
 
