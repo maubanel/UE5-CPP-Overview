@@ -46,7 +46,9 @@ Right click on the solution and select **Add | New Project...** and select an **
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Name the project `Primitievs` and put it in your working project folder.  Press the <kbd>Create</kbd> button.
+
+![call project Primitives](images/primitivesProj.png)
 
 ![](../images/line2.png)
 
