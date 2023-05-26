@@ -66,10 +66,11 @@ Now we can cast from an integer to a char.  If we look at the [ascii chart](http
 Now lets look at the character data type called [string](https://www.geeksforgeeks.org/c-string-class-and-its-applications/). 
 > C++ string class internally uses char array to store character but all memory management, allocation and null termination is handled by string class itself that is why it is easy to use. The length of c++ string can be changed at runtime because of dynamic allocation of memory similar to vectors. - geeksforgeeks.org
 
-Now this is not a primitive data type and is a class (we will get into classes later).  Unreal will give us their own string class but for now we will use the one that comes with the standard template libraries (by including the `<string>` class).  <br>Right click on the solution file and select **Add \| New Project**.  Then select a **Console App** and press **Next**.  Call it `StringType` then press the **Create** button.  Right click on the new **StringType** project and select `Set as StartUp Project`.  
+Now this is not a primitive data type and is a class (we will get into classes later).  Unreal will give us their own string class but for now we will use the one that comes with the standard template libraries (by including the `<string>` class).  
 
+So the *string* class comes with <iostream> so we do not need any other libarries.  We will just move it to our local namespace.
 
-![alt_text](images/80Char.png)
+![alt_text](images/usingString.png)
 
 ![](../images/line2.png)
 
