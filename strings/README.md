@@ -14,13 +14,17 @@ Now why are there two ranges.  I didn't tell you about integers that we can have
 
 Also note that a `char` character is a single letter not a series of them.  So how do we know if it is a char or a string?  A char is surrounded by single quotes `'c'` and a string is surrounded by double quotation marks, `"c"`.
 
+We will also look at **strings** which are not a primitive data type but a derived type. It is an **object** as its size is not fixed, it depends on the length of the string.
+
 <br>
 
 ---
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-![alt_text](images/.png)
+So 
+
+![alt_text](images/charA.png)
 
 ![](../images/line2.png)
 
