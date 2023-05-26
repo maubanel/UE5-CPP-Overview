@@ -2,7 +2,7 @@
 
 ### Primitive Data Types - Integers
 
-<sub>[previous](../errors/README.md#user-content-errors) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../)</sub>
+<sub>[previous](../errors/README.md#user-content-errors) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../strings/README.md#user-content-primitive-data-types---chars--strings)</sub>
 
 ![](../images/line3.png)
 
@@ -158,11 +158,11 @@ Now the size of an integer is OS/Compiler specific so it is not consistent acros
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Chars & Strings"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Chars and Strings"> -->
 
 ![next up - ](images/banner.png)
 
 ![](../images/line.png)
 
-| [previous](../errors/README.md#user-content-errors)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../)|
+| [previous](../errors/README.md#user-content-errors)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../strings/README.md#user-content-primitive-data-types---chars--strings)|
 |---|---|---|
