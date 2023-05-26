@@ -8,7 +8,7 @@
 
 Information can be read and written from computer memory, that we see as RAM (Random Access Memory).  It needs to read from somewhere in memory.  It reads from a **place** called an **object** which is a region of memory of a specific size that holds information of a data type.
 
-There are [primitive data types](https://www.geeksforgeeks.org/c-data-types/) that can be used natively in C++ without loading other libraries.  Let's look at a few of them.
+There are [primitive data types](https://www.geeksforgeeks.org/cpp-data-types/) that can be used natively in C++ without loading other libraries.  Let's look at a few of them.
 
 ### Integer
 
@@ -17,6 +17,8 @@ There are [primitive data types](https://www.geeksforgeeks.org/c-data-types/) th
 How is `42` represented in a computer.  It is represented as a [binary](https://www.computerhope.com/jargon/b/binary.htm) value.  The system we use day to day is the decimal system which is base 10.  We start at 0, got 9 then add a digit 1 then start at 0 again (1, 2, 3, 4, 5, 6, 7, 8, 9, 10 etc..)
 
 Binary is base 2 so it starts at 0 then goes to 1 then adds a digit 1 then goes back to 0.  
+
+A bit represents a binary number of `0` or `1`.  A byte represents 8 bits (`00100100` is an example of a byte of data).
 
 
 | Decimal &nbsp; &nbsp;| Binary &nbsp; &nbsp; &nbsp; &nbsp;|
@@ -28,6 +30,7 @@ Binary is base 2 so it starts at 0 then goes to 1 then adds a digit 1 then goes 
 | 4 | 100 |
 | 5 | 101 |
 
+An integer *typically* requires 4 bytes (32 bits) of memory enough space to hold 2<sup>(4 * 8)</sup>. or 2<sup>32</sup> which would represent a signed number of -`2147483648` to `2147483647`.
 
 <br>
 
@@ -35,7 +38,9 @@ Binary is base 2 so it starts at 0 then goes to 1 then adds a digit 1 then goes 
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Right click on the solution and select **Add | New Project...** and select 
+
+![create new empty c++ project](images/newProject.png)
 
 ![](../images/line2.png)
 
