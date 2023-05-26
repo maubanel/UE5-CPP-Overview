@@ -100,7 +100,11 @@ Memory is alocated based on the size required by the type. So in the case of an 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Before we run it we need to click on the project name **Primitives** and select **Set as Startup Project**.
+
 ![alt_text](images/setAsStartup.png)
+
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
