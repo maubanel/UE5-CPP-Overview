@@ -22,7 +22,7 @@ We will also look at **strings** which are not a primitive data type but a deriv
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-So lets use a type `char` and call the variable `MiddleInitial` and use the literal `A`.  So this looks like:
+So lets use a type `char` and call the variable `MiddleInitial` and use the literal `A`.  So this looks like when we declare and define cour characterr variable:
 
 `char MiddleInitial = 'A';`
 
