@@ -36,7 +36,9 @@ Run the program and on the third line you should see an **A**.
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-What happens if we try and set a char with a string literal such as `"A"`. Try it?  Now this is a case where the error message may seem foreign to you.  A string is a set of char pointers but we will get into that at another point in time. For now, if you want a single char you use single quotation marks.
+Now you can see that it runs the program and prints the single character as we expected.  So it takes a single byte (proven when we print sizeof). It stores an `ascii` value which hods [128 characters](https://en.cppreference.com/w/cpp/language/ascii). So **A** would be ASCII value `97` in decimals. 
+
+![1 byte size of char](images/sizeOfChar.png)
 
 ![alt_text](images/.png)
 
@@ -44,23 +46,24 @@ What happens if we try and set a char with a string literal such as `"A"`. Try i
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now you can see that it runs the program and prints the single character as we expected.  So it takes a single byte (proven when we print sizeof). It stores an `ascii` value which hods [128 characters](https://en.cppreference.com/w/cpp/language/ascii). So **A** would be ASCII value `97` in decimals. 
-
-![1 byte size of char](images/sizeOfChar.png)
-
-![](../images/line2.png)
-
-##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now `A` is a char literal and "A" is a string literal.  The compiler doesn't allow us to cast from a char to a string.
+Now `A` is a char literal and "A" is a string literal (or reference to an array of char pointers).  The compiler doesn't allow us to cast from a char to a string.
 
 ![charLit cannot be used](images/charLit.png)
 
 ![](../images/line2.png)
 
+##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now we can cast from an integer to a char.  If we look at the [ascii chart](https://en.cppreference.com/w/cpp/language/ascii) the 80th (decimal) character is `P`. So if we call a c style cast of `char(integer literal)` we will cast from an integer to a char.  In this case it will be represented by the character P, which is confirmed when we run it.
+
+![cast in to char](images/80Char.png)
+
+
+![](../images/line2.png)
+
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/80Char.png)
 
 ![](../images/line2.png)
 
