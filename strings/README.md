@@ -82,7 +82,8 @@ So the *string* class comes with <iostream> so we do not need any other libarrie
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we can 
+![alt_text](images/stringChar.png)
 
 ![](../images/line2.png)
 
