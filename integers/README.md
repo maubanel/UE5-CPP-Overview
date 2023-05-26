@@ -70,13 +70,15 @@ Add comments to the top.  Multiline comments use `/*` to start the comments and 
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+
+
+![alt_text](images/coutIntBasic.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/setAsStartup.png)
 
 ![](../images/line2.png)
 
