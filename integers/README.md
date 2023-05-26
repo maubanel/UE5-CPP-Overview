@@ -46,7 +46,7 @@ Right click on the solution and select **Add | New Project...** and select an **
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-Name the project `Primitievs` and put it in your working project folder.  Press the <kbd>Create</kbd> button.
+Name the project `Primitives` and put it in your working project folder.  Press the <kbd>Create</kbd> button.
 
 ![call project Primitives](images/primitivesProj.png)
 
@@ -54,15 +54,17 @@ Name the project `Primitievs` and put it in your working project folder.  Press 
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on the **Primitives** project and **Add | 
+Right click on the **Primitives** project and **Add | New Item...** and call this item `Primitives.cpp`.  
 
-![alt_text](images/addPrimitivesCPP.png)
+![add Primitives.cpp file](images/addPrimitivesCPP.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Add comments to the top.  Multiline comments use `/*` to start the comments and `*/` to end them.  This way we can clearly explain what the cpp file is supposed to do.
+
+![add ](images/header.png)
 
 ![](../images/line2.png)
 
