@@ -74,7 +74,7 @@ C++ also has unary oparators.  These add or subtract `1` from the number. `++Var
 
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-Now if we place the `++` after the variable name it is a `post-increment` operator.  This will only the value in the variable **AFTER** the statement is run (after it reaches the `;`).  So in this case the year printed is not updating as it will happen 
+Now if we place the `++` after the variable name it is a `post-increment` operator.  This will only the value in the variable **AFTER** the statement is run (after it reaches the `;`).  So in this case the year printed is not updating as it will happen **after** line 104 executes.
 
 ![post-incremenet operator](images/PostIncrementUnary.png)
 
@@ -82,7 +82,9 @@ Now if we place the `++` after the variable name it is a `post-increment` operat
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+So on the next line 105, the `Year` variable has now incremented by `1`.  The same rules apply to `--` you can try this on your own.
+
+![++ operator](images/PostpostOp.png)
 
 ![](../images/line2.png)
 
