@@ -106,7 +106,7 @@ Lets continue to clean it up by adding some more descriptive strings.
 
 ##### `Step 10.`\|`CPPOVR`| :large_blue_diamond:
 
-Now lets print the size of the string object.  It says it is `40` bytes. So maybe with 4 letters and a terminated character at the end it is 40/5 so maybe 8 bytes per character?
+Now lets print the size of the string object.  It says it is `4` bytes. So the string is holding a list of 4 chars, the exact length of the name "Marc".  So it is one byte per char of an *ascii* character.
 
 ![size of first name](images/sizeOfName.png)
 
@@ -114,7 +114,7 @@ Now lets print the size of the string object.  It says it is `40` bytes. So mayb
 
 ##### `Step 11.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: 
 
-So lets add another string, and I put my last name in it `Aubanel`.  Now this is 7 characters and an 8th to indicate the end of the string.  Notice though when I print the size it is still 
+So lets add another string, and I put my last name in it `Aubanel`.  Now this is 7 characters and an 8th to indicate the end of the string.  Notice though when I print the size it is still 40 bytes.
 
 ![alt_text](images/sizeOfLastName.png)
 
@@ -122,7 +122,13 @@ So lets add another string, and I put my last name in it `Aubanel`.  Now this is
 
 ##### `Step 12.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+The C++ string class is typically implemented as a dynamic array that stores its data in contiguous memory locations. Each character of the string is stored as one byte in this array (an array of chars). The size of the string class object depends on the number of characters it contains.
+
+Therefore, a string of length "n" would take "n" bytes to store its data plus some additional bytes for metadata such as the length of the string.
+
+Now the class may allocate more memory than required (marc needs 5 bytes, one for each letter and an end of string char).  This way when the stirng changes the program will only have to allocate more memory if it exceeds 39 characters.
+
+
 
 ![](../images/line2.png)
 
