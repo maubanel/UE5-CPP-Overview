@@ -28,6 +28,8 @@ These arithmetic operators allow you to perform basic mathematical operations in
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
+Add an operator comment to separate the code then add a title `Operators` to the program.  The let's look at the addition operator.  Our `Year` variable is set to `2045`. So if we take the literal `Year + 5` and assign it to `Year` with the assignment operator `Year = Year + 5` we replace the old value with the addition of `2045 + 5` which should give us `2050`. Try it out yourself.
+ 
 ![addtion operator](images/additionOperator.png)
 
 ![](../images/line2.png)
