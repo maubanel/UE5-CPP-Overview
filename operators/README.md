@@ -56,6 +56,8 @@ We can be more efficient with our sytax and express `Year = Year - 3` in a more 
 
 “-”:This operator is combination of ‘-’ arithmetic operator and ‘=’ assignment operator (no space inbetween). This operator first adds the current value of the variable on left to the value on right and then assigns the result to the variable on the left. 
 
+This also works for `+=`, `*=`, `/=` and `%=`.
+
 Press the run button and you will notice that this produces the exact same result in a terser form.
 
 ![minus equals operator](images/minusEquals.png)
@@ -64,7 +66,9 @@ Press the run button and you will notice that this produces the exact same resul
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+C++ also has unary oparators.  These add or subtract `1` from the number. `++Variable` increments inline the value of the variable by `+1` so `50` would become `51`.  When you place the `++` before the variable name, this is called pre-increment variable.
+
+![alt_text](images/unary++.png)
 
 ![](../images/line2.png)
 
