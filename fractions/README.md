@@ -126,7 +126,7 @@ One thing we have to be very careful about is that even a variable of type float
 
 It only takes one of the `literals` to be of type **float** and then the result will be fractional.
 
-![fractional division of floats](images/.png)
+![fractional division of floats](images/floatFractions.png)
 
 ![](../images/line.png)
 
