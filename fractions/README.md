@@ -92,7 +92,9 @@ Now if we do this ame thing with **double** values then we are not guaranteed to
 
 ##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Finaly lets confirm that a double on our machine is **8 bytes**. On windows 11, with a 64 bit processor it is.
+
+![size of double is 8](images/double8.png)
 
 ![](../images/line2.png)
 
