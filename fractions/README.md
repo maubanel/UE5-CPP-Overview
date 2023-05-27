@@ -100,7 +100,9 @@ Finaly lets confirm that a double on our machine is **8 bytes**. On windows 11, 
 
 ##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+A float literal is half the size of a double and is represnted by a decimal `.`, a fractional part if needed an finished with a lower case `f`.  So `13.45` is of type **double** and `13.45f` is of type float. As you can can see floats can're represent fractional numbers as accurately and have less precision than doubles.
+
+![float type](images/floatType.png)
 
 ![](../images/line2.png)
 
