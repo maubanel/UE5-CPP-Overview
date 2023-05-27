@@ -2,7 +2,7 @@
 
 ### Primitive Data Types - Fractions
 
-<sub>[previous](../operators/README.md#user-content-arithmetic-operators) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../)</sub>
+<sub>[previous](../operators/README.md#user-content-arithmetic-operators) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../bools/README.md#user-content-primitive-data-types---bools-and-unsigned-ints)</sub>
 
 ![](../images/line3.png)
 
@@ -136,5 +136,5 @@ It only takes one of the `literals` to be of type **float** and then the result 
 
 ![](../images/line.png)
 
-| [previous](../operators/README.md#user-content-arithmetic-operators)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../)|
+| [previous](../operators/README.md#user-content-arithmetic-operators)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../bools/README.md#user-content-primitive-data-types---bools-and-unsigned-ints)|
 |---|---|---|
