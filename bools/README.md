@@ -37,9 +37,9 @@ However, it's important to note that using unsigned int also has some limitation
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
+Add a comment for a bool section.  Then use the literal `true` to set the bool variable `bIsGood`.  Now when you output it to the stream it will not use the **string** `true` but will instead represent `true` with the integer `1`.
 
-
-![alt_text](images/boolAs1.png)
+![set true bool and print to console](images/boolAs1.png)
 
 ![](../images/line2.png)
 
