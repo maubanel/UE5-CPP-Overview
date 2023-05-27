@@ -186,7 +186,7 @@ Overall, the modulo operator provides a simple way to find the remainder of a di
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Fractions"> -->
 
 ![next up - ](images/banner.png)
 
