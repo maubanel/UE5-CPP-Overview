@@ -36,11 +36,19 @@ So lets create a new variable of type `double PercentChanceOfRain` and lets give
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now based on the size of the double on my computer how many numbers can the scientific notation of a fractional [significand](https://en.wikipedia.org/wiki/Scientific_notation) hold?<br><br>  
+
+`245 E 23` with `245` being the `significand` and `23` being the `exponent`.
+
+It can store only so many digits.  We can include the `<limits>` library to see how many total **base 10** digits this can hold.  Add to the after the first `include` `#include <limits>`.
+
+![add <limits>](images/addLimits.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+ then add `cout << "A double has a precision of " << std::numeric_limits< double >::max_digits10 << " digits.";` to the bottom of the script before the `return` statement.<br><br>Notice that it says it can store 17 digits (this includes what is before and after the decimal point).
 
 ![alt_text](images/.png)
 
