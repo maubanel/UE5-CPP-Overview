@@ -40,7 +40,7 @@ Now based on the size of the double on my computer how many numbers can the scie
 
 `245 E 23` with `245` being the `significand` and `23` being the `exponent`.
 
-It can store only so many digits.  We can include the `<limits>` library to see how many total **base 10** digits this can hold.  Add to the after the first `include` `#include <limits>`.
+It can store only so many digits.  We can include the `<limits>` library to see how many total **base 10** digits this can hold.  Add to the after the first **include** `#include <limits>`.
 
 ![add <limits>](images/addLimits.png)
 
