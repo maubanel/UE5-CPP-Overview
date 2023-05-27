@@ -28,6 +28,8 @@ Now when do we use floats and when do we use doubles?  In games audio samples te
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
+So lets create a new variable of type `double PercentChanceOfRain` and lets give it a silly double literal of `664433.89998999;`.  Notice that when we print it out it rounds the number and doesn't show the entire decimal number stored.
+
 ![double data type](images/doubleExample.png)
 
 ![](../images/line2.png)
