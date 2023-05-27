@@ -6,7 +6,21 @@
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+Arithmetic operators in C++ are symbols that allow you to perform mathematical calculations on numbers. They are used to add, subtract, multiply, divide, modulo and perform other operations on numeric values. Here are the common arithmetic operators in C++:
+
+1. **Addition** (+): The addition operator is used to add two numbers together. For example, `2 + 3` would give the result of `5`.
+
+2. **Subtraction** (-): The subtraction operator is used to subtract one number from another. For example, `5 - 2` would give the result of `3`.
+
+3. **Multiplication** (*): The multiplication operator is used to multiply two numbers. For example, `2 * 3` would give the result of `6`.
+
+4. **Division** (/): The division operator is used to divide one number by another. For example, `6 / 2` would give the result of `3`. 
+
+5. **Modulo** (%): The modulo operator calculates the remainder (whole number) after division. For example, `7 % 3` would give the result of `1`, because 7 divided by 3 leaves a remainder of 1.
+
+6. Increment (++) and Decrement (--): The increment operator `++` is used to increase the value of a variable by `1`, while the decrement operator `--` decreases it by `1`. For example, if x is initially 3, then `x++` would make x equal to `4`, and `x-- `would make it `2`.
+
+These arithmetic operators allow you to perform basic mathematical operations in C++ and are commonly used in calculations, formulae, and other mathematical tasks in programming.
 
 <br>
 
