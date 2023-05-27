@@ -28,7 +28,7 @@ Now when do we use floats and when do we use doubles?  In games audio samples te
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-![double data type](images/image.png.png)
+![double data type](images/doubleExample.png)
 
 ![](../images/line2.png)
 
