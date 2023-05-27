@@ -16,6 +16,21 @@ The Unreal 4 coding standards say:
 
 Note, that even if a boolean is a single bit the smallest amount of memory we can access is a byte.  So a bool takes a byte which wastes 7 bits.  There are ways of masking other types to be more efficient and we will show you that in Unreal later.
 
+In C++, the unsigned int data type is used to represent whole numbers (integers) that can only be positive or zero. The "unsigned" part means that it doesn't include negative values.
+
+Imagine you have a variable of type u`nsigned int`. This variable can hold non-negative whole numbers, including zero. It cannot store negative numbers.
+
+For example, if you declare an `unsigned int` variable called `X` and assign it a value of `-5`, it means that X can only store positive whole numbers or zero. You can perform various arithmetic operations on x, such as addition, subtraction, multiplication, and division, just like you would with regular integers.
+
+One key advantage of using unsigned int is that it allows you to represent larger positive numbers than a regular int data type. The unsigned int uses the same amount of memory as a regular int but can store larger values because it doesn't need to allocate space for negative numbers.
+
+However, it's important to note that using unsigned int also has some limitations. Since it doesn't support negative numbers, operations like subtracting a larger number from a smaller number may result in unexpected behavior. In addition, division between two unsigned int values may truncate the decimal part, as it produces an integer result.
+
+|Type|Typical Bit Width|Typical Range|
+|:----|:----|:----|
+|unsigned int|4bytes|0 to 4294967295|
+|signed int|4bytes|-2147483648 to 2147483647|
+
 <br>
 
 ---
