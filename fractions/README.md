@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-We are going to introduce a new data type called [double](https://www.geeksforgeeks.org/c-data-types/).
+We are going to introduce a new data type called a **double** floating point number.
 > Double Floating Point: Double Floating Point data type is used for storing double precision floating point values or decimal values. Keyword used for double floating point data type is double. Double variables typically requires 8 bytes of memory space. - [geeksforgeeks.org](https://www.geeksforgeeks.org/cpp-data-types/?ref=gcse)
 
 Notice that it says **typically**.  It is very important to understand that different platforms may have different sizes for the same named data types.  Always make sure you test your assumptions on ALL platforms you want to support.
