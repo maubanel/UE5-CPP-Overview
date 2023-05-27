@@ -48,9 +48,9 @@ It can store only so many digits.  We can include the `<limits>` library to see 
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
- then add `cout << "A double has a precision of " << std::numeric_limits< double >::max_digits10 << " digits.";` to the bottom of the script before the `return` statement.<br><br>Notice that it says it can store 17 digits (this includes what is before and after the decimal point).
+ We use `std::numeric_limits<double>::max_digits10` to find out how many significand values it can hold which will determine the precision of the number.  Notice that we can store `17` numbers.
 
-![alt_text](images/.png)
+![17 significand](images/doublesignificand.png)
 
 ![](../images/line2.png)
 
