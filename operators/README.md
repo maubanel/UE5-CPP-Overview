@@ -66,15 +66,17 @@ Press the run button and you will notice that this produces the exact same resul
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-C++ also has unary oparators.  These add or subtract `1` from the number. `++Variable` increments inline the value of the variable by `+1` so `50` would become `51`.  When you place the `++` before the variable name, this is called pre-increment variable.
+C++ also has unary oparators.  These add or subtract `1` from the number. `++Variable` increments inline the value of the variable by `+1` so `50` would become `51`.  When you place the `++` before the variable name, this is called pre-increment variable. It increments the variable right away.
 
-![alt_text](images/unary++.png)
+![pre increment ++](images/unary++.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now if we place the `++` after the variable name it is a `post-increment` operator.  This will only the value in the variable **AFTER** the statement is run (after it reaches the `;`).  So in this case the year printed is not updating as it will happen 
+
+![post-incremenet operator](images/PostIncrementUnary.png)
 
 ![](../images/line2.png)
 
