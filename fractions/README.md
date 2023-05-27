@@ -66,19 +66,27 @@ To read more look at [Floating-point error mitigation](https://en.wikipedia.org/
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-![alt_text](images/imprecise.png)
+You have to be very careful as sometimes you will not get the result you expect when you store fractoinal numbers.  `1.9` will get represented as `1.89999999999...`. 
+
+So we have to be very careful with fractional numbers or errors may occur.
+
+![imprecise](images/imprecise.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+In algebra you might remember that `(A + B) * C` is the same as `(A + C) * (B * C)`. So with integers this will be true.  Try doing this below. We get the exact same result as we expected.
+
+![factoring out works](images/algebra1.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now if we do this ame thing with **double** values then we are not guaranteed to get the same result as each fractional number will be slightly different.  We also have to be careful about checking for sameness of to floating point numbers which again, cause issues.
+
+![error in factoring out doubles](images/doubleError.png)
 
 ![](../images/line2.png)
 
