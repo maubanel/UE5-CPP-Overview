@@ -56,7 +56,9 @@ It can store only so many digits.  We can include the `<limits>` library to see 
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now `cout` has a static function (will explain later) called `cout::set_precision(number_of_places)`.  This will show a floating point value with 17 numbers (not including the decimal `.` point). In this case we will show to the above precision.  Please notice that the last fractional parts are not identical to the number we set it to. To read more look at [Floating-point error mitigation](https://en.wikipedia.org/wiki/Floating-point_error_mitigation) 
+Now `cout` has a static function (will explain later) called `cout::set_precision(number_of_places)`.  This will show a floating point value with 17 numbers (not including the decimal `.` point). In this case we will show to the above precision.  Please notice that the last fractional parts are not identical to the number we set it to. We set it to `665533.89998899` and it ends up being `665533.8998899004`.
+
+To read more look at [Floating-point error mitigation](https://en.wikipedia.org/wiki/Floating-point_error_mitigation) .
 
 ![adjust accuracy](images/doubleAccuracy.png)
 
