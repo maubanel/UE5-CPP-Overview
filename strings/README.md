@@ -2,7 +2,7 @@
 
 ### Primitive Data Types - Chars & Strings
 
-<sub>[previous](../integers/README.md#user-content-primitive-data-types---integers) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../)</sub>
+<sub>[previous](../integers/README.md#user-content-primitive-data-types---integers) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../operators/README.md#user-content-arithmetic-operators)</sub>
 
 ![](../images/line3.png)
 
@@ -138,5 +138,5 @@ Also remember that for **char** type you put a *single* letter in single quotes 
 
 ![](../images/line.png)
 
-| [previous](../integers/README.md#user-content-primitive-data-types---integers)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../)|
+| [previous](../integers/README.md#user-content-primitive-data-types---integers)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../operators/README.md#user-content-arithmetic-operators)|
 |---|---|---|
