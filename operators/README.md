@@ -90,7 +90,21 @@ So on the next line 105, the `Year` variable has now incremented by `1`.  The sa
 
 ##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+The modulo operator (%) in C++ is used to calculate the remainder when one number is divided by another. It returns the remainder as the result as a whole number.
+
+Let's say you have two numbers, a and b. When you perform the operation a % b, C++ divides a by b and gives you the remainder.
+
+For example, let's consider `A = 7;` and `B = 3;`. When you calculate `A % B`, C++ **divides 7 by 3**, which gives you **2** with a remainder of **1.** Therefore, the result of `7 % 3` is `1`.
+
+Similarly, if you have `A = 12; `and `B = 5;`, `A % B` will give you `2` because **12 divided by 5** is **2** with a remainder of **2**.
+
+The modulo operator is often used in various applications. For example, you can use it to check if a number is divisible by another number. If the result of `A % B` is `0`, it means that A is evenly divisible by B. Otherwise, if the result is non-zero, it indicates that there is a remainder and A is not divisible by B.
+
+Another common use of in games of the modulo operator is in a programming tasks that require cycling or wrapping around values. For instance, if you want to ensure that a number stays within a specific range, you can use the modulo operator to wrap it back to the range by taking the remainder.
+
+Overall, the modulo operator provides a simple way to find the remainder of a division operation, and it has various practical applications in programming.
+
+![modulo operator](images/modulo.png)
 
 ![](../images/line2.png)
 
