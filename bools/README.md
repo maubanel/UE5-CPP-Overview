@@ -37,7 +37,7 @@ However, it's important to note that using unsigned int also has some limitation
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-Add a comment for a bool section.  Then use the literal `true` to set the bool variable `bIsGood`.  Now when you output it to the stream it will not use the **string** `true` but will instead represent `true` with the integer `1`.
+Add a comment for a bool section.  Add an appropriate title for this section. Then use the literal `true` to set the bool variable `bIsGood`.  Now when you output it to the stream it will not use the **string** `true` but will instead represent `true` with the **integer** `1`.
 
 ![set true bool and print to console](images/boolAs1.png)
 
@@ -45,7 +45,9 @@ Add a comment for a bool section.  Then use the literal `true` to set the bool v
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now switch the value to `false` to represent the only other state of a boolean.  Notice that it outputs it to the console as **int** `0`.
+
+![alt_text](images/falseBool.png)
 
 ![](../images/line2.png)
 
