@@ -20,7 +20,7 @@ We are also going to introduce a new data type called [float](https://www.geeksf
 
 Notice that it says **typically**.  It is very important to understand that different platforms may have different sizes for the same named data types.  
 
-Now when do we use floats and when do we use doubles?  In games audio samples tend to use floats and in 3-D our points are usually stored in floats as well in **x, y, z Space** as there are so many of them.  The increase in precision is not offset by the huge size increase in RAM.  So floats are used when possible in games. In games where possible we use floats instead of doubles to save on memory (RAM).
+Now when do we use floats and when do we use doubles?  In games audio samples tend to use floats and in 3-D our points are usually stored in floats as well in **x, y, z Space** as there are so many of them.  The increase in precision is not offset by the huge size increase in RAM.  So floats are used when possible in games to save memory.
 
 <br>
 
@@ -28,7 +28,7 @@ Now when do we use floats and when do we use doubles?  In games audio samples te
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-![alt_text](images/.png)
+![double data type](images/image.png.png)
 
 ![](../images/line2.png)
 
