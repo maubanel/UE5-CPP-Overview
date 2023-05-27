@@ -114,7 +114,9 @@ Now lets print the size of the string object.  It says it is `4` bytes. So the s
 
 ##### `Step 11.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: 
 
-So lets add another string, and I put my last name in it `Aubanel`.  Now this is 7 characters and an 8th to indicate the end of the string.  Notice though when I print the size it is still 40 bytes.
+So lets add another string, and I put my last name in it `Aubanel`.  Now this is 7 characters and an 8th to indicate the end of the string.  Notice though when I print the size it is 7 bytes, the exact length of my last name.
+
+We also print the entire name and middle initial.  We are concatonating multiplhe types using the `<<` ostream operator.
 
 ![alt_text](images/sizeOfLastName.png)
 
@@ -126,67 +128,11 @@ The C++ string class is typically implemented as a dynamic array that stores its
 
 Therefore, a string of length "n" would take "n" bytes to store its data plus some additional bytes for metadata such as the length of the string.
 
-Now the class may allocate more memory than required (marc needs 5 bytes, one for each letter and an end of string char).  This way when the stirng changes the program will only have to allocate more memory if it exceeds 39 characters.
-
-
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: 
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 16.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`CPPOVR`| :large_blue_diamond: :large_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`CPPOVR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
+Also remember that for **char** type you put a *single* letter in single quotes `'A'` and strings of any length in double quotes `"A"`. These represent different literals to C++.
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Integers"> -->
 
 ![next up - ](images/banner.png)
 
