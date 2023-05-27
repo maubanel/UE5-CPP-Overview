@@ -18,7 +18,7 @@ Note, that even if a boolean is a single bit the smallest amount of memory we ca
 
 In C++, the unsigned int data type is used to represent whole numbers (integers) that can only be positive or zero. The "unsigned" part means that it doesn't include negative values.
 
-Imagine you have a variable of type u`nsigned int`. This variable can hold non-negative whole numbers, including zero. It cannot store negative numbers.
+Imagine you have a variable of type `unsigned int`. This variable can hold non-negative whole numbers, including zero. It cannot store negative numbers.
 
 For example, if you declare an `unsigned int` variable called `X` and assign it a value of `-5`, it means that X can only store positive whole numbers or zero. You can perform various arithmetic operations on x, such as addition, subtraction, multiplication, and division, just like you would with regular integers.
 
