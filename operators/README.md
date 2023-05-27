@@ -28,7 +28,7 @@ These arithmetic operators allow you to perform basic mathematical operations in
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-![alt_text](images/.png)
+![addtion operator](images/additionOperator.png)
 
 ![](../images/line2.png)
 
