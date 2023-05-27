@@ -108,7 +108,7 @@ Lets continue to clean it up by adding some more descriptive strings.
 
 Now lets print the size of the string object.  It says it is `4` bytes. So the string is holding a list of 4 chars, the exact length of the name "Marc".  So it is one byte per char of an *ascii* character.
 
-![size of first name](images/sizeOfName.png)
+![size of first name](images/twentyFourtyFive.png)
 
 ![](../images/line2.png)
 
