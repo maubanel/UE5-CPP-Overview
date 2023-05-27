@@ -56,7 +56,9 @@ It can store only so many digits.  We can include the `<limits>` library to see 
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+doubleAccuracy
+
+![adjust accuracy](images/doubleAccuracy.png)
 
 ![](../images/line2.png)
 
