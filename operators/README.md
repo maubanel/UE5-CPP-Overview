@@ -36,7 +36,7 @@ Add an operator comment to separate the code then add a title `Operators` to the
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-Now we can do the same thing with a subtraction operator so a literal of `2050 - 3` becomes `2047`. 
+Now we can do the same thing with a subtraction operator so a literal of `2050 - 3` (Year - 3) becomes `2047`. 
 
 ![subtraction operator](images/subtractOperator.png)
 
@@ -44,7 +44,9 @@ Now we can do the same thing with a subtraction operator so a literal of `2050 -
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we take the literal `2047 / 2` and it returns `1023` because we are dividing two integer literals and assigning them to an integer.  So even though mathmatically `2047 / 2 = 1023.5` - the integer ignores the fractional part of the division.
+
+![divide operator](images/divideOperator.png)
 
 ![](../images/line2.png)
 
