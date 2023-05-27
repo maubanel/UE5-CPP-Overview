@@ -15,7 +15,7 @@ What does 8 bytes mean?  A **byte** is 8 **bits**.  A bit is a single binary val
 
 So a double uses one bit for the sign (positive or negative), 11 bits for the exponent and 52 bits for the value (8 bytes =  8 \* 8 bits = 64 bits ). 
 
-We are also going to introduce a new data type called [float](https://www.geeksforgeeks.org/c-data-types/).
+We are also going to introduce a new data type called [float](https://www.geeksforgeeks.org/cpp-data-types/?ref=gcse).
 > Floating Point: Floating Point data type is used for storing single precision floating point values or decimal values. Keyword used for floating point data type is float. Float variables typically requires 4 byte of memory space. - [geeksforgeeks.org](https://www.geeksforgeeks.org/cpp-data-types/?ref=gcse)
 
 Notice that it says **typically**.  It is very important to understand that different platforms may have different sizes for the same named data types.  
