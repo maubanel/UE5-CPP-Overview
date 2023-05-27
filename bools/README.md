@@ -47,13 +47,15 @@ Add a comment for a bool section.  Add an appropriate title for this section. Th
 
 Now switch the value to `false` to represent the only other state of a boolean.  Notice that it outputs it to the console as **int** `0`.
 
-![alt_text](images/falseBool.png)
+![false is 0](images/falseBool.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now going from any numeric typ to **bool** any non zero value will resolve to `true` or `1` even negative numbers.  Try it and see fo for yourself.
+
+![non zero true](images/toBool.png)
 
 ![](../images/line2.png)
 
