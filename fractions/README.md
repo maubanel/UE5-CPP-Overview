@@ -100,7 +100,7 @@ Finaly lets confirm that a double on our machine is **8 bytes**. On windows 11, 
 
 ##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-A float literal is half the size of a double and is represnted by a decimal `.`, a fractional part if needed an finished with a lower case `f`.  So `13.45` is of type **double** and `13.45f` is of type float. As you can can see floats can're represent fractional numbers as accurately and have less precision than doubles.
+A float literal is half the size of a double and is represnted by a decimal `.`, a fractional part if needed an finished with a lower case `f`.  So `13.45` is of type **double** and `13.45f` is of type float. As you can can see floats can're represent fractional numbers as accurately and have less precision than doubles. A float can only represent a number with 9 digitsfor the significand
 
 ![float type](images/floatType.png)
 
@@ -108,77 +108,29 @@ A float literal is half the size of a double and is represnted by a decimal `.`,
 
 ##### `Step 10.`\|`CPPOVR`| :large_blue_diamond:
 
-![alt_text](images/.png)
+The size of a float is only 4 bytes (32 bits) so it cannot store as accurate a reprentation of the number and has greater error than a double. 
+
+![size of float](images/sizeOfFloat.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+One thing we have to be very careful about is that even a variable of type float has no effect on the literal on the right side of the `=` operator.  If we divide two **integers** we will get an interger set to the float.  So `9/2` does not return `4.5`.
+
+![division with ints](images/carefulFloatDiv.png)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+It only takes one of the `literals` to be of type **float** and then the result will be fractional.
 
-![](../images/line2.png)
-
-##### `Step 13.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: 
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 16.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`CPPOVR`| :large_blue_diamond: :large_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`CPPOVR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
+![fractional division of floats](images/.png)
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Bools and Unsigned Ints"> -->
 
 ![next up - ](images/banner.png)
 
