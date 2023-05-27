@@ -28,7 +28,7 @@ Now when do we use floats and when do we use doubles?  In games audio samples te
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-So lets create a new variable of type `double PercentChanceOfRain` and lets give it a silly double literal of `664433.89998999;`.  Notice that when we print it out it rounds the number and doesn't show the entire decimal number stored.
+So lets create a new variable of type `double PercentChanceOfRain` and lets give it a silly double literal of `664433.89998999;`.  Notice that when we print it out it rounds the number and doesn't show the entire decimal number stored. Please note than any number we write with a decimal point (yes, even `3.`) is of type **double**. 
 
 ![double data type](images/doubleExample.png)
 
@@ -66,7 +66,7 @@ To read more look at [Floating-point error mitigation](https://en.wikipedia.org/
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/imprecise.png)
 
 ![](../images/line2.png)
 
