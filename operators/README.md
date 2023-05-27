@@ -54,7 +54,7 @@ Now we take the literal `2047 / 2` and it returns `1023` because we are dividing
 
 We can be more efficient with our sytax and express `Year = Year - 3` in a more compact form. Now we can accomplish the same result in a more compact for with the `-=` assignment operator. 
 
-“-”:This operator is combination of ‘-’ arithmetioc and ‘=’ assignment operator. This operator first adds the current value of the variable on left to the value on right and then assigns the result to the variable on the left. 
+“-”:This operator is combination of ‘-’ arithmetic operator and ‘=’ assignment operator (no space inbetween). This operator first adds the current value of the variable on left to the value on right and then assigns the result to the variable on the left. 
 
 Press the run button and you will notice that this produces the exact same result in a terser form.
 
