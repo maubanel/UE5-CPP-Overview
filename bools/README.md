@@ -37,7 +37,9 @@ However, it's important to note that using unsigned int also has some limitation
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-![alt_text](images/.png)
+
+
+![alt_text](images/boolAs1.png)
 
 ![](../images/line2.png)
 
