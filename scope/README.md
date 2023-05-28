@@ -47,7 +47,9 @@ Right click on the **Source** folder in the **Scope** project and *right click* 
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+So 
+
+![alt_text](images/topFunctionScope.png)
 
 ![](../images/line2.png)
 
