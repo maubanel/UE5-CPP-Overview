@@ -275,9 +275,13 @@ Now the `default:` case will run when all other cases fail, so it is the failsaf
 
 ##### `Step 16.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now lets move to the iteration statement **while** loop.  It will run what is after the statement as long as the **while** condition is true. So lets start and create an intege `int Countdown {10};`.
+Now lets move to the iteration statement **while** loop.  It will run what is after the statement as long as the **while** condition is true. So lets start and create an intege `int Countdown {10};`. So now while **Countdown > 0** it will continue looping and running the statement(s) between the curly braces.
 
-![alt_text](images/whileLoop.png)
+So in this case the first time through 
+
+1. 
+
+![while loop in action](images/whileLoop.png)
 
 ![](../images/line2.png)
 
