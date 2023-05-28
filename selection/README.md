@@ -221,7 +221,7 @@ Now we can string after an `if` statement as many `else if` statements as we nee
 
 Now lets look at the **switch statement**. First lets make sure we can use the shorthand for string by adding 
 
-cpp```using std::string```
+```using std::string```cpp
 
 to the top of the program.
 
