@@ -277,9 +277,20 @@ Now the `default:` case will run when all other cases fail, so it is the failsaf
 
 Now lets move to the iteration statement **while** loop.  It will run what is after the statement as long as the **while** condition is true. So lets start and create an intege `int Countdown {10};`. So now while **Countdown > 0** it will continue looping and running the statement(s) between the curly braces.
 
-So in this case the first time through 
+So in this case the while statement runs:
 
-1. 
+1. `10 >= 0` is true, so it runs and prints "10" then a newline then it decrements `Countdown` by `1` so it is now equal `9`.
+2. `9 >= 0` is true, so it runs and prints "9" then a newline then it decrements `Countdown` by `1` so it is now equal `8`.
+3. `8 >= 0` is true, so it runs and prints "8" then a newline then it decrements `Countdown` by `1` so it is now equal `7`.
+4. `7 >= 0` is true, so it runs and prints "7" then a newline then it decrements `Countdown` by `1` so it is now equal `6`.
+5. `6 >= 0` is true, so it runs and prints "7" then a newline then it decrements `Countdown` by `1` so it is now equal `5`.
+6. `5 >= 0` is true, so it runs and prints "5" then a newline then it decrements `Countdown` by `1` so it is now equal `4`.
+7. `4 >= 0` is true, so it runs and prints "4" then a newline then it decrements `Countdown` by `1` so it is now equal `3`.
+8. `3 >= 0` is true, so it runs and prints "3" then a newline then it decrements `Countdown` by `1` so it is now equal `2`.
+9. `2 >= 0` is true, so it runs and prints "2" then a newline then it decrements `Countdown` by `1` so it is now equal `1`.
+10. `1 >= 0` is true, so it runs and prints "1" then a newline then it decrements `Countdown` by `1` so it is now equal `0`.
+11. `0 >= 0` is true, so it runs and prints "0" then a newline then it decrements `Countdown` by `1` so it is now equal `-1`.
+12. `-1 >- 0` is false, so it stops looping and goes to line 98.
 
 ![while loop in action](images/whileLoop.png)
 
