@@ -47,9 +47,9 @@ Right click on the new **InitAssign** project and select **Set as Startup Projec
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Rigth click on **InitAssign** and select **Add | New Item**.  Call it `InitAssign.cpp`.
+Rigth click on **InitAssign** and select **Add | New Item...**.  Call it `InitAssign.cpp`. Press the <kbd>Add</kbd> button.
 
-![alt_text](images/addCppFile.png)
+![add a cpp file to project](images/addCppFile.png)
 
 ![](../images/line2.png)
 
