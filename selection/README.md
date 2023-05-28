@@ -269,7 +269,7 @@ Now change `State` to a value that is not in the switch statement.  I used `z`. 
 
 Now the `default:` case will run when all other cases fail, so it is the failsafe or `else` of the `switch` statement.
 
-![alt_text](images/defaultCase.png)
+![default case](images/defaultCase.png)
 
 ![](../images/line2.png)
 
