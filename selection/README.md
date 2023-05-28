@@ -298,7 +298,9 @@ So in this case the while statement runs:
 
 ##### `Step 17.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+The danger with `while` loops is to make sure we will ALWAYS hit an exit condition.  If we have a simple error such as incrementing `Countdown by 1` so it is always positive - then the program will never terminate and we will have an infinite loop.  Try it our yourself. 
+
+![infinite loop](images/infiniteLoop.png)
 
 ![](../images/line2.png)
 
