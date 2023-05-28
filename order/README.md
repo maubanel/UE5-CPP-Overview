@@ -23,13 +23,13 @@ Right click on the solution and select **Add | New Project...** then select a C+
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/orderOfOpsCpp.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/setAsStartup.png)
 
 ![](../images/line2.png)
 
