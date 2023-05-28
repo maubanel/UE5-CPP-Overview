@@ -92,7 +92,9 @@ Subtract `1` from `I` to get it back to `12`.  Then on the next line perform `I+
 
 ##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+
+
+![alt_text](images/moduloOrder.png)
 
 ![](../images/line2.png)
 
