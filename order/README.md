@@ -76,8 +76,9 @@ By using parentheses to explicitly group operations, you can control the order i
 
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-We have to be careful when using expressions as there are no standard mathematical rules for them.  When using 
-![alt_text](images/carefulBe.png)
+We have to be careful when using expressions as there are no standard mathematical rules for them.  When using expressions you may not get what you think.  So `++I * 2` when I is equal to `12` is not the equivalent of `I + 1 * 2` (which would be 24) but it resolves it as (I + 1) * 12 even though not expressed that way.  We get a result of `26`. 
+
+![be careful when using expression](images/carefulBe.png)
 
 ![](../images/line2.png)
 
