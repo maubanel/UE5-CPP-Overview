@@ -99,7 +99,7 @@ If we look at the visibility of variables within nested scopes. When you have ne
 
 Lets create another nested scope to see if we can still see the **I** that is equal to `20`.
 
-![alt_text](images/.png)
+![lexical scoping](images/scopeBubblesDown.png)
 
 ![](../images/line2.png)
 
