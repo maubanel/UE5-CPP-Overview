@@ -2,7 +2,7 @@
 
 ### Primitive Data Types - Bools and Unsigned Ints
 
-<sub>[previous](../fractions/README.md#user-content-primitive-data-types---fractions) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../)</sub>
+<sub>[previous](../fractions/README.md#user-content-primitive-data-types---fractions) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../init/README.md#user-content-initialization)</sub>
 
 ![](../images/line3.png)
 
@@ -103,5 +103,5 @@ We have to be very careful that when using any data type that we don't go beyond
 
 ![](../images/line.png)
 
-| [previous](../fractions/README.md#user-content-primitive-data-types---fractions)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../)|
+| [previous](../fractions/README.md#user-content-primitive-data-types---fractions)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../init/README.md#user-content-initialization)|
 |---|---|---|
