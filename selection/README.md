@@ -251,9 +251,9 @@ Now **Run** the program and you will see that it picks the `case `c`:` and perfo
 
 ##### `Step 13.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Change the initilization of `State` to `char State {'b'}`. Now you will get the `b` case to set the **MoodComment** variable.  Give it a shot.
 
-
-![alt_text](images/caseB.png)
+![state b case change](images/caseB.png)
 
 ![](../images/line2.png)
 
