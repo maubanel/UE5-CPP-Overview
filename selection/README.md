@@ -233,15 +233,19 @@ to the top of the program.
 
 ##### `Step 11.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: 
 
-The **[switch](https://en.cppreference.com/w/cpp/language/switch)** statement is used a lot in video games especially for a **[finite state machines](https://en.wikipedia.org/wiki/Finite-state_machine)** for objects.  A switch statement always has a variable that is passed in the parenthesis 
+The **[switch](https://en.cppreference.com/w/cpp/language/switch)** statement is used a lot in video games especially for a **[finite state machines](https://en.wikipedia.org/wiki/Finite-state_machine)** for objects.  A switch statement always has a variable that is passed in the parenthesis.
 
-![alt_text](images/switchStatement.png)
+We are going to switch on a `char State`.  We will have a coding where `b` will mean *busy*, `c` will mean *chase* and `h` will mean *hide*. We will start `State {'h'};`. We wil then switch on this variable and have the cases for each of the above letters.  We will have custom `MoodComment` string reflecting the state the player is in.
+
+![state switch statement](images/switchStatement.png)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now **Run** the program and you will see that it picks the `case `c`:` and performs the statements after until it gets to the `break`.
+
+![run program to show state message](images/caseChase.png)
 
 ![](../images/line2.png)
 
