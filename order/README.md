@@ -23,7 +23,7 @@ Right click on the solution and select **Add | New Project...** then select a C+
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-Right click on **OrderOfOps** project and select **Add | New Item...** and call this new file `OrderOfOps.cpp`. Press the <kbd>Add</kbd> button to add this file to your **Source** folder.
+*Right click* on **OrderOfOps** project and select **Add | New Item...** and call this new file `OrderOfOps.cpp`. Press the <kbd>Add</kbd> button to add this file to your **Source** folder.
 
 ![add OrderOfOps.cpp to source folder](images/orderOfOpsCpp.png)
 
@@ -31,13 +31,15 @@ Right click on **OrderOfOps** project and select **Add | New Item...** and call 
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Right click* on **OrderOfOps** project and select **Set as Startup Project** so this is the one that runs with the `main(){}` function.
+
 ![alt_text](images/setAsStartup.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/addOrderOfOpsProject.png)
 
 ![](../images/line2.png)
 
