@@ -275,7 +275,7 @@ Now the `default:` case will run when all other cases fail, so it is the failsaf
 
 ##### `Step 16.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/whileLoop.png)
 
 ![](../images/line2.png)
 
