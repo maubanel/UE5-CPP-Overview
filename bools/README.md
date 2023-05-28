@@ -61,25 +61,38 @@ Now going from any numeric typ to **bool** any non zero value will resolve to `t
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Even though a **bool** is only one bit (true or false), it takes an entire 8 bits or 1 byte of memory.  This is the smallest amount of memory you can access.
+
+![one byte bool](images/sizeOfBool.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+|Type|Typical Bit Width|Typical Range|
+|:----|:----|:----|
+|unsigned int|4bytes|0 to 4294967295|
+|signed int|4bytes|-2147483648 to 2147483647|
+
+An unsigned integer doubles the range of positive numbers it can hold.  Lets prove it by putting in the maximum positive range for an unsigned integer into a signed int.  In this case we get a result we may not expect (it has wrapped around).
+
+![unrecognizable result](images/unsignedIntRange.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now when you assign `4294967295` to an **unsigned int** we get the result we expect.
+
+![max unsigned int](images/unsignedRange.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+We have to be very careful that when using any data type that we don't go beyond the range.  If we add 1 to the largest number of an integer it wraps back to `0`.  This could cause major logic issues or even crash (divide by zero) - so you are cautioned.
+
+![alt_text](images/wrapBeyond.png)
 
 ![](../images/line2.png)
 
