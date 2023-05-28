@@ -21,6 +21,7 @@ This is a very quick overview of the foundation of the C++ language. It will cov
 <kbd></kbd> &nbsp;&nbsp; [Initialization](init/README.md#user-content-initialization) <br>
 <kbd></kbd> &nbsp;&nbsp; [Order of Operations](order/README.md#user-content-order-of-operations) <br>
 <kbd></kbd> &nbsp;&nbsp; [Selection and Iteration](selection/README.md#user-content-selection-and-iteration) <br>
+<kbd></kbd> &nbsp;&nbsp; [Scope](scope/README.md#user-content-scope) <br>
 
 <!-- LICENSE -->
 ## License
