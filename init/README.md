@@ -39,9 +39,9 @@ Right click on the solution file and select **Add | New Project...**. Then selec
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-Right click on the new InitAssign project and select Set as StartUp Project.
+Right click on the new **InitAssign** project and select **Set as StartUp Project**.
 
-![alt_text](images/.png)
+![set as start up project](images/setStartup.png)
 
 ![](../images/line2.png)
 
