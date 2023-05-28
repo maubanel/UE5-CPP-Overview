@@ -211,7 +211,9 @@ We can fix it by adding a third condition in between.  Between the `if` and the 
 
 ##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we can string after an `if` statement as many `else if` statements as we need.  But we can only have one `if` and one `else` statement. No other statement can run between thm otherwise it will not compile.  So we can add another `else if` to check if `I` is twice the size of `W` and if so print a special message. Fool around with changing I and W to different values and see if it works correctly. Now don't forget once a condition is true it stops running and breaks out of the entire **if - else if - else** chain.
+
+![alt_text](images/stringelseIfs.png)
 
 ![](../images/line2.png)
 
