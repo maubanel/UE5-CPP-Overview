@@ -39,7 +39,7 @@ Right click on the new **Scope** project and select `Set as Startup Project`.
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on the **Source** folder in the **Scope** project and *right click* and select **Add | Item..." and call it `Scope.cpp`.  Press the <kbd>Create</kbd> button.
+Right click on the **Source** folder in the **Scope** project and *right click* and select **Add | Item..." and call it `Scope.cpp`.  Press the <kbd>Add</kbd> button.
 
 ![create scope.cpp](images/addScopedotcpp.png)
 
