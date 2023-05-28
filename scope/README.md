@@ -55,13 +55,26 @@ So lets initialize a variable `I` to `{20}`.  Now this is only accessible in the
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-![alt_text](images/reInitI.png)
+Now if you remember we cannot reinitialize `I` within the same scope.  But we can put another set of `{}` to create a subscope and we can re-use the same variable name (but it will create a new piece of memory and will not overwirte the prior one).  So add:
+
+```cpp
+{
+    int I { 15 };
+    cout << "\nint I in main() {} is: " << I;
+}
+```
+
+You will notice that it prints out the two values as expected.
+
+![two I's in different scopes](images/reInitI.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now how can I prove that the original `I` is in scope after the subscope `I` exists.  Add a cout and see what `I` is set to.  If it is `15` thn it is one variable.  If it is `20`, then the previous I went out of scope and we see the one that is still in scope set above.
+
+![still in scope](images/proofOfScope.png)
 
 ![](../images/line2.png)
 
