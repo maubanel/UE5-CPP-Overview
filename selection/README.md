@@ -2,7 +2,7 @@
 
 ### Selection and Iteration
 
-<sub>[previous](../order/README.md#user-content-order-of-operations) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../)</sub>
+<sub>[previous](../order/README.md#user-content-order-of-operations) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../scope/README.md#user-content-scope)</sub>
 
 ![](../images/line3.png)
 
@@ -381,5 +381,5 @@ If we change `>=` to `>` then the countdown stops at `1` as `0 > 0` is false.
 
 ![](../images/line.png)
 
-| [previous](../order/README.md#user-content-order-of-operations)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../)|
+| [previous](../order/README.md#user-content-order-of-operations)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../scope/README.md#user-content-scope)|
 |---|---|---|
