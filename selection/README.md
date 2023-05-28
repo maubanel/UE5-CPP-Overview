@@ -187,7 +187,9 @@ Now if we make `I` equal `15` then `15 < 13` will return false and it will not r
 
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now if we add an `else` it will run the curly braces `{}` after if the **if statement** fails (condition is false).  So in this case it will print the opposite message.
+
+![else statement](images/ifGreater.png)
 
 ![](../images/line2.png)
 
