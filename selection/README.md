@@ -370,6 +370,7 @@ The `for` loop is widely used when you know the exact number of iterations you n
 
 ##### `Step 20.`\|`CPPOVR`| :large_blue_diamond: :large_blue_diamond:
 
+If we change `>=` to `>` then the countdown stops at `1` as `0 > 0` is false.
 ![alt_text](images/forAlternate.png)
 
 ![](../images/line.png)
