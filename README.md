@@ -19,6 +19,7 @@ This is a very quick overview of the foundation of the C++ language. It will cov
 <kbd></kbd> &nbsp;&nbsp; [Primitive Data Types - Fractions](fractions/README.md#user-content-primitive-data-types---fractions) <br>
 <kbd></kbd> &nbsp;&nbsp; [Primitive Data Types - Bools and Unsigned Ints](bools/README.md#user-content-primitive-data-types---bools-and-unsigned-ints) <br>
 <kbd></kbd> &nbsp;&nbsp; [Initialization](init/README.md#user-content-initialization) <br>
+<kbd></kbd> &nbsp;&nbsp; [Order of Operations](order/README.md#user-content-order-of-operations) <br>
 
 <!-- LICENSE -->
 ## License
