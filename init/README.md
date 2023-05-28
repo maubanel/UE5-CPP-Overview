@@ -47,7 +47,9 @@ Right click on the new **InitAssign** project and select **Set as Startup Projec
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Rigth click on **InitAssign** and select **Add | New Item**.  Call it `InitAssign.cpp`.
+
+![alt_text](images/addCppFile.png)
 
 ![](../images/line2.png)
 
