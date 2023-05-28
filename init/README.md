@@ -55,7 +55,9 @@ Rigth click on **InitAssign** and select **Add | New Item...**.  Call it `InitAs
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now when we first initialize a variable we need to include the type specifier.  So in this case we initialize `string FirstName` as `"Marc"`.  
+
+![initialize first name marc](images/initializeequals.png)
 
 ![](../images/line2.png)
 
