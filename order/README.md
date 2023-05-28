@@ -92,9 +92,16 @@ Subtract `1` from `I` to get it back to `12`.  Then on the next line perform `I+
 
 ##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+So `12 % 5 + 2 * 5` is solved thusly:
+
+1. The compiler first solves `12 % 5` (2 remainder 2) with a value of `2`.
+2.  Next it multipiles `2 * 5` for a result of `10`.
+3.  Finally it adds `2 + 10` for an answer of `12`.  
+
+Try it for yourself.
 
 
-![alt_text](images/moduloOrder.png)
+![12 % 5 + 2 * 5 = 12](images/moduloOrder.png)
 
 ![](../images/line2.png)
 
