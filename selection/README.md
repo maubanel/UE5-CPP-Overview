@@ -101,6 +101,76 @@ Right click on the **Source** folder in the **SelectionIteration** project and r
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+In C++, comparison operators are used to compare two values or expressions and evaluate their relationship. These operators return a Boolean value (`true` or `false`) based on the result of the comparison. Here's a brief explanation of the common comparison operators in C++:
+
+1. Equality Operator (`==`):
+   - Checks if two values are equal.
+   - Returns `true` if the values are equal, and `false` otherwise.
+   - Note that unlike `=` an assignment operator, an equality `==` operator returns whether the left hand and right hand side operand are the same 
+   
+   Example:
+   ```cpp
+   int x = 5;
+   int y = 7;
+   bool result = (x == y);  // false
+   ```
+
+2. Inequality Operator (`!=`):
+   - Checks if two values are not equal.
+   - Returns `true` if the values are not equal, and `false` if they are equal.
+   
+   Example:
+   ```cpp
+   int X = 5;
+   int Y = 7;
+   bool result = X != Y;  // true
+   ```
+
+3. Greater Than Operator (`>`):
+   - Checks if the left operand is greater than the right operand.
+   - Returns `true` if the condition is true, and `false` otherwise.
+   
+   Example:
+   ```cpp
+   int X = 5;
+   int Y = 7;
+   bool result = (X > Y);  // false
+   ```
+
+4. Less Than Operator (`<`):
+   - Checks if the left operand is less than the right operand.
+   - Returns `true` if the condition is true, and `false` otherwise.
+   
+   Example:
+   ```cpp
+   int X = 5;
+   int Y = 7;
+   bool result = (X < Y);  // true
+   ```
+
+5. Greater Than or Equal To Operator (`>=`):
+   - Checks if the left operand is greater than or equal to the right operand.
+   - Returns `true` if the condition is true, and `false` otherwise.
+   
+   Example:
+   ```cpp
+   int X = 5;
+   int Y = 7;
+   bool result = (X >= Y);  // false
+   ```
+
+6. Less Than or Equal To Operator (`<=`):
+   - Checks if the left operand is less than or equal to the right operand.
+   - Returns `true` if the condition is true, and `false` otherwise.
+   
+   Example:
+   ```cpp
+   int X = 5;
+   int Y = 7;
+   bool result = (X <= Y);  // true
+   ```
+These comparison operators are used to make logical comparisons between variables, values, or expressions and help in decision-making within your program. The result of the comparison can be used in control structures like `if` statements and loops to determine the flow of execution based on specific conditions.
+
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
