@@ -39,7 +39,7 @@ Right click on the solution and select **Add | New Project...** then select a C+
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a comment at the top of the project and include <iostream> and add a `main(){}` function.  Then we will do the following arithmetic: 12 + 13 * 2.  So C++ will follow mathematical order of operations and will multiply 13 * 2 first then add 12 which will give us a answer of `38`.
+Add a comment at the top of the project and include <iostream> and add a `main(){}` function.  Then we will do the following arithmetic: `12 + 13 * 2`.  So C++ will follow mathematical order of operations and will multiply `13 * 2` first then add `12` which will give us a answer of `38`.
 
 ![order of operations followed fro 12+13*2](images/standardOrderOfOps.png)
 
@@ -47,7 +47,30 @@ Add a comment at the top of the project and include <iostream> and add a `main()
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+In mathematics and programming, parentheses are used to indicate the grouping of operations and specify the order of evaluation. When an expression contains multiple sets of parentheses, the innermost parentheses are evaluated first, followed by the outer ones. This concept is known as the "order of operations" or "operator precedence."
+
+The order of operations is typically represented by the acronym PEMDAS (or BODMAS), which stands for:
+
+1. Parentheses: Operations within parentheses are evaluated first. Any expression enclosed in parentheses is treated as a separate unit and takes precedence over other operations.
+
+2. Exponents (or Powers): After evaluating parentheses, exponents are calculated. Exponentiation involves raising a number to a power. For example, in the expression `2^3`, the exponentiation operation raises 2 to the power of 3, resulting in 8.
+
+3. Multiplication and Division: After evaluating parentheses and exponents, multiplication and division operations are performed from left to right. These operations are given equal precedence, so they are evaluated in the order they appear in the expression.
+
+4. Addition and Subtraction: Lastly, addition and subtraction operations are performed from left to right. Like multiplication and division, these operations have equal precedence and are evaluated in the order they appear.
+
+It's important to note that parentheses can be nested, meaning that there can be multiple levels of parentheses within an expression. In such cases, the innermost set of parentheses is evaluated first, followed by the outer sets, moving outward until the entire expression is evaluated.
+
+Here's an example to illustrate the order of operations using parentheses:
+
+Expression: `(12 + 13) * 2`
+
+1. Evaluate the innermost set of parentheses: `(12 + 13)` equals `25`.
+2. Perform multiplication: `25 * 2` equals `50`.
+
+By using parentheses to explicitly group operations, you can control the order in which they are evaluated, ensuring that your expressions are calculated correctly according to the intended logic. It is sometimes good to include parenthesis such as 12 + (13 * 2) even if not necessary to be very explicit about what you are doing.
+
+![changing order of operations](images/followBrackets.png)
 
 ![](../images/line2.png)
 
