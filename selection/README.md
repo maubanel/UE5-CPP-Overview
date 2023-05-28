@@ -314,7 +314,57 @@ Fix the bug and return it to normal.
 
 ##### `Step 19.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/forLoop.png)
+The above is a poor use of a while statement.  We would normally only us it when we do not know how many times we need to go in the loop before it exits.  So we might be moving out of a collision area when we enter it a cm at a time.
+
+But when we just want to interate so many times, like this countdown timer then an iteration statement `for` loop is more appropriate.
+
+The `for` loop is a control flow statement that allows you to repeatedly execute a block of code for a fixed number of iterations. It consists of three main components:
+
+1. Initialization: You start by initializing a loop variable before the loop begins. This variable is typically used to control the number of iterations.
+
+2. Condition: Next, you specify a condition that is checked before each iteration. If the condition evaluates to `true`, the loop continues. If it evaluates to `false`, the loop is terminated, and the program proceeds to the next line of code after the loop.
+
+3. Update: After each iteration, an update statement is executed. It typically modifies the loop variable in some way, such as incrementing or decrementing its value.
+
+The general syntax of the `for` loop in C++ is as follows:
+
+```cpp
+for (initialization; condition; update) {
+    // Code to be executed in each iteration
+}
+```
+
+Here's a simple example that prints the numbers from 1 to 5:
+
+```cpp
+for (int Countdown = 10; Coutndown >= 0; --Countdown) {
+    cout << i << " ";
+}
+```
+
+Explanation:
+- Initialization: `int Countdown = 10` initializes the loop variable `Countdown` with the value 10.
+- Condition: `Countdown >= 0` checks if `Countdown` is greater or equal to 0. If true, the loop continues; otherwise, it terminates.
+- Update: `--Countdown` decrements the value of `Countdown` by 1 after each iteration.
+
+In each iteration, the value of `Countdown` is printed using `cout`. The loop continues until `Countdown` reaches -1 (the condition `Countdown <>= 0` becomes false). Therefore, the output of the above code will be: 
+```
+10 
+9 
+8
+7 
+6 
+5 
+4 
+3 
+2 
+1 
+0
+```
+
+The `for` loop is widely used when you know the exact number of iterations you need to perform. It provides a concise way to control repetitive tasks in your program. Give it a try.
+
+![for loop countdown](images/forLoop.png)
 
 ![](../images/line2.png)
 
