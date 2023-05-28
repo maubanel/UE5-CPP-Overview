@@ -15,7 +15,7 @@ Operator precedence: C++ follows the standard mathematical operator precedence r
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-Right click on the 
+Right click on the solution and select **Add | New Project...** then select a C++ **Empty Project** and press the <kbd>Next</kbd> button. Call the new project `OrderOfOps`
 
 ![alt_text](images/addOrderOfOpsProject.png)
 
