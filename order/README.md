@@ -6,15 +6,18 @@
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+The C++ compiler will perform mathematical operations in the [correct order](https://en.cppreference.com/w/cpp/language/operator_precedence).  Look at the link to get a full description of what order of operations C++ uses on non-mathematical operations.
 
+Operator precedence: C++ follows the standard mathematical operator precedence rules, such as multiplication and division being evaluated before addition and subtraction. However, if you have a complex expression with multiple operators, it's important to use parentheses to clarify the intended order of operations.
 <br>
 
 ---
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Right click on the 
+
+![alt_text](images/addOrderOfOpsProject.png)
 
 ![](../images/line2.png)
 
