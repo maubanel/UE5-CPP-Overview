@@ -135,7 +135,7 @@ If the value is always converted to an equal or greater amount of memory (how ma
 
 So in the below example we able to add a `bool` with a `char` and assign it to an `int` as these are safe conversions.
 
-So in this case I am adding to 
+So in this case I am adding to **ascii** value of `65` (A) with a boolean of `1` (true) which will convert to `66` in the stream.
 
 ![safe conversion](images/safeConversion.png)
 
