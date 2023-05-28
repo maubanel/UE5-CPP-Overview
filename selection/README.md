@@ -203,7 +203,9 @@ We now have a potential bug with this logic.  What is I and W are the same value
 
 ##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+We can fix it by adding a third condition in between.  Between the `if` and the `else` we can have as many `if else` statements as we need.  Here we will use one for now. Inbetween the **if** and the **else**, add the following statement and message.
+
+![add same message in else if](images/valueIsSame.png)
 
 ![](../images/line2.png)
 
