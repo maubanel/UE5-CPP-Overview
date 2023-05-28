@@ -55,7 +55,7 @@ Rigth click on **InitAssign** and select **Add | New Item...**.  Call it `InitAs
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now when we first initialize a variable we need to include the type specifier.  So in this case we initialize `string FirstName` as `"Marc"`.  
+Now when we first initialize a variable we need to include the type specifier.  So in this case we **initialize** `string FirstName` as `"Marc"`.  We then **assign** `"Phil"` to `FirstName` (no type specifier) so the variable now holds a new value. We output it to the output stream using `std::cout` and we see the lates value that was assigned **Phil** in cout.
 
 ![initialize first name marc](images/initializeequals.png)
 
@@ -63,7 +63,9 @@ Now when we first initialize a variable we need to include the type specifier.  
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Now in C++ 11, you can use braces {} to initialize variables with an initializer list. This feature is commonly referred to as "uniform initialization" or "brace initialization." This stops us from having the same symbol `=` for both initializing and assigning.
+
+![initialize LastName variable using curly braces](images/initializeCurly.png)
 
 ![](../images/line2.png)
 
