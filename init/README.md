@@ -117,7 +117,27 @@ We can use pretty much any literal inside the curly braces for the `{}` initiali
 
 ##### `Step 12.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Why should we use this initializer (aside from being more intentional with our syntax)? Using {} for initialization offers several benefits, such as preventing narrowing conversions and enabling consistent initialization syntax across different types. It also helps avoid issues related to uninitialized variables.
+
+The C++ compiler does not enforce type safety (legacy of being backwards compatible with C).  So it is up to us to make sure that that when we are initializing and assigning values between types, that we are doing it safely. 
+
+Why are these conversions safe?
+
+* bool to char 
+* bool to int 
+* bool to double 
+* bool to float
+* char to int 
+* char to double 
+* int to double
+
+If the value is always converted to an equal or greater amount of memory (how many bytes) then it is a safe conversion.  So bool is either `0` or `1` which is represented in all forms of `char`, `int`, `uint`, `double` or `floats`. Also the largest `int` is not greater than 17 digits so it can be represented by a double. But as you noticed for very large integers it is possible that there could be a loss of precision on some computers - this is something we need to be aware of.
+
+So in the below example we able to add a `bool` with a `char` and assign it to an `int` as these are safe conversions.
+
+So in this case I am adding to 
+
+![safe conversion](images/safeConversion.png)
 
 ![](../images/line2.png)
 
