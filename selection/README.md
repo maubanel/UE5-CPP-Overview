@@ -259,13 +259,17 @@ Change the initilization of `State` to `char State {'b'}`. Now you will get the 
 
 ##### `Step 14.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now change `State` to a value that is not in the switch statement.  I used `z`.  Now nothing prints as none of the cases are true.  How can we have the equivalent of an else for something to run if all cases fail?
+
+![state fails to select any cases](images/noCase.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Now the `default:` case will run when all other cases fail, so it is the failsafe or `else` of the `switch` statement.
+
+![alt_text](images/defaultCase.png)
 
 ![](../images/line2.png)
 
