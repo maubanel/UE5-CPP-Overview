@@ -84,7 +84,7 @@ We have to be careful when using expressions as there are no standard mathematic
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Subtract `1` from `I` to get it back to `12`.  Then on the next line perform `I++ * 2`.  Now since the `++` operator will run after the statement, this will be interpreted as `12 * 2`.  I will be incremented after the statement.
+Subtract `1` from `I` to get it back to `12`.  Then on the next line perform `I++ * 2`.  Now since the `++` operator will run after the statement, this will be interpreted as `12 * 2`.  The variable `I` will be incremented after the statement.
 
 ![alt_text](images/moreBeware.png)
 
