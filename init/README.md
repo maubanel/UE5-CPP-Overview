@@ -31,13 +31,15 @@ In C++ 11 they introduced an initilization method using `{}` curly braces.  Lets
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-Right click on the solution file and select Add | New Project. Then select a Console App and press Next. Call it InitAssign then press the Create button. Right click on the new InitAssign project and select Set as StartUp Project.
+Right click on the solution file and select Add | New Project. Then select a Empty C++ Project and press the <kbd>Next</button>. Call it `InitAssign` then press the <kbd>Create</kbd> button. 
 
-![alt_text](images/.png)
+![create new InitAssign project](images/initProject.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
+
+Right click on the new InitAssign project and select Set as StartUp Project.
 
 ![alt_text](images/.png)
 
