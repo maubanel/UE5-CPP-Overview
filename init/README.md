@@ -87,9 +87,9 @@ Comment out the line that doesn't compile. We can still change the variable by a
 
 ##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we can also declare a variable without initializing it.
+Now we can also declare a variable without initializing it. So here we have a `double TemperatureUninit` without an initilalizer.  Now on line 34 when we go to output it to the console we get an error saying this was not initialized.  If this variable was accessed dynamically during a game it would crash the simulation.  So it is a good idea to always initialize the variable at the same time or close to where you declare it.
 
-![alt_text](images/uninitializedVariable.png)
+![accessign non-initialized variable does not compile](images/uninitializedVariable.png)
 
 ![](../images/line2.png)
 
