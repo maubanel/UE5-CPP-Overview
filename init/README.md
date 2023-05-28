@@ -172,7 +172,9 @@ So the safest way to initialize a variable is using the `{}` syntax as the compi
 
 ##### `Step 15.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+On the very first section where we looked at integers we could set them to a double.  Using the `{}` you will get a narrowing conversion error again, telling you that data will be lost in the initilization.
+
+![second narrowing conversion](images/narrowingError2.png)
 
 ![](../images/line2.png)
 
