@@ -22,7 +22,7 @@ if (ConditionIsTrue)
 
 * **switch statement**: The switch statement provides a way to select one of many code blocks to execute based on the value of a variable. It allows you to compare the variable against multiple cases and execute the code corresponding to the matching case. The switch statement also supports a default case for handling values that do not match any of the cases.
 
-pseudocode:
+* pseudocode:
 ```
 switch(variable)
 {
@@ -42,7 +42,7 @@ switch(variable)
 
 * **while loop**: The while loop repeatedly executes a block of code as long as a given condition remains true. It checks the condition before each iteration, and if the condition evaluates to true, the code block is executed. The loop continues until the condition becomes false.
 
-pseudocode:
+* pseudocode:
 ```
 while(true)
 {
@@ -54,7 +54,7 @@ while(true)
 
 * **for loop**: The for loop allows you to repeatedly execute a block of code for a fixed number of iterations. It typically consists of an initialization statement, a condition for continuing the loop, an update statement, and the code to be executed in each iteration.
 
-pseudocode:
+* pseudocode:
 ```
 for (startingpoint = some value; continue to run condition; increment startingpoint)
 {
