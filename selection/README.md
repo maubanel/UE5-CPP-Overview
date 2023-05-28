@@ -251,7 +251,9 @@ Now **Run** the program and you will see that it picks the `case `c`:` and perfo
 
 ##### `Step 13.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+
+
+![alt_text](images/caseB.png)
 
 ![](../images/line2.png)
 
