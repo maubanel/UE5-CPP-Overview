@@ -314,23 +314,17 @@ Fix the bug and return it to normal.
 
 ##### `Step 19.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/forLoop.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`CPPOVR`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`CPPOVR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
+![alt_text](images/forAlternate.png)
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Scope"> -->
 
 ![next up - ](images/banner.png)
 
