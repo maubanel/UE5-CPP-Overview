@@ -95,13 +95,17 @@ Now we can also declare a variable without initializing it. So here we have a `d
 
 ##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now even if we don't know yet what value to assign we can use the default initializer for the type `{}`.  For the numerical types this defaults the number to `0` (the compiler sets it for us).
+
+![default initializer](images/defaultInitializer.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`CPPOVR`| :large_blue_diamond:
 
-![alt_text](images/.png)
+We can use pretty much any literal inside the curly braces for the `{}` initializer.  So we can perform mathematical operations easily.
+
+![math literal](images/mathLiteral.png)
 
 ![](../images/line2.png)
 
