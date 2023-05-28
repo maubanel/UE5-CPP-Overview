@@ -79,7 +79,9 @@ Notice that this is just for initializing.  If we try and assign with the {} ini
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/assignwithEqualsagain.png)
+Comment out the line that doesn't compile. We can still change the variable by assigning it a new value with the `=` assignment operator.  
+
+![assignment operator compiles](images/assignwithEqualsagain.png)
 
 ![](../images/line2.png)
 
