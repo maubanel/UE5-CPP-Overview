@@ -77,9 +77,9 @@ for (startingpoint = some value; continue to run condition; increment startingpo
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-Start a brand new **Empty App** project and solution in Visual Studio 19. Call it `Statements`.
+Start a brand new **Empty Project** in C++ by *right clicking* on the solution in Visual Studio 19. Call it `SelectionIteration` and press the <kbd>Create</kbd> button.
 
-![alt_text](images/selectionIterationProject.png)
+![create SelectionIteration Project](images/selectionIterationProject.png)
 
 ![](../images/line2.png)
 
