@@ -219,7 +219,9 @@ Now we can string after an `if` statement as many `else if` statements as we nee
 
 ##### `Step 10.`\|`CPPOVR`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Now lets look at the **switch statement**. First lets make sure we can use the shorthand for string.
+
+![alt_text](images/includeString.png)
 
 ![](../images/line2.png)
 
