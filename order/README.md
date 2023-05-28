@@ -39,7 +39,7 @@ Right click on the solution and select **Add | New Project...** then select a C+
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/addOrderOfOpsProject.png)
+![alt_text](images/standardOrderOfOps.png)
 
 ![](../images/line2.png)
 
