@@ -137,7 +137,20 @@ So in this case I am adding to **ascii** value of `65` (A) with a boolean of `1`
 
 ##### `Step 12.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Why are these conversions unsafe?
+
+* double to int 
+* double to char 
+* double to bool 
+* int to char 
+* int to bool 
+* char to bool
+
+Essentially we are trying to fit a gallon of liquid inside a cup.  The data type conversion is going from a larger container (number digits stored) to a smaller one.
+
+So when we try to go from `int` to 
+
+![alt_text](images/unsafeConversion.png)
 
 ![](../images/line2.png)
 
