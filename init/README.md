@@ -2,7 +2,7 @@
 
 ### Initialization
 
-<sub>[previous](../bools/README.md#user-content-primitive-data-types---bools-and-unsigned-ints) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../)</sub>
+<sub>[previous](../bools/README.md#user-content-primitive-data-types---bools-and-unsigned-ints) • [home](../README.md#user-content-ue5-cpp-overview) • [next](../order/README.md#user-content-order-of-operations)</sub>
 
 ![](../images/line3.png)
 
@@ -184,5 +184,5 @@ On the very first section where we looked at integers we could set them to a dou
 
 ![](../images/line.png)
 
-| [previous](../bools/README.md#user-content-primitive-data-types---bools-and-unsigned-ints)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../)|
+| [previous](../bools/README.md#user-content-primitive-data-types---bools-and-unsigned-ints)| [home](../README.md#user-content-ue5-cpp-overview) | [next](../order/README.md#user-content-order-of-operations)|
 |---|---|---|
