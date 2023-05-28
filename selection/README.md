@@ -6,7 +6,62 @@
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+In C++, there are selection and iteration operators that allow you to make decisions and repeat actions based on certain conditions. Here's a brief explanation of a selection of these operators:
+
+**Selection Operators:**
+
+* **if statement**: The if statement allows you to perform conditional execution of code. It evaluates a condition and executes a block of code if the condition is true. Optionally, you can include else and else if clauses to handle alternative conditions.
+
+pseudocode:
+```
+if (ConditionIsTrue)
+{
+  ...Add logic to run if variable ConditionIsTrue is true
+}
+```
+
+* **switch statement**: The switch statement provides a way to select one of many code blocks to execute based on the value of a variable. It allows you to compare the variable against multiple cases and execute the code corresponding to the matching case. The switch statement also supports a default case for handling values that do not match any of the cases.
+
+pseudocode:
+```
+switch(variable)
+{
+    case 1:
+    // do something
+    break;
+
+    case 2: 
+    // do something different
+    break;
+
+    default:
+    // if none of the above cases apply always do the following
+    break;
+}
+```
+
+* **while loop**: The while loop repeatedly executes a block of code as long as a given condition remains true. It checks the condition before each iteration, and if the condition evaluates to true, the code block is executed. The loop continues until the condition becomes false.
+
+pseudocode:
+```
+while(true)
+{
+    // do something
+}
+// the above will keep runing until the while statement changes to false
+
+```
+
+* **for loop**: The for loop allows you to repeatedly execute a block of code for a fixed number of iterations. It typically consists of an initialization statement, a condition for continuing the loop, an update statement, and the code to be executed in each iteration.
+
+pseudocode:
+```
+for (startingpoint = some value; continue to run condition; increment startingpoint)
+{
+    // do something over and over until run condition above is false
+}
+
+```
 
 <br>
 
