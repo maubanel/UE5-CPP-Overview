@@ -24,7 +24,6 @@ Assignment can be done as many times as you need throughout your program, allowi
 
 In C++ 11 they introduced an initilization method using `{}` curly braces.  Lets look at both of these methods.
 
-
 <br>
 
 ---
