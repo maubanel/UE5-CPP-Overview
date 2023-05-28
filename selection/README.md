@@ -219,7 +219,9 @@ Now we can string after an `if` statement as many `else if` statements as we nee
 
 ##### `Step 10.`\|`CPPOVR`| :large_blue_diamond:
 
-Now lets look at the **switch statement**. First lets make sure we can use the shorthand for string.
+Now lets look at the **switch statement**. First lets make sure we can use the shorthand for string by adding 
+
+cpp```using std::string```
 
 ![alt_text](images/includeString.png)
 
