@@ -12,7 +12,7 @@ In C++, there are selection and iteration operators that allow you to make decis
 
 * **if statement**: The if statement allows you to perform conditional execution of code. It evaluates a condition and executes a block of code if the condition is true. Optionally, you can include else and else if clauses to handle alternative conditions.
 
-pseudocode:
+* pseudocode:
 ```
 if (ConditionIsTrue)
 {
