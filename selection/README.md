@@ -179,7 +179,9 @@ So in this **if statement** we are checking if `12 < 13`.  If this resolves to t
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Now if we make `I` equal `15` then `15 < 13` will return false and it will not run what is between the curly braces.  In this case it just ends the program by returning `0`.
+
+![if fails](images/NothingRuns.png)
 
 ![](../images/line2.png)
 
