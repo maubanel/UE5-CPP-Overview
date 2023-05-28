@@ -16,7 +16,15 @@ In C++, there are selection and iteration operators that allow you to make decis
 ```
 if (ConditionIsTrue)
 {
-  ...Add logic to run if variable ConditionIsTrue is true
+  //...Add logic to run if variable ConditionIsTrue is true
+}
+else if (anotherConditionIsTrue)
+{
+    //runs if first condition is false, can have as many else if's as we need
+}
+else
+{
+    // runs if all ifs and else ifs are false
 }
 ```
 
