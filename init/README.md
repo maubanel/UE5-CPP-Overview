@@ -87,7 +87,9 @@ Comment out the line that doesn't compile. We can still change the variable by a
 
 ##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we can also declare a variable without initializing it.
+
+![alt_text](images/uninitializedVariable.png)
 
 ![](../images/line2.png)
 
