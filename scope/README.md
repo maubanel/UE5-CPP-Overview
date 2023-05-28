@@ -104,8 +104,9 @@ Lets create another nested scope to see if we can still see the **I** that is eq
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`CPPOVR`| :large_blue_diamond:
+Now we can check to make sure that we cannot see variables in inner scopes.  This is because **X** is destroyed when it leaves scope `}`. Then you get an error saying it can't find the variable.  Now comment that final line out and that is it for this exercise.
 
-![alt_text](images/lexicalScopeFalse.png)
+![can't access inner scope](images/lexicalScopeFalse.png)
 
 ![](../images/line.png)
 
