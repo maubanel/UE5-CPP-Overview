@@ -76,7 +76,8 @@ By using parentheses to explicitly group operations, you can control the order i
 
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+We have to be careful when using expressions as there are no standard mathematical rules for them.  When using 
+![alt_text](images/carefulBe.png)
 
 ![](../images/line2.png)
 
