@@ -164,7 +164,9 @@ So if we try and do the same things and set a `bool` using the `{}` initializer 
 
 ##### `Step 14.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+So the safest way to initialize a variable is using the `{}` syntax as the compiler will prevent you from making a narrowing conversion at compile time.
+
+![best way to initialize using {}](images/safestConversion.png)
 
 ![](../images/line2.png)
 
