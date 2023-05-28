@@ -223,6 +223,8 @@ Now lets look at the **switch statement**. First lets make sure we can use the s
 
 cpp```using std::string```
 
+to the top of the program.
+
 ![alt_text](images/includeString.png)
 
 ![](../images/line2.png)
