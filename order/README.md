@@ -39,7 +39,9 @@ Right click on the solution and select **Add | New Project...** then select a C+
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/standardOrderOfOps.png)
+Add a comment at the top of the project and include <iostream> and add a `main(){}` function.  Then we will do the following arithmetic: 12 + 13 * 2.  So C++ will follow mathematical order of operations and will multiply 13 * 2 first then add 12 which will give us a answer of `38`.
+
+![order of operations followed fro 12+13*2](images/standardOrderOfOps.png)
 
 ![](../images/line2.png)
 
