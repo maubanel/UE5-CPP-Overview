@@ -77,7 +77,9 @@ for (startingpoint = some value; continue to run condition; increment startingpo
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Start a brand new **Empty App** project and solution in Visual Studio 19. Call it `Statements`.
+
+![alt_text](images/selectionIterationProject.png)
 
 ![](../images/line2.png)
 
