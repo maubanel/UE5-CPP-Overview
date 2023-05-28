@@ -47,9 +47,9 @@ Right click on the **Source** folder in the **Scope** project and *right click* 
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-So 
+So lets initialize a variable `I` to `{20}`.  Now this is only accessible in the `main() {//I can only be accessed here}` function and will only be accessible between the parenthesis.  Once it returns 0 and leaves the function the memory is given back to the computer and is no longer used by the program. Remember variables are destroyed when the block is exited.
 
-![alt_text](images/topFunctionScope.png)
+![I in function scope](images/topFunctionScope.png)
 
 ![](../images/line2.png)
 
