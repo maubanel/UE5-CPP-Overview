@@ -80,17 +80,24 @@ Now how can I prove that the original `I` is in scope after the subscope `I` exi
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now a for loop since it uses curly braces `{}` is also in its own scope.  So we can create a third version of `I` variable that will be destryoyed when it exits the for loop.
+
+![for loop scope](images/forLoopScope.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+And again, we can print **I** after the loop and it is still set to `20` and was not affected by the lower scope in the **for** loop.
 
-![alt_text](images/.png)
+![alt_text](images/forLoopDoesntDoestryI.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+If we look at the visibility of variables within nested scopes. When you have nested scopes, the innermost scope can access variables defined in the outer scopes, but the outer scopes cannot access variables defined in the inner scopes. This concept is often referred to as "lexical scoping" or "static scoping."
+
+Lets create another nested scope to see if we can still see the **I** that is equal to `20`.
 
 ![alt_text](images/.png)
 
