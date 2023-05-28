@@ -111,12 +111,6 @@ We can use pretty much any literal inside the curly braces for the `{}` initiali
 
 ##### `Step 11.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 12.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
 Why should we use this initializer (aside from being more intentional with our syntax)? Using {} for initialization offers several benefits, such as preventing narrowing conversions and enabling consistent initialization syntax across different types. It also helps avoid issues related to uninitialized variables.
 
 The C++ compiler does not enforce type safety (legacy of being backwards compatible with C).  So it is up to us to make sure that that when we are initializing and assigning values between types, that we are doing it safely. 
@@ -138,6 +132,12 @@ So in the below example we able to add a `bool` with a `char` and assign it to a
 So in this case I am adding to **ascii** value of `65` (A) with a boolean of `1` (true) which will convert to `66` in the stream.
 
 ![safe conversion](images/safeConversion.png)
+
+![](../images/line2.png)
+
+##### `Step 12.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
