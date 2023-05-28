@@ -171,7 +171,9 @@ In C++, comparison operators are used to compare two values or expressions and e
    ```
 These comparison operators are used to make logical comparisons between variables, values, or expressions and help in decision-making within your program. The result of the comparison can be used in control structures like `if` statements and loops to determine the flow of execution based on specific conditions.
 
-![alt_text](images/.png)
+So in this **if statement** we are checking if
+
+![alt_text](images/ifStatement.png)
 
 ![](../images/line2.png)
 
