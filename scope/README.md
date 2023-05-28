@@ -55,7 +55,7 @@ So lets initialize a variable `I` to `{20}`.  Now this is only accessible in the
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/reInitI.png)
 
 ![](../images/line2.png)
 
