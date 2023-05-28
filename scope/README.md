@@ -31,15 +31,17 @@ Right click on the solution file and select **Add | New Project**.  Then select 
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-Right click on the new **Scope** project and select `Set as StartUp Project`.  
+Right click on the new **Scope** project and select `Set as Startup Project`.  
 
-![alt_text](images/.png)
+![select as startup](images/setAsStartup.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Right click on the **Source** folder in the **Scope** project and *right click* and select **Add | Item..." and call it `Scope.cpp`.  Press the <kbd>Create</kbd> button.
+
+![create scope.cpp](images/addScopedotcpp.png)
 
 ![](../images/line2.png)
 
