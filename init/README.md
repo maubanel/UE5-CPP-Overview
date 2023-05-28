@@ -148,15 +148,17 @@ Why are these conversions unsafe?
 
 Essentially we are trying to fit a gallon of liquid inside a cup.  The data type conversion is going from a larger container (number digits stored) to a smaller one.
 
-So when we try to go from `int` to 
+So when we try to go from `int` to `bool` using the `=` initialization operator the compiler lets us and will convert it to `1`.  This is the downside of using `=` as the initializer.
 
-![alt_text](images/unsafeConversion.png)
+![unsafe conversion using =](images/unsafeConversion.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+So if we try and do the same things and set a `bool` using the `{}` initializer to an `int` literal of `2` - we get a compile error.  So the compiler will tell us that you are trying to make a narrowing conversion.  So it is safer to use the `{}` as the compiler will tell you when you are doing something that might not produce the result you want.
+
+![narrowing error intializer](images/narrowingCompilerError.png)
 
 ![](../images/line2.png)
 
