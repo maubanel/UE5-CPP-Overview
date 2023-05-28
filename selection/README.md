@@ -298,7 +298,7 @@ So in this case the while statement runs:
 
 ##### `Step 17.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-The danger with `while` loops is to make sure we will ALWAYS hit an exit condition.  If we have a simple error such as incrementing `Countdown by 1` so it is always positive - then the program will never terminate and we will have an infinite loop.  Try it our yourself. 
+The danger with `while` loops is to make sure we will ALWAYS hit an exit condition.  If we have a simple error such as incrementing `Countdown by 1` so it is always positive - then the program will never terminate and we will have an infinite loop.  Try it our yourself. We want to avoid this at all cost!
 
 ![infinite loop](images/infiniteLoop.png)
 
@@ -306,7 +306,9 @@ The danger with `while` loops is to make sure we will ALWAYS hit an exit conditi
 
 ##### `Step 18.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Fix the bug and return it to normal.
+
+![fix infinite loop bug](images/infiniteLoop.png)
 
 ![](../images/line2.png)
 
