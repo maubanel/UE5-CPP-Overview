@@ -85,13 +85,17 @@ Start a brand new **Empty Project** in C++ by *right clicking* on the solution i
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Right click on the **SelectionIteration** project and select **Set as Startup Project**.
+
+![set as startup project](images/startUpProject.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Right click on the **Source** folder in the **SelectionIteration** project and right click and **Add | New Item...**.  Call it `SelectionIteration.cpp`.
+
+![add selectioniteraction.cpp to source folder in project](images/addNewItem.png)
 
 ![](../images/line2.png)
 
