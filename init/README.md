@@ -63,7 +63,7 @@ Now when we first initialize a variable we need to include the type specifier.  
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-Now in C++ 11, you can use braces {} to initialize variables with an initializer list. This feature is commonly referred to as "uniform initialization" or "brace initialization." This stops us from having the same symbol `=` for both initializing and assigning.
+Now in C++ 11, you can use braces {} to initialize variables with an initializer list. This feature is commonly referred to as "uniform initialization" or "brace initialization." This stops us from having the same symbol `=` for both initializing and assigning. In this example we initialize `LastName {"Aubanel"} without usign the equals sign.
 
 ![initialize LastName variable using curly braces](images/initializeCurly.png)
 
@@ -71,7 +71,9 @@ Now in C++ 11, you can use braces {} to initialize variables with an initializer
 
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Notice that this is just for initializing.  If we try and assign with the {} initializer we get an error.
+
+![compile error for assigning with initializer](images/compileError.png)
 
 ![](../images/line2.png)
 
