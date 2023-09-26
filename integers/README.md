@@ -126,7 +126,7 @@ Now if you compile and run you will get it to print the literal value stored in 
 
 ##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now when we do not use a `.`, the literal is type *integer*.  If we use a decimal points `2045.55` it is literal type *double*.  So what happens if we define our declared integer with a double value what happens?
+Now when we do not use a `.`, the literal is type *integer*.  If we use a decimal points `2045.55` it is literal type *double*.  So what happens if we define our declared integer with a double value?
 
 ![assigning double to integer](images/coutIntBasic3.png)
 
