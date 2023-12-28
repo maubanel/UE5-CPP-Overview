@@ -81,18 +81,22 @@ This has us in the LSUCPPOverview solution with a **HellowWorld** project.  This
 
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-Now Visual Studio defaults to C++ 14 so lets change it to C++ 17.  Go to **Project | CPPOverview Properties** and open up **C/C++** and select **Language**.  Double click the language until you get to **ISO C++17 Standard**.  Press the <kbd>Apply</kbd> then <kbd>OK</kbd> buttons.
+Now Visual Studio and Rider defaults to C++ 14 but Unreal uses C++ 17 (it does not use the latest version).  So lets change our project to Match Unreal's to C++ 17.  *Right click* on the **Project** and select **Properties**. Change the **General | C++ Languages Stardard** to `ISO C++17 Standard`.  Press the  <kbd>OK</kbd> buttons.
 
-![change to cpp 17](images/setCPP17.png)
+![change to cpp 17](images/riderCPPVersion.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-You should get a stubbed in project that prints "Hello World" to console.  First lets look at the elements.  We include the `<iostream>` libraries.  This includes the global object `std::cout` that controls the output stream buffer.  This allows us to access the stream that eventually gets sent to the console. <br><br>`std` is the namespace that represents the word \'standard\' which are built in **C++** libraries available on all platforms including **Windows** which we are working on now.<br><br>`"Hello World\n"` is a string with a new line (`\n`) which gets stored as a single character.<br><br>All lines that begin with `//` are comments and are not compiled into the final project.  These are here for you to read and explain to yourself and other developers the intent of what you are trying to do.
+We need to print the words **Hello World!**.  We will need to output to the character stream and use a library called `iostream`.  On the very top you need to add it by typing `#include <iostream>`. 
 
-![A screenshot of the default www.onlinegdb.com webpage with C++14 selected](images/SelectCPPLanguage.jpg)
+Now within the **Main** function before it `return 0` you will add to the output stream with `std::cout << "Hello World \n";`.  This outputs to the stream the characters that appear within the parenthesis (`"`). 
+
+It is the included the `<iostream>` libraries that allow us to access `cout` in the `std` namespace.  This global object `std::cout` controls the output stream buffer.  This allows us to access the stream that eventually gets sent to the console. <br><br>`std` is the namespace that represents the word \'standard\' which are built in **C++** libraries available on all platforms including **Windows** which we are working on now.<br><br>`"Hello World\n"` is a string with a new line (`\n`) which gets stored as a single character.<br><br>All lines that begin with `//` are comments and are not compiled into the final project.  These are here for you to read and explain to yourself and other developers the intent of what you are trying to do.
+
+![A screenshot of the default www.onlinegdb.com webpage with C++14 selected](images/addCOUTHW.png)
 
 ![](../images/line2.png)
 
