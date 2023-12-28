@@ -124,7 +124,7 @@ Single line comments use `//`.
 
 C is completely compatible inside of C++.  So we can also print using the older C style format which is used extensively in Unreal.
 
-There are always more than one way to skin a cat, so we can also call a function called `printf` and pass it the "Hello World" string as a parameter. Run it by pressing the green run button or `F5` and notice that it should have the same end result. Notice that this is in global name space and we did not need to include `std::`.
+There are always more than one way to skin a cat, so we can also call a function called `printf` and pass it the "Hello World" string as a parameter. Run it by pressing the green run button and notice that it should have the same end result. Notice that this is in global name space and we did not need to include `std::`.
 
 ![Highlights the included file <stdio.h> in c++14](images/cStylePrintF.png)
 
@@ -140,17 +140,17 @@ Click on the [cplusplus.com printf reference](http://www.cplusplus.com/reference
 
 ##### `Step 12.`\|`CPPOVR`| :large_blue_diamond::small_blue_diamond::small_blue_diamond: 
 
-Every C++ program starts by calling a function called **main**.  We know if is a function as it is a name followed by **()** parenthesis.  It then runs everything between the following curly braces `{....}`. It executes them in order line by line, in my case it only runs line 8.
+So when a C++ program is run it launches `main()`.  We can also name and call functions as well. So the second thing the program does in **main()** is to run the function `printf()` and passes a string parameter of **"Hello World"**. We will get into this more shortly when we dive into strings.
 
-![Highlights the main(){...} function in a C++14 program](images/RunMain.png)
+![Highlights the printf function in a C++14 program](images/secondFunc.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`CPPOVR`| :large_blue_diamond::small_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-So the first thing the program does in **main()** is to run the function `printf` and passes a string parameter of **"Hello World"**. We will get into this more shortly when we dive into strings.
+What this line does is print the string passed to it to the console.  In this case it prints **Hello World**.
 
-![Highlights the printf function in a C++14 program](images/printfFunction.png)
+![Shows console output of Hello World in C++14 console output](images/hw2.png)
 
 ![](../images/line2.png)
 
