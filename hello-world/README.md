@@ -126,6 +126,8 @@ C is completely compatible inside of C++.  So we can also print using the older 
 
 There are always more than one way to skin a cat, so we can also call a function called `printf` and pass it the "Hello World" string as a parameter. Run it by pressing the green run button and notice that it should have the same end result. Notice that this is in global name space and we did not need to include `std::`.
 
+Press the <kbd>Run</kbd> button and notice it now prints using `std::cout` to the console (Hello World!) as well as prints to the output stream using `printf()` (Hello Marc!).
+
 ![Highlights the included file <stdio.h> in c++14](images/cStylePrintF.png)
 
 ![](../images/line2.png)
@@ -148,33 +150,37 @@ So when a C++ program is run it launches `main()`.  We can also name and call fu
 
 ##### `Step 13.`\|`CPPOVR`| :large_blue_diamond::small_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-What this line does is print the string passed to it to the console.  In this case it prints **Hello World**.
-
-![Shows console output of Hello World in C++14 console output](images/hw2.png)
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`CPPOVR`| :large_blue_diamond::small_blue_diamond::small_blue_diamond::small_blue_diamond::small_blue_diamond: 
-
-What this line does is print the string passed to it to the console.  In this case it prints **Hello World**.
-
-![Shows console output of Hello World in C++14 console output](images/hw2.png)
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`CPPOVR`| :large_blue_diamond::small_orange_diamond: 
-
 When you press run the program is compiled.  What does this mean?  This is the process of going from a human readable form script and creates object code that forms an executable (an .exe on a PC).  So the compiler turns it from words into zeros and ones (machine code).
 
 ![Illustration of a program that goes from a source file to machine code](https://www.thecrazyprogrammer.com/wp-content/uploads/2018/05/Difference-between-Source-Code-and-Object-Code.png")
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`CPPOVR`| :large_blue_diamond::small_orange_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`CPPOVR`| :large_blue_diamond::small_blue_diamond::small_blue_diamond::small_blue_diamond::small_blue_diamond: 
+
+There are 4 stages to compiling:
+
+1. Preprocessing
+2. Compiling
+3. Assembling
+4. Linking
+
+So in our example when we press the <kbd>Run</kbd> button we are saving adn compiling the file.  The first stage *Preprocessing* replaces the `#include stdio` with the files from that library.  
+
+The *Compiling* stage generates a `HelloWorld.s` which is an assembly version of the C++ (human readable low level code - cannot be executed by the computer)
+
+The *Assembly* stage generates a `HelloWorld.o` which is a binary computer readable version of the program.
+
+The *Linker* brings them all together and produces a file that can be executed (like a `.exe` on pc).
+
+![](../images/line2.png)
+
+##### `Step 15.`\|`CPPOVR`| :large_blue_diamond::small_orange_diamond: 
 
 It is customary to add `return 0` to the end but should work without it on most platforms.  This function returns to its caller (we don't call it) a 0.  So if the program runs and doesn't crash it should finish with an exit code of 0. Look at the second line of the **Debug Console** window and you will see `exited with code 0`.  This means the program completed without crashing.
 
-![Highlights return 0 in C++14 program](images/Return0.png)
+![Highlights return 0 in C++14 program](images/returnZero.png)
+
 
 ![](../images/line.png)
 
