@@ -35,7 +35,7 @@ An integer *typically* requires 4 bytes (32 bits) of memory enough space to hold
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-Right click on the solution and select **Add | New Project...** and select an **Empty Project** that is in **C++**.  Press the <kbd>Next</kbd> button.
+*Right click* on the solution and select **Add | New Project...** and select an **C++ | Console Application** and call it `Primitives`.  Press the <kbd>Create</kbd> button.
 
 ![create new empty c++ project](images/newProject.png)
 
@@ -43,7 +43,7 @@ Right click on the solution and select **Add | New Project...** and select an **
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-Name the project `Primitives` and put it in your working project folder.  Press the <kbd>Create</kbd> button.
+Right click on the **Primitives** project and select **Properties**.  Change the **C++ Language Standard** to `C++ 17`.  Press the <kbd>OK</kbd> button.
 
 ![call project Primitives](images/primitivesProj.png)
 
@@ -51,7 +51,7 @@ Name the project `Primitives` and put it in your working project folder.  Press 
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on the **Primitives** project and **Add | New Item...** and call this item `Primitives.cpp`.  
+To make sure we run this project from now on *right click* on **Primitivses** and select **Run Primitives**. 
 
 ![add Primitives.cpp file](images/addPrimitivesCPP.png)
 
@@ -59,7 +59,7 @@ Right click on the **Primitives** project and **Add | New Item...** and call thi
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add comments to the top.  Multiline comments use `/*` to start the comments and `*/` to end them.  This way we can clearly explain what the cpp file is supposed to do. Also, we need `std::cout` so lest `#include <iostream>` so we can use this object class.
+We will need to use `std::cout` so lets put `#include <iostream>` to the top of the file. Then add comments to describe the program.  Multiline comments use `/*` to start the comments and `*/` to end them.  This way we can clearly explain what the cpp file is supposed to do. 
 
 ![add include and comments to .cpp](images/header.png)
 
@@ -107,7 +107,7 @@ Now each team uses a coding style so that makes it easier to work as a group.  I
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Before we run it we need to click on the project name **Primitives** and select **Set as Startup Project**.
+Now Rider will give us hints and suggestions.  We see that `Year` has a squiggly green line under it.  If we put our cursor over it it suggest we make this local variable **Const**.  We will ignore this from now and will get to const and const correctness later on.
 
 ![alt_text](images/setAsStartup.png)
 
@@ -125,13 +125,15 @@ Now if you compile and run you will get it to print the literal value stored in 
 
 Now when we do not use a `.`, the literal is type *integer*.  If we use a decimal points `2045.55` it is literal type *double*.  So what happens if we define our declared integer with a double value?
 
+Now rider gives us another warning now with a yellow underline stating we are doing a narrowing conversion.  This means there is a potential loss of information.
+
 ![assigning double to integer](images/coutIntBasic3.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`CPPOVR`| :large_blue_diamond:
 
-Run the program and you will notice that it only stores the *integer* portion of the *double* fractional value. So it only stores and prints to the stream the integer portion. So it is automatically casting from type double to type integer.
+Run the program and you will notice that it only stores the *integer* portion of the *double* fractional value. It stays at `2045`. So it only stores and prints to the stream the integer portion. So it is automatically casting from type double to type integer. So this is the narrowing, it is changing the value we thought we passed to the variable. We need to pay attention to this when we are using multiple data types at once such as a double and integer.
 
 ![prints 45 and ignores the .55](images/twentyFourtyFive.png)
 
@@ -141,7 +143,7 @@ Run the program and you will notice that it only stores the *integer* portion of
 
 The compiler doesn't let us capitalize the data type.  You will see when we start programming in Unreal that they have declared their own data types.  Their data types start with capital letters.
 
-So change `int` to `Int` and it will no longer compile.
+So change `int` to `Int` and it will no longer compile when pressing <kbd>Cntl Alt B</kbd>.
 
 ![Int won't compile](images/mispellType.png)
 
