@@ -23,7 +23,7 @@ Understanding the scope of variables and functions is essential for writing main
 ---
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
-Right click on the solution file and select **Add | New Project**.  Then select a C++ **Empty Project** and press <kbd>Next</kbd> button.  Call it `Scope` then press the <kbd>Create</kbd> button.  
+Right click on the solution file and select **Add | New Project**.  Then select a C++ **Console Application**.  Call it `Scope` then press the <kbd>Create</kbd> button.  
 
 ![create Scope project in VS22](images/createScopeProject.png)
 
@@ -31,17 +31,17 @@ Right click on the solution file and select **Add | New Project**.  Then select 
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-Right click on the new **Scope** project and select `Set as Startup Project`.  
+Right click on the **Source** folder in the **Scope** project and *right click* and select **Properties**.  Change the **C++ Language Standard** to `CPP 17`. Press the <kbd>OK</kbd> button.
 
-![select as startup](images/setAsStartup.png)
+![create scope.cpp](images/addScopedotcpp.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on the **Source** folder in the **Scope** project and *right click* and select **Add | Item...** and call it `Scope.cpp`.  Press the <kbd>Add</kbd> button.
+Right click on the new **Scope** project and select `Run 'Scope'`.
 
-![create scope.cpp](images/addScopedotcpp.png)
+![select as startup](images/setAsStartup.png)
 
 ![](../images/line2.png)
 
@@ -72,7 +72,7 @@ You will notice that it prints out the two values as expected.
 
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-Now how can I prove that the original `I` is in scope after the subscope `I` exists.  Add a cout and see what `I` is set to.  If it is `15` thn it is one variable.  If it is `20`, then the previous I went out of scope and we see the one that is still in scope set above.
+Now how can I prove that the original `I` is in scope after the subscope `I` exists.  Add a cout and see what `I` is set to.  If it is `15` then it is one variable.  If it is `20`, then there are two variables and the previous one went out of scope.
 
 ![still in scope](images/proofOfScope.png)
 
@@ -97,20 +97,22 @@ And again, we can print **I** after the loop and it is still set to `20` and was
 
 If we look at the visibility of variables within nested scopes. When you have nested scopes, the innermost scope can access variables defined in the outer scopes, but the outer scopes cannot access variables defined in the inner scopes. This concept is often referred to as "lexical scoping" or "static scoping."
 
-Lets create another nested scope to see if we can still see the **I** that is equal to `20`.
+Lets create another nested scope to see if we can still see the **I** that is equal to `20` as it looks outside its scope to see if a variable `I` exists! 
 
 ![lexical scoping](images/scopeBubblesDown.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`CPPOVR`| :large_blue_diamond:
-Now we can check to make sure that we cannot see variables in inner scopes.  This is because **X** is destroyed when it leaves scope `}`. Then you get an error saying it can't find the variable.  Now comment that final line out and that is it for this exercise.
+Now we can check to make sure that we cannot see variables in inner scopes.  This is because **X** is destroyed when it leaves scope `}`. Then you get an error saying it can't find the variable.  
+
+Now comment that final line out and that is it for this series of exercises.
 
 ![can't access inner scope](images/lexicalScopeFalse.png)
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Thant's All Folks!"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=That's All Folks!"> -->
 
 ![next up - ](images/banner.png)
 
