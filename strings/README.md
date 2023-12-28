@@ -22,7 +22,7 @@ We will also look at **strings** which are not a primitive data type but a deriv
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-So lets use a type `char` and call the variable `MiddleInitial` and use the literal `A`.  So this looks like when we declare and define cour characterr variable:
+So lets use a type `char` and call the variable `MiddleInitial` and use the literal `A`.  So this looks like when we declare and define cour character variable:
 
 `char MiddleInitial = 'A';`
 
@@ -38,13 +38,15 @@ Run the program and on the third line you should see an **A**.
 
 Now you can see that it runs the program and prints the single character as we expected.  So it takes a single byte (proven when we print sizeof). It stores an `ascii` value which hods [128 characters](https://en.cppreference.com/w/cpp/language/ascii). So **A** would be ASCII value `97` in decimals. 
 
+So it takes 1 byte to store the data for an ascii character.  Notice that it does not deal with special characters or unique letters in other languages (like Japanese characters for example). If we output the size we confirm that it is `1` byte.
+
 ![1 byte size of char](images/sizeOfChar.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now `A` is a char literal and "A" is a string literal (or reference to an array of char pointers).  The compiler doesn't allow us to cast from a char to a string.
+Just as typing `34` means an integer and `34.5` means a double.  A char's use of single brackets `''` is explicit. Now `A` is a char literal and "A" is a string literal (reference to an array of char pointers).  The compiler doesn't allow us to cast from a char to a string. Rider says it can't convert from type string to char.  So some conversions the language can handle implicitly and others it cannot.
 
 ![charLit cannot be used](images/charLit.png)
 
@@ -74,7 +76,7 @@ So the *string* class comes with <iostream> so we do not need any other libarrie
 
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-Now we can set the group of chars `"Marc"` to the *string* `FirstName`. We can then print the first name, a space, then a middle initial.  Each time we add to the stream `<<` it concatonates all of the outputs to the console.
+Now we can set the group of chars `"Marc"` to the *string* `FirstName`. We can then print the first name, a space, then a middle initial.  Each time we add to the stream `<<` it concatenates all of the outputs to the console.
 
 ![print first name string and middle name char](images/stringChar.png)
 
@@ -82,7 +84,9 @@ Now we can set the group of chars `"Marc"` to the *string* `FirstName`. We can t
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now that we can concatonate, we should clean up and explain what our program is doing. Lets add a title then explain what each line is doing.
+Now that we can concatenate, we should clean up and explain what our program is doing. Lets add a title then explain what each line is doing.
+
+When you run the program it should be a lot clearer to what we are trying to express.
 
 ![add strings to program](images/addStrings.png)
 
@@ -90,21 +94,13 @@ Now that we can concatonate, we should clean up and explain what our program is 
 
 ##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-When you run the program it should be a lot clearer to what we are trying to express.
-
-![run program](images/stringPrintClarified.png)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Lets continue to clean it up by adding some more descriptive strings.
 
 ![add more descriptive strings](images/descriptiveMore.png)
 
 ![](../images/line2.png)
 
-##### `Step 10.`\|`CPPOVR`| :large_blue_diamond:
+##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now lets print the size of the string object.  It says it is `4` bytes. So the string is holding a list of 4 chars, the exact length of the name "Marc".  So it is one byte per char of an *ascii* character.
 
@@ -112,7 +108,7 @@ Now lets print the size of the string object.  It says it is `4` bytes. So the s
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 10.`\|`CPPOVR`| :large_blue_diamond:
 
 So lets add another string, and I put my last name in it `Aubanel`.  Now this is 7 characters and an 8th to indicate the end of the string.  Notice though when I print the size it is 7 bytes, the exact length of my last name.
 
@@ -122,7 +118,7 @@ We also print the entire name and middle initial.  We are concatonating multiplh
 
 ![](../images/line2.png)
 
-##### `Step 12.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 11.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: 
 
 The C++ string class is typically implemented as a dynamic array that stores its data in contiguous memory locations. Each character of the string is stored as one byte in this array (an array of chars). The size of the string class object depends on the number of characters it contains.
 
@@ -130,9 +126,7 @@ Therefore, a string of length "n" would take "n" bytes to store its data plus so
 
 Also remember that for **char** type you put a *single* letter in single quotes `'A'` and strings of any length in double quotes `"A"`. These represent different literals to C++.
 
-![](../images/line.png)
-
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Arithmetic Operators"> -->
+![](../images/line2.png)
 
 ![next up - ](images/banner.png)
 
