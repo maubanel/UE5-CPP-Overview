@@ -30,7 +30,7 @@ In C++ 11 they introduced an initilization method using `{}` curly braces.  Lets
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-Right click on the solution file and select **Add | New Project...**. Then select a C++ **Empty Project** and press the <kbd>Next</kbd> button. Call it `InitAssign` then press the <kbd>Create</kbd> button. 
+*Right click* on the solution file and select **Add | New Project...**. Then select a C++ **Empty Project** and select a **C++ | Console Application**. Call it `InitAssign` then press the <kbd>Create</kbd> button. 
 
 ![create new InitAssign project](images/initProject.png)
 
