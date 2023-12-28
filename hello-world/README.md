@@ -54,7 +54,7 @@ Install [Visual Studio 22 (Community will work)](https://visualstudio.microsoft.
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`CPPOVR`| :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`CPPOVR`| :small_blue_diamond::small_blue_diamond::small_blue_diamond:
 
 Now we have added all the compilers and software we need we will be using Rider as our IDE of choice as it has outstanding support of Unreal and is better integrated than Visual Studio. [Rider](https://www.jetbrains.com/community/education/#students) is free for students so download and install this terrific IDE.
 
@@ -62,7 +62,7 @@ Now we have added all the compilers and software we need we will be using Rider 
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`CPPOVR`| :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`CPPOVR`| :small_blue_diamond::small_blue_diamond::small_blue_diamond::small_blue_diamond:
 
 Open up Rider and press the <kbd>New Solution</kbd> button. Now Rider uses the visual studio nomenclature of being able to work in one solution but we can multiple projects.  On the left hand side we have templates for all of the languages that are supported.  You should select **C++ | Consolder Application**, which will give us the most simple C++ application that will just run in a console. Now we will call the **Solution name:** `LSUCPPOverview` which we will use for the rest of this walk through.  The project will be called `HelloWorld`.  I leave it in the default directory and press the <kbd>Create</kbd> button to start the project.
 
@@ -79,7 +79,7 @@ This has us in the LSUCPPOverview solution with a **HellowWorld** project.  This
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 6.`\|`CPPOVR`| :small_orange_diamond::small_blue_diamond:
 
 Now Visual Studio and Rider defaults to C++ 14 but Unreal uses C++ 17 (it does not use the latest version).  So lets change our project to Match Unreal's to C++ 17.  *Right click* on the **Project** and select **Properties**. Change the **General | C++ Languages Stardard** to `ISO C++17 Standard`.  Press the  <kbd>OK</kbd> buttons.
 
@@ -88,7 +88,7 @@ Now Visual Studio and Rider defaults to C++ 14 but Unreal uses C++ 17 (it does n
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 7.`\|`CPPOVR`| :small_orange_diamond::small_blue_diamond::small_blue_diamond:
 
 We need to print the words **Hello World!**.  We will need to output to the character stream and use a library called `iostream`.  On the very top you need to add it by typing `#include <iostream>`. 
 
@@ -102,7 +102,7 @@ It is the included the `<iostream>` libraries that allow us to access `cout` in 
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`CPPOVR`| :small_orange_diamond::small_blue_diamond::small_blue_diamond::small_blue_diamond:
 
 Now lets run the program to see our work.  Press the <kbd>Run</kbd> button (looks like a play button on a music app) to launch the console.  You will see it on the bottom tab and see it output the stream you sent to the console!
 
@@ -110,7 +110,7 @@ Now lets run the program to see our work.  Press the <kbd>Run</kbd> button (look
 
 ![](../images/line2.png)
 
-##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`CPPOVR`| :small_orange_diamond::small_blue_diamond::small_blue_diamond::small_blue_diamond::small_blue_diamond:
 
 Now we always explain what our `.cpp` file does in english for you the programmer (or other programmers) to explain the function of this class.  In this case everything between `/*` and `*/` changes to green and is not included in the final program.  It is a code comment meant to be human readable and the C++ language does not process it it. 
 
@@ -130,7 +130,7 @@ There are always more than one way to skin a cat, so we can also call a function
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 11.`\|`CPPOVR`| :large_blue_diamond::small_blue_diamond: 
 
 Click on the [cplusplus.com printf reference](http://www.cplusplus.com/reference/cstdio/printf/). Notice that it includes a **function** called `printf` (we will explain functions in a future lesson). Without libraries and built in functions, the language is fairly limited.  Anytime we need to do anything specialized for a specific OS and system, we probably need to load a set of libraries.
 
@@ -138,7 +138,7 @@ Click on the [cplusplus.com printf reference](http://www.cplusplus.com/reference
 
 ![](../images/line2.png)
 
-##### `Step 12.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 12.`\|`CPPOVR`| :large_blue_diamond::small_blue_diamond::small_blue_diamond: 
 
 Every C++ program starts by calling a function called **main**.  We know if is a function as it is a name followed by **()** parenthesis.  It then runs everything between the following curly braces `{....}`. It executes them in order line by line, in my case it only runs line 8.
 
@@ -146,7 +146,7 @@ Every C++ program starts by calling a function called **main**.  We know if is a
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 13.`\|`CPPOVR`| :large_blue_diamond::small_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 So the first thing the program does in **main()** is to run the function `printf` and passes a string parameter of **"Hello World"**. We will get into this more shortly when we dive into strings.
 
@@ -154,7 +154,7 @@ So the first thing the program does in **main()** is to run the function `printf
 
 ![](../images/line2.png)
 
-##### `Step 14.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`CPPOVR`| :large_blue_diamond::small_blue_diamond::small_blue_diamond::small_blue_diamond::small_blue_diamond: 
 
 What this line does is print the string passed to it to the console.  In this case it prints **Hello World**.
 
@@ -162,7 +162,7 @@ What this line does is print the string passed to it to the console.  In this ca
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 15.`\|`CPPOVR`| :large_blue_diamond::small_orange_diamond: 
 
 When you press run the program is compiled.  What does this mean?  This is the process of going from a human readable form script and creates object code that forms an executable (an .exe on a PC).  So the compiler turns it from words into zeros and ones (machine code).
 
@@ -170,7 +170,7 @@ When you press run the program is compiled.  What does this mean?  This is the p
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 16.`\|`CPPOVR`| :large_blue_diamond::small_orange_diamond:  :small_blue_diamond: 
 
 It is customary to add `return 0` to the end but should work without it on most platforms.  This function returns to its caller (we don't call it) a 0.  So if the program runs and doesn't crash it should finish with an exit code of 0. Look at the second line of the **Debug Console** window and you will see `exited with code 0`.  This means the program completed without crashing.
 
