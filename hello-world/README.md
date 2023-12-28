@@ -72,9 +72,9 @@ Open up Rider and press the <kbd>New Solution</kbd> button. Now Rider uses the v
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-Name the project and select a location to save it in and press the <kbd>Create</kbd> button.
+This has us in the LSUCPPOverview solution with a **HellowWorld** project.  This is the name of the folder.  Inside is a `HelloWorld.cpp` file which contains the C++ file.  All c++ files usually use a `.h` (we will get into headers later) and `.ccp` files for the C++ definitions.  Notice it has a function called `main()`.  This is what all C++ files run. 
 
-![name cpp project and set directory](images/NameTheFile.png)
+![name cpp project and set directory](images/riderStartup.png)
 
 
 ![](../images/line2.png)
