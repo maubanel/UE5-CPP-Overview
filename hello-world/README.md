@@ -56,17 +56,17 @@ Install [Visual Studio 22 (Community will work)](https://visualstudio.microsoft.
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up the newly configured **Visual Studio 2022**. You should see a window to create a new project.  Click on the **Create a New Project** button:
+Now we have added all the compilers and software we need we will be using Rider as our IDE of choice as it has outstanding support of Unreal and is better integrated than Visual Studio. [Rider](https://www.jetbrains.com/community/education/#students) is free for students so download and install this terrific IDE.
 
-![Screenshot of Microsoft's Visual Studio Community create project page](images/CreateNewProjectVS22.png)
+![Screenshot of Microsoft's Visual Studio Community create project page](images/riderIDE.png)
 
-![](../images/line2.png)
+![](../images/riderIDE.png)
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select a C++ **Console App** as we will only be working within the console. Meks sure it is a C++ console app as there are many programming languages that Visual Studio supports out of the box.  Press the <kbd>Next</kbd> button.
+Open up Rider and press the <kbd>New Solution</kbd> button. Now Rider uses the visual studio nomenclature of being able to work in one solution but we can multiple projects.  So create a 
 
-![select c++ console app](images/SelectConsoleApp.png)
+![select c++ console app](images/newRiderSolution.png)
 
 ![](../images/line2.png)
 
