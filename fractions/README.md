@@ -28,7 +28,7 @@ Now when do we use floats and when do we use doubles?  In games audio samples te
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-So lets create a new variable of type `double PercentChanceOfRain` and lets give it a silly double literal of `664433.89998999;`.  Notice that when we print it out it rounds the number and doesn't show the entire decimal number stored. Please note than any number we write with a decimal point (yes, even `3.`) is of type **double**. 
+So lets create a new variable of type `double PercentChanceOfRain` and lets give it a silly double literal of `664433.89998999;`.  Notice that when we print it out it rounds the number and doesn't show the entire decimal number stored. Please note than any number we write with a decimal point (yes, even `3.`) is of type **double**. Also note that what it is printing to the console is not how it is represented in memory on the computer.  Lets fix that to the best of our abilities.
 
 ![double data type](images/doubleExample.png)
 
@@ -36,11 +36,11 @@ So lets create a new variable of type `double PercentChanceOfRain` and lets give
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-Now based on the size of the double on my computer how many numbers can the scientific notation of a fractional [significand](https://en.wikipedia.org/wiki/Scientific_notation) hold?<br><br>  
+Now based on the size of the double on my computer how many numbers can the scientific notation of a fractional [significand](https://en.wikipedia.org/wiki/Scientific_notation) hold?<br><br> 
 
 `245 E 23` with `245` being the `significand` and `23` being the `exponent`.
 
-It can store only so many digits.  We can include the `<limits>` library to see how many total **base 10** digits this can hold.  Add to the after the first **include** `#include <limits>`.
+It can store only so many digits.  We can demonstrate this by including the `<limits>` library to see how many total **base 10** digits this can hold.  Add to the after the first **include** `#include <limits>`.
 
 ![add <limits>](images/addLimits.png)
 
@@ -48,7 +48,7 @@ It can store only so many digits.  We can include the `<limits>` library to see 
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
- We use `std::numeric_limits<double>::max_digits10` to find out how many significand values it can hold which will determine the precision of the number.  Notice that we can store `17` numbers.
+ We use `std::numeric_limits<double>::max_digits10` to find out how many significand values it can hold which will determine the precision of the number.  Notice that we can be accurate up to `17` digits in base 10 numbers (remember the computer is storing this in binary).
 
 ![17 significand](images/doublesignificand.png)
 
@@ -84,31 +84,32 @@ In algebra you might remember that `(A + B) * C` is the same as `(A * C) + (B * 
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now if we do this ame thing with **double** values then we are not guaranteed to get the same result as each fractional number will be slightly different.  We also have to be careful about checking for sameness of to floating point numbers which again, cause issues.
+Now if we do this ame thing with **double** values then we are not guaranteed to get the same result as each fractional number will be slightly different.  We also have to be careful about checking for sameness of to floating point numbers which again, cause bugs.
+
+Finaly lets confirm that a double on our machine is **8 bytes**. On windows 11, with a 64 bit processor it is.
 
 ![error in factoring out doubles](images/doubleError.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Finaly lets confirm that a double on our machine is **8 bytes**. On windows 11, with a 64 bit processor it is.
-
-![size of double is 8](images/double8.png)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 A float literal is half the size of a double and is represnted by a decimal `.`, a fractional part if needed an finished with a lower case `f`.  So `13.45` is of type **double** and `13.45f` is of type float. As you can can see floats can're represent fractional numbers as accurately and have less precision than doubles. A float can only represent a number with 9 digitsfor the significand
 
 ![float type](images/floatType.png)
 
 ![](../images/line2.png)
 
+##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+A float is different from a double and we use the character `f` at the end of the number.  So `1.1` is a double and `1.1f` is a float.  Lets give it a shot:
+
+![float type](images/floatPrint.png)
+
+![](../images/line2.png)
+
 ##### `Step 10.`\|`CPPOVR`| :large_blue_diamond:
 
-The size of a float is only 4 bytes (32 bits) so it cannot store as accurate a reprentation of the number and has greater error than a double. 
+The size of a float is only 4 bytes (32 bits) so it cannot store as accurate a representation of the number and has greater error than a double.
 
 ![size of float](images/sizeOfFloat.png)
 
