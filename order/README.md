@@ -102,7 +102,7 @@ Modulo resolves just like multiplication and division - so before subtraction an
 
 Try it for yourself.
 
-![12 % 5 + 2 * 5 = 12](images/.png)
+![12 % 5 + 2 * 5 = 12](images/moduloOrder.png)
 
 ![](../images/line.png)
 
