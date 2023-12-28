@@ -104,11 +104,10 @@ It is the included the `<iostream>` libraries that allow us to access `cout` in 
 
 ##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets run the program to see our work.  Press the <kbd>Run</kbd> button (looks like a play button on a music app) to launch the console.  You will see it on the bottom tap and see it output the stream you sent to the console!
+Now lets run the program to see our work.  Press the <kbd>Run</kbd> button (looks like a play button on a music app) to launch the console.  You will see it on the bottom tab and see it output the stream you sent to the console!
 
-![Running the default www.onlinegdb.com webpage with C++14 selected](images/HelloWorld.jpg)
+![Running the default www.onlinegdb.com webpage with C++14 selected](images/runProgram.png)
 
-![](../images/runProgram.png)
 
 ##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
