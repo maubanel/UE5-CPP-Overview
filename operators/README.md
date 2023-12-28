@@ -22,8 +22,6 @@ Arithmetic operators in C++ are symbols that allow you to perform mathematical c
 
 These arithmetic operators allow you to perform basic mathematical operations in C++ and are commonly used in calculations, formulae, and other mathematical tasks in programming.
 
-<br>
-
 ---
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
@@ -74,7 +72,7 @@ C++ also has unary oparators.  These add or subtract `1` from the number. `++Var
 
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-Now if we place the `++` after the variable name it is a `post-increment` operator.  This will only the value in the variable **AFTER** the statement is run (after it reaches the `;`).  So in this case the year printed is not updating as it will happen **after** line 104 executes.
+Now if we place the `++` after the variable name it is a `post-increment` operator.  This will only the value in the variable **AFTER** the statement is run (after it reaches the `;`).  So in this case the year printed is not updating as it will happen **after** line 104 executes. So it remains 1021.  This can be the cause of many bugs.  It is advisable to use `++Var` to be explicit that you want it to change right away and not after the end of the line.
 
 ![post-incremenet operator](images/PostIncrementUnary.png)
 
@@ -82,13 +80,21 @@ Now if we place the `++` after the variable name it is a `post-increment` operat
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-So on the next line 105, the `Year` variable has now incremented by `1`.  The same rules apply to `--` you can try this on your own.
+Let demonstrates this is how a post increment `++` works. So on the next line 105, the `Year` variable has now incremented by `1`.  The same rules apply to `--` you can try this on your own.
 
 ![++ operator](images/PostpostOp.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+It is best to use the prefix operator by default and only utilize the postfix when necessary.
+
+![++ operator](images/prefixBest.png)
+
+![](../images/line2.png)
+
+##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 The modulo operator (%) in C++ is used to calculate the remainder when one number is divided by another. It returns the remainder as the result as a whole number.
 
