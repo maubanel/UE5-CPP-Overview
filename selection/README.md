@@ -77,7 +77,7 @@ for (startingpoint = some value; continue to run condition; increment startingpo
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-Start a brand new **Empty Project** in C++ by *right clicking* on the solution in Visual Studio 19. Call it `SelectionIteration` and press the <kbd>Create</kbd> button.
+Start a brand new **Empty Project** in C++ by *right clicking* on the solution in Rider and selecxt **Add | New Project...**. Select a **C++ | Console Application** and call it `SelectionIteration` and press the <kbd>Create</kbd> button.
 
 ![create SelectionIteration Project](images/selectionIterationProject.png)
 
@@ -85,17 +85,18 @@ Start a brand new **Empty Project** in C++ by *right clicking* on the solution i
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-Right click on the **SelectionIteration** project and select **Set as Startup Project**.
+*Right click* on the **SelectionIteration** project and select **Propertiest**. Chane the **C++ Language Standard** to `C++ 17`.
 
 ![set as startup project](images/startUpProject.png)
+(images/addNewItem.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on the **Source** folder in the **SelectionIteration** project and right click and **Add | New Item...**.  Call it `SelectionIteration.cpp`.
+Right click on the **Source** folder in the **SelectionIteration** project and select **Run 'SelectionIteration'** to use this project's `main()` function.
 
-![add selectioniteraction.cpp to source folder in project](images/addNewItem.png)
+![add selectioniteraction.cpp to source folder in project](images/setAsStart.png)
 
 ![](../images/line2.png)
 
@@ -195,7 +196,9 @@ Now if we add an `else` it will run the curly braces `{}` after if the **if stat
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We now have a potential bug with this logic.  What is I and W are the same value?  Then it is not larger nor smaller.  Make them the same and run the program.<br><br>You will notice that it fails the first `if` as `I` is not less than `W` so it runs the `else`.  The problem is that it runs fine but it is still a run-time error or bug.  We run the game and it is not correct. The program behaves correctly but what we are printing to the stream is incorrect (a bug!).
+We now have a potential bug with this logic.  What is I and W are the same value?  Then it is not larger nor smaller.  Make them the same and run the program.
+
+You will notice that it fails the first `if` as `I` is not less than `W` so it runs the `else`.  The problem is that it runs fine but it is still a run-time error or bug.  We run the game and it is not correct. The program behaves correctly but what we are printing to the stream is factually incorrect (a bug!).
 
 ![logic error](images/logicError.png)
 
@@ -237,27 +240,22 @@ The **[switch](https://en.cppreference.com/w/cpp/language/switch)** statement is
 
 We are going to switch on a `char State`.  We will have a coding where `b` will mean *busy*, `c` will mean *chase* and `h` will mean *hide*. We will start `State {'h'};`. We wil then switch on this variable and have the cases for each of the above letters.  We will have custom `MoodComment` string reflecting the state the player is in.
 
+In this case we have set **State** to `h` so the only case that runs is `h` which gives us the message **You will never fine me, ha ha!**.
+
 ![state switch statement](images/switchStatement.png)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now **Run** the program and you will see that it picks the `case `c`:` and performs the statements after until it gets to the `break`.
-
-![run program to show state message](images/caseChase.png)
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
 Change the initilization of `State` to `char State {'b'}`. Now you will get the `b` case to set the **MoodComment** variable.  Give it a shot.
 
 ![state b case change](images/caseB.png)
 
+
 ![](../images/line2.png)
 
-##### `Step 14.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 13.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now change `State` to a value that is not in the switch statement.  I used `z`.  Now nothing prints as none of the cases are true.  How can we have the equivalent of an else for something to run if all cases fail?
 
@@ -265,7 +263,7 @@ Now change `State` to a value that is not in the switch statement.  I used `z`. 
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 14.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now the `default:` case will run when all other cases fail, so it is the failsafe or `else` of the `switch` statement.
 
@@ -273,7 +271,7 @@ Now the `default:` case will run when all other cases fail, so it is the failsaf
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 15.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: 
 
 Now lets move to the iteration statement **while** loop.  It will run what is after the statement as long as the **while** condition is true. So lets start and create an intege `int Countdown {10};`. So now while **Countdown > 0** it will continue looping and running the statement(s) between the curly braces.
 
@@ -294,9 +292,10 @@ So in this case the while statement runs:
 
 ![while loop in action](images/whileLoop.png)
 
+
 ![](../images/line2.png)
 
-##### `Step 17.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 16.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 The danger with `while` loops is to make sure we will ALWAYS hit an exit condition.  If we have a simple error such as incrementing `Countdown by 1` so it is always positive - then the program will never terminate and we will have an infinite loop.  Try it our yourself. We want to avoid this at all cost!
 
@@ -304,15 +303,15 @@ The danger with `while` loops is to make sure we will ALWAYS hit an exit conditi
 
 ![](../images/line2.png)
 
-##### `Step 18.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 17.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Fix the bug and return it to normal.
+Press the <kbd>Stop</kbd> button and fix the bug and return it to normal (change it back to `--`.
 
 ![fix infinite loop bug](images/infiniteLoop.png)
 
 ![](../images/line2.png)
 
-##### `Step 19.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 The above is a poor use of a while statement.  We would normally only us it when we do not know how many times we need to go in the loop before it exits.  So we might be moving out of a collision area when we enter it a cm at a time.
 
@@ -347,7 +346,7 @@ Explanation:
 - Condition: `Countdown >= 0` checks if `Countdown` is greater or equal to 0. If true, the loop continues; otherwise, it terminates.
 - Update: `--Countdown` decrements the value of `Countdown` by 1 after each iteration.
 
-In each iteration, the value of `Countdown` is printed using `cout`. The loop continues until `Countdown` reaches -1 (the condition `Countdown <>= 0` becomes false). Therefore, the output of the above code will be: 
+In each iteration, the value of `Countdown` is printed using `cout`. The loop continues until `Countdown` reaches -1 (the condition `Countdown <>= 0` becomes false). Therefore, the output of the above code will be:
 ```
 10 
 9 
@@ -368,14 +367,12 @@ The `for` loop is widely used when you know the exact number of iterations you n
 
 ![](../images/line2.png)
 
-##### `Step 20.`\|`CPPOVR`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 19.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 If we change `>=` to `>` then the countdown stops at `1` as `0 > 0` is false.
 ![alt_text](images/forAlternate.png)
 
 ![](../images/line.png)
-
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Scope"> -->
 
 ![next up - ](images/banner.png)
 
