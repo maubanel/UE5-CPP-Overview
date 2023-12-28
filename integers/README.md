@@ -20,7 +20,6 @@ Binary is base 2 so it starts at 0 then goes to 1 then adds a digit 1 then goes 
 
 A bit represents a binary number of `0` or `1`.  A byte represents 8 bits (`00100100` is an example of a byte of data).
 
-
 | Decimal &nbsp; &nbsp;| Binary &nbsp; &nbsp; &nbsp; &nbsp;|
 | ----------| -------------|
 | 0 | 0 |
@@ -31,8 +30,6 @@ A bit represents a binary number of `0` or `1`.  A byte represents 8 bits (`0010
 | 5 | 101 |
 
 An integer *typically* requires 4 bytes (32 bits) of memory enough space to hold 2<sup>(4 * 8)</sup>. or 2<sup>32</sup> which would represent a signed number of -`2147483648` to `2147483647`.
-
-<br>
 
 ---
 

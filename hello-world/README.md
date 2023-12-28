@@ -8,9 +8,7 @@ Print hello world to the console of visual studio.
 
 ![](../images/line3.png)
 
-Chapter introduction here.
-
-<br>
+Lets start this walk through with creating a program that can print text to the console using C++.  In this example we will be printing a message using a C++ method as well as a C style `printf()`.
 
 ---
 

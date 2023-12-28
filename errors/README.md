@@ -22,44 +22,59 @@ A Rider solution can contain more than one project (a program with a main functi
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-This time lets start the program from scratch, select a **C++ Empty Project**.  Press the <kbd>Next</kbd> button.
+We wil use the **C++ | Console Application** template again, and call it `Errors.  Press the <kbd>Create</kbd> button.
 
-![add an empty c++ project](images/AddEmptyProject.png)
+![add an empty c++ project](images/errorsProj.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on the **Source** folder in the new **Errors** project and select **Add | New Item...**.  Call the new file `Errors.cpp`.  Press the <kbd>Add</kbd> button.
+Lets in the project's properties set the c++ language to `ISO C++ 17 Standard`.
 
-![add errors.cpp to source folder](images/addErrorscpp.png)
+![add an empty c++ project](images/cpp17.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now right click on the **Errors** project and selet **Set as Startup Project**.  Otherwise the previous project's main function will continue to run.
+Lets include the libraries we need to printo the the screen so we will include `iostream` again.
 
-![setting start up project](images/setStartupProject.png)
+Now add a description of the project `Let's cause some errors` at the top of the project file.
+
+We will then output `"This works \n"`.  Press the <kbd>Run</kbd> button and notice that it is still running **Hello World** project.  How do we change this?
+
+![add errors.cpp to source folder](images/wrongProj.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
-To have a working project we need a `main() { //code here }` function.  We will add a `cout` object to stream text to the console. In Unreal we will mostly be using c style printing like we did in the last page.  But lets go back to printing with `cout`. 
 
-![alt_text](images/mainFunction.png)
+
+Now right click on the **Errors** project and select **Run Errors**.  Otherwise the previous project's main function will continue to run.
+
+![setting start up project](images/runErrors.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-Now we are getting the most basic type of error a syntax error.  The compiler cannot find the function **cout**.  It says "cout" is undefined.  WHy is this?
 
-![compile failed](images/compileFailure.png)
+Now press <kbd>Run</kbd> again and it now is running the `main()` function in the **Errors.cpp** project.
+
+![setting start up project](images/works.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Lets cause our first error by commenting out the `#incldue` file.  This will create a linking error as it will not be able to find `std::cout`.  Now we do not need to run the program to compile we can save it with <kbd>ctrl s</kbd> and press <kbd>Shift Alt B</kbd> to compile.  We will notice an error.
+
+![setting start up project](images/commentOutInclude.png)
+
+![](../images/line2.png)
+
+##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Outside of the core language C++ doesn't natively come with a lot of functionality (like printing to console, graphics, playing audio etc...).  Everything must come from other code we create or import into the project.
 
@@ -69,30 +84,15 @@ Lets look at the [iostream](https://cplusplus.com/reference/iostream/) library t
 
 ![Screenshot of cppreference.com's difinition of standard library header \<iostream\>](images/iostreamdefinition.png)
 
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now we need to add an include to the top of the CPP (we don't use semi-colons at the end of those lines as they are NOT statements)
-
-`#include <iostream>`
-
-It will now inherit all of the objects that this library extendst to us. Now try compiling and running and you get more errors.  It says you have an "undeclared identifier".  
-
-![include iostream](images/IncludeIOStream.png)
-
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now when you are including other files it is good practice that their names are all in a given namespace.  This means that we can still create an object using `cout`, it will be within the context of this project.  
+Rider has some useful advanced functionality.  It notices that we are including a library that we have access to. Notice it shows where it believes the errors to be in **red**.  You can press <kbd>alt</kbd> while the cursor is over the error and it will prompt you to press <kbd>Alt Enter</kbd> to add the header.  If you do it will add the `iostream` header for you.
 
-Most objects written to support the libraries are in the STL (Standard Template Libraries) and use the `std::` namespace.  So put this in front of `cout` and see if it compiles and runs.  In my case it does!
+Now press the <kbd>Run</kbd> button and it is working again!
 
-Now we see the message printing correctly to the console. 
-
-![put std:: in front of cout](images/stdcolon.png)
+![setting start up project](images/autoInclude.png)
 
 ![](../images/line2.png)
 
@@ -116,7 +116,7 @@ If we remove the semi-colon and try and run the program the compiler will give u
 
 If you add an extra closing bracket at the end and you compile - you will see that it says you are missing a `;` which is incorrect.  Be careful to think first and not apply the solution suggested by the compiler.  In this case every `{}` bracket needs to have a starting and closing bracket.  We need the same number of `{` as we have of `}`. In this case the error is an extra stray bracket.
 
-Remove the error so it compiles and runs again. 
+Remove the error so it compiles and runs again. That's it for this quick walk through.
 
 ![incorrect error](images/incorrectError.png)
 
