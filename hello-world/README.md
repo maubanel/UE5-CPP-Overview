@@ -64,7 +64,7 @@ Now we have added all the compilers and software we need we will be using Rider 
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up Rider and press the <kbd>New Solution</kbd> button. Now Rider uses the visual studio nomenclature of being able to work in one solution but we can multiple projects.  So create a 
+Open up Rider and press the <kbd>New Solution</kbd> button. Now Rider uses the visual studio nomenclature of being able to work in one solution but we can multiple projects.  On the left hand side we have templates for all of the languages that are supported.  You should select **C++ | Consolder Application**, which will give us the most simple C++ application that will just run in a console. Now we will call the **Solution name:** `LSUCPPOverview` which we will use for the rest of this walk through.  The project will be called `HelloWorld`.  I leave it in the default directory and press the <kbd>Create</kbd> button to start the project.
 
 ![select c++ console app](images/newRiderSolution.png)
 
