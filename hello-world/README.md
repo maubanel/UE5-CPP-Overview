@@ -14,7 +14,9 @@ Chapter introduction here.
 
 ---
 
-##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
+##### `Step 1.`\|`CPPOVR`| :small_blue_diamond:
+
+:small_blue_diamond:
 
 ## Why C++
 
