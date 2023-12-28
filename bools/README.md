@@ -69,28 +69,47 @@ Even though a **bool** is only one bit (true or false), it takes an entire 8 bit
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
 
-|Type|Typical Bit Width|Typical Range|
-|:----|:----|:----|
-|unsigned int|4bytes|0 to 4294967295|
-|signed int|4bytes|-2147483648 to 2147483647|
+One of the problems with integers is that their size is unknown.  It could be 16 bit, 32 bit, 64 bit depending on the hardware and the operating system.  So there is no guarantee.  This is bad if we want our program to work across operating systems and devices. So lets include `sctdint` to get fixed size integers.  These are used extensively in Unreal.
 
-An unsigned integer doubles the range of positive numbers it can hold.  Lets prove it by putting in the maximum positive range for an unsigned integer into a signed int.  In this case we get a result we may not expect (it has wrapped around).
-
-![unrecognizable result](images/unsignedIntRange.png)
+![one byte bool](images/includeIntLib.png)
 
 ![](../images/line2.png)
 
+
 ##### `Step 6.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond:
 
-Now when you assign `4294967295` to an **unsigned int** we get the result we expect.
+Now we can include a type called `int8_t` which is an signed integer that is guaranteed to be 8 bytes. Check it with `sizeof()` and we can see it is one byte. 
 
-![max unsigned int](images/unsignedRange.png)
+![one byte bool](images/int8.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We have to be very careful that when using any data type that we don't go beyond the range.  If we add 1 to the largest number of an integer it wraps back to `0`.  This could cause major logic issues or even crash (divide by zero) - so you are cautioned.
+|Type|Typical Bit Width|Typical Range|
+|:----|:----|:----|
+|unsigned int|4bytes|0 to 4294967295|
+|signed int|4bytes|-2147483648 to 2147483647|
+
+An unsigned integer doubles the range of positive numbers it can hold. So the range an unsigned integer can carry is from -2147483648 to 2147483647. We have to be careful becuase if we go one past this value the integer will wrap and we will be back at -21483648.  We prove this by printing the number that is 1 beyond the highest number it can hold.
+
+![unrecognizable result](images/unsignedIntRange.png)
+
+![](../images/line2.png)
+
+##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now when you assign `2147483648` to an **unsigned int** we get the result we expect as it is well within the range it can handle. We often used unsigned integer's when we are keeping track of lists where we never have negative items in the list.
+
+![max unsigned int](images/unsignedRange.png)
+
+![](../images/line2.png)
+
+##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+We have to be very careful that when using any data type that we don't go beyond the range.  If we add 1 to the largest number of an integer it wraps back to `0`.  This could cause major logic issues or even crash (divide by zero) - so you are cautioned. So you see that we add one to a very large number and it goes back to 0.  
+
+I will give a base 10 example of what is happening here.  Let's say we have a limit of 4 characters for a number.  The largest base 10 number we get is 9999.  Now if we add 1 to it we get 10000.  The computer will leave off the `1` and just keep the right 4 numbers so it wraps back to 0.
 
 ![alt_text](images/wrapBeyond.png)
 
