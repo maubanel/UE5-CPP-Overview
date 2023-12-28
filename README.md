@@ -4,6 +4,8 @@
 <!-- OVERVIEW -->
 This is a very quick overview of the foundation of the C++ language. It will cover basic data types, type safety, order of operations, if statements, switch statements, while loops, for loops and scope.
 
+This walk through requires a windows PC and cannot be completed as is with Linux or Mac.
+
 * Tested on Rider 23
 
 <br>
