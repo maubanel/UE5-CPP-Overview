@@ -60,7 +60,7 @@ Now we have added all the compilers and software we need we will be using Rider 
 
 ![Screenshot of Microsoft's Visual Studio Community create project page](images/riderIDE.png)
 
-![](../images/riderIDE.png)
+![](../images/line2.png)
 
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -108,15 +108,15 @@ Now lets run the program to see our work.  Press the <kbd>Run</kbd> button (look
 
 ![Running the default www.onlinegdb.com webpage with C++14 selected](images/runProgram.png)
 
+![](../images/line2.png)
 
 ##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now clean up the comments inside the `main` brackets ({}) (everything with a `//` before it).  Now run the game by selecting the run button with `Local Windows Debugger` selected or just press the `F5` button.
-All lines that begin with `//` are comments and are not compiled into the final project.  These are here for you to read and explain to yourself and other developers the intent of what you are trying to do.
+Now we always explain what our `.cpp` file does in english for you the programmer (or other programmers) to explain the function of this class.  In this case everything between `/*` and `*/` changes to green and is not included in the final program.  It is a code comment meant to be human readable and the C++ language does not process it it. 
 
-So the end result is in the console should look something like:
+Single line comments use `//`.
 
-![remove comments and run](images/Comments.png)
+![remove comments and run](images/addMultiLineComment.png)
 
 ![](../images/line2.png)
 
@@ -126,7 +126,7 @@ C is completely compatible inside of C++.  So we can also print using the older 
 
 There are always more than one way to skin a cat, so we can also call a function called `printf` and pass it the "Hello World" string as a parameter. Run it by pressing the green run button or `F5` and notice that it should have the same end result. Notice that this is in global name space and we did not need to include `std::`.
 
-![Highlights the included file <stdio.h> in c++14](images/IncludeStdioh.png)
+![Highlights the included file <stdio.h> in c++14](images/cStylePrintF.png)
 
 ![](../images/line2.png)
 
