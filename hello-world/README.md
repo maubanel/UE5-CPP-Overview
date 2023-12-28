@@ -94,7 +94,9 @@ We need to print the words **Hello World!**.  We will need to output to the char
 
 Now within the **Main** function before it `return 0` you will add to the output stream with `std::cout << "Hello World \n";`.  This outputs to the stream the characters that appear within the parenthesis (`"`). 
 
-It is the included the `<iostream>` libraries that allow us to access `cout` in the `std` namespace.  This global object `std::cout` controls the output stream buffer.  This allows us to access the stream that eventually gets sent to the console. <br><br>`std` is the namespace that represents the word \'standard\' which are built in **C++** libraries available on all platforms including **Windows** which we are working on now.<br><br>`"Hello World\n"` is a string with a new line (`\n`) which gets stored as a single character.<br><br>All lines that begin with `//` are comments and are not compiled into the final project.  These are here for you to read and explain to yourself and other developers the intent of what you are trying to do.
+It is the included the `<iostream>` libraries that allow us to access `cout` in the `std` namespace.  This global object `std::cout` controls the output stream buffer.  This allows us to access the stream that eventually gets sent to the console. `std` is the namespace that represents the word 'standard' which are built in **C++** libraries available on all platforms including **Windows** which we are working on now.
+
+`"Hello World\n"` is a string with a new line (`\n`) which gets stored as a single character.
 
 ![A screenshot of the default www.onlinegdb.com webpage with C++14 selected](images/addCOUTHW.png)
 
@@ -102,13 +104,16 @@ It is the included the `<iostream>` libraries that allow us to access `cout` in 
 
 ##### `Step 8.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now clean up the comments inside the `main` brackets ({}) (everything with a `//` before it).  Now run the game by selecting the run button with `Local Windows Debugger` selected or just press the `F5` button.
+Now lets run the program to see our work.  Press the <kbd>Run</kbd> button (looks like a play button on a music app) to launch the console.  You will see it on the bottom tap and see it output the stream you sent to the console!
 
 ![Running the default www.onlinegdb.com webpage with C++14 selected](images/HelloWorld.jpg)
 
-![](../images/line2.png)
+![](../images/runProgram.png)
 
 ##### `Step 9.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now clean up the comments inside the `main` brackets ({}) (everything with a `//` before it).  Now run the game by selecting the run button with `Local Windows Debugger` selected or just press the `F5` button.
+All lines that begin with `//` are comments and are not compiled into the final project.  These are here for you to read and explain to yourself and other developers the intent of what you are trying to do.
 
 So the end result is in the console should look something like:
 
