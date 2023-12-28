@@ -38,23 +38,23 @@ In C++ 11 they introduced an initilization method using `{}` curly braces.  Lets
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-Right click on the new **InitAssign** project and select **Set as Startup Project**.
-
-![set as start up project](images/setStartup.png)
-
-![](../images/line2.png)
-
-##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Rigth click on **InitAssign** and select **Add | New Item...**.  Call it `InitAssign.cpp`. Press the <kbd>Add</kbd> button.
+Rigth click on **InitAssign** and select **Properties**. Change the **C++ Language Standard** to `C++ 17`. Press the <kbd>OK</kbd> button.
 
 ![add a cpp file to project](images/addCppFile.png)
 
 ![](../images/line2.png)
 
+##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Right click on the new **InitAssign** project and select **Run 'Init Assign'**.
+
+![set as start up project](images/setStartup.png)
+
+![](../images/line2.png)
+
 ##### `Step 4.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now when we first initialize a variable we need to include the type specifier.  So in this case we **initialize** `string FirstName` as `"Marc"`.  We then **assign** `"Phil"` to `FirstName` (no type specifier) so the variable now holds a new value. We output it to the output stream using `std::cout` and we see the lates value that was assigned **Phil** in cout.
+Now when we first initialize a variable we need to include the type specifier.  So in this case we **initialize** `string FirstName` as `"Marc"`.  We then **assign** `"Phil"` to `FirstName` (no type specifier) so the variable now holds a new value. We output it to the output stream using `std::cout` and we see the latest value that was assigned **Phil** in cout.
 
 ![initialize first name marc](images/initializeequals.png)
 
@@ -78,7 +78,7 @@ Notice that this is just for initializing.  If we try and assign with the {} ini
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Comment out the line that doesn't compile. We can still change the variable by assigning it a new value with the `=` assignment operator.  
+Comment out the line that doesn't compile. We can still change the variable by assigning it a new value using the `=` assignment operator.  
 
 ![assignment operator compiles](images/assignwithEqualsagain.png)
 
@@ -104,7 +104,7 @@ Now even if we don't know yet what value to assign we can use the default initia
 
 We can use pretty much any literal inside the curly braces for the `{}` initializer.  So we can perform mathematical operations easily.
 
-![math literal](images/mathLiteral.png)
+![math literal](images/mathFunc.png)
 
 ![](../images/line2.png)
 
@@ -149,6 +149,8 @@ Essentially we are trying to fit a gallon of liquid inside a cup.  The data type
 
 So when we try to go from `int` to `bool` using the `=` initialization operator the compiler lets us and will convert it to `1`.  This is the downside of using `=` as the initializer.
 
+Now Rider gives us a warning saying it is a narrowing conversion but it compiles and runs.
+
 ![unsafe conversion using =](images/unsafeConversion.png)
 
 ![](../images/line2.png)
@@ -163,7 +165,7 @@ So if we try and do the same things and set a `bool` using the `{}` initializer 
 
 ##### `Step 14.`\|`CPPOVR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-So the safest way to initialize a variable is using the `{}` syntax as the compiler will prevent you from making a narrowing conversion at compile time.
+So the safest way to initialize a variable is using the `{}` syntax as the compiler will prevent you from making a narrowing conversion at compile time. This means you will need to use the `=` operator to assign and take the consequences of the narrowing conversion (the data may be altered in an unexpected way). 
 
 ![best way to initialize using {}](images/safestConversion.png)
 
@@ -171,7 +173,7 @@ So the safest way to initialize a variable is using the `{}` syntax as the compi
 
 ##### `Step 15.`\|`CPPOVR`| :large_blue_diamond: :small_orange_diamond: 
 
-On the very first section where we looked at integers we could set them to a double.  Using the `{}` you will get a narrowing conversion error again, telling you that data will be lost in the initilization.
+On the very first section where we looked at integers we could set them to a double.  Using the `{}` you will get a narrowing conversion error again, telling you that data will be lost in the initialization. Comment the final line out so it compiles again.
 
 ![second narrowing conversion](images/narrowingError2.png)
 
