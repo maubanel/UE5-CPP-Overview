@@ -15,7 +15,7 @@ Operator precedence: C++ follows the standard mathematical operator precedence r
 
 ##### `Step 1.`\|`CPPOVR`|:small_blue_diamond:
 
-Right click on the solution and select **Add | New Project...** then select a C++ **Empty Project** and press the <kbd>Next</kbd> button. Call the new project `OrderOfOps` and press the <kbd>Create</kbd> button.
+Right click on the solution and select **Add | New Project...** then select a C++ **Console Application**. Call the new project `OrderOfOperations` and press the <kbd>Create</kbd> button.
 
 ![alt_text](images/addOrderOfOpsProject.png)
 
@@ -23,7 +23,7 @@ Right click on the solution and select **Add | New Project...** then select a C+
 
 ##### `Step 2.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: 
 
-*Right click* on **OrderOfOps** project and select **Add | New Item...** and call this new file `OrderOfOps.cpp`. Press the <kbd>Add</kbd> button to add this file to your **Source** folder.
+*Right click* on **OrderOfOps** project and select **Properties** and and change the C++ Language to `C++ 17`.
 
 ![add OrderOfOps.cpp to source folder](images/orderOfOpsCpp.png)
 
@@ -31,7 +31,7 @@ Right click on the solution and select **Add | New Project...** then select a C+
 
 ##### `Step 3.`\|`CPPOVR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Right click* on **OrderOfOps** project and select **Set as Startup Project** so this is the one that runs with the `main(){}` function.
+*Right click* on **OrderOfOperations** project and select **Run 'OrderOfOperations'** so this is the one that runs with it's `main(){}` function.
 
 ![alt_text](images/setAsStartup.png)
 
@@ -46,6 +46,8 @@ Add a comment at the top of the project and include <iostream> and add a `main()
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`CPPOVR`| :small_orange_diamond:
+
+Even though the brackets are not  necessary, I typically include them in my code so that it is crystal clear that I know how I want it to resolve to be extra verbose/obvious.
 
 In mathematics and programming, parentheses are used to indicate the grouping of operations and specify the order of evaluation. When an expression contains multiple sets of parentheses, the innermost parentheses are evaluated first, followed by the outer ones. This concept is known as the "order of operations" or "operator precedence."
 
@@ -84,7 +86,7 @@ We have to be careful when using expressions as there are no standard mathematic
 
 ##### `Step 7.`\|`CPPOVR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Subtract `1` from `I` to get it back to `12`.  Then on the next line perform `I++ * 2`.  Now since the `++` operator will run after the statement, this will be interpreted as `12 * 2`.  The variable `I` will be incremented after the statement.
+Subtract `1` from `I` to get it back to `12`.  Then on the next line perform `I++ * 2`.  Now since the `++` operator will run after the statement, this will be interpreted as `12 * 2`.  The variable `I` will be incremented after the statement. On the next line `I * 2` becomes `13 * 2` which resolves to `26`.
 
 ![alt_text](images/moreBeware.png)
 
@@ -100,7 +102,7 @@ Modulo resolves just like multiplication and division - so before subtraction an
 
 Try it for yourself.
 
-![12 % 5 + 2 * 5 = 12](images/moduloOrder.png)
+![12 % 5 + 2 * 5 = 12](images/.png)
 
 ![](../images/line.png)
 
